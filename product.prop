@@ -1,5 +1,6 @@
 # Graphics
 debug.sf.hw=1
+debug.gralloc.enable_fb_ubwc=1
 
 # USAP
 persist.device_config.runtime_native.usap_pool_enabled=true
