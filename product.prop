@@ -5,6 +5,12 @@ ro.charger.enable_suspend=true
 debug.sf.hw=1
 debug.gralloc.enable_fb_ubwc=1
 
+# LMKD
+ro.config.low_ram=false
+ro.lmk.kill_heaviest_task=true
+ro.lmk.kill_timeout_ms=100
+ro.lmk.use_minfree_levels=true
+
 # Incremental FS
 ro.incremental.enable=1
 
