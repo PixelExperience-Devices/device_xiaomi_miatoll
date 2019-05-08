@@ -636,6 +636,11 @@
         <item>3</item> <!-- COLOR_MODE_AUTOMATIC -->
     </integer-array>
 
+    <!-- Color mode to use when accessibility transforms are enabled. This color mode must be
+     supported by the device, but not necessarily appear in config_availableColorModes. The
+     regularly selected color mode will be used if this value is negative. -->
+    <integer name="config_accessibilityColorMode">2</integer>
+
     <!-- The following two arrays specify which color space to use for display composition when a
          certain color mode is active.
          Composition color spaces are defined in android.view.Display.COLOR_MODE_xxx, and color
