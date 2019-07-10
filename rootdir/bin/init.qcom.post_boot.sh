@@ -137,6 +137,10 @@ function configure_memory_parameters() {
     # wsf Range : 1..1000 So set to bare minimum value 1.
     echo 1 > /proc/sys/vm/watermark_scale_factor
 
+    # Back to default VM settings
+    echo 3000 > /proc/sys/vm/dirty_expire_centisecs
+    echo 10 > /proc/sys/vm/dirty_background_ratio
+
     configure_zram_parameters
 
     configure_read_ahead_kb_values
