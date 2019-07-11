@@ -823,6 +823,10 @@ vendor/lib64/vendor.qti.hardware.qccsyshal@1.0.so
 vendor/lib/libqsap_sdk.so
 vendor/lib64/libqsap_sdk.so
 
+# HotwordEnrollment
+-product/priv-app/HotwordEnrollmentXGoogleHEXAGON/HotwordEnrollmentXGoogleHEXAGON.apk;PRESIGNED
+-product/priv-app/HotwordEnrollmentOKGoogleHEXAGON/HotwordEnrollmentOKGoogleHEXAGON.apk;PRESIGNED
+
 # IMS
 -system_ext/app/uceShimService/uceShimService.apk
 system_ext/etc/permissions/com.qualcomm.qti.imscmservice-V2.0-java.xml
