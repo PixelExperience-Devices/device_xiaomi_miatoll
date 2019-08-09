@@ -80,3 +80,6 @@ DEVICE_MATRIX_FILE := $(COMMON_PATH)/compatibility_matrix.xml
 
 # Platform
 TARGET_BOARD_PLATFORM := atoll
+
+# QCOM
+BOARD_USES_QCOM_HARDWARE := true
