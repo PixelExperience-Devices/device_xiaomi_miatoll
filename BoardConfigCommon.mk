@@ -5,3 +5,5 @@
 #
 
 COMMON_PATH := device/xiaomi/sm6250-common
+
+BUILD_BROKEN_DUP_RULES := true
