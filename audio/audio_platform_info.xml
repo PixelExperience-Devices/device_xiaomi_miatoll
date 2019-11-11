@@ -105,6 +105,9 @@
         <usecase name="USECASE_AUDIO_A2DP_ABR_FEEDBACK" type="out" id="36" />
         <usecase name="USECASE_INCALL_MUSIC_UPLINK" type="out" id="23" />
         <usecase name="USECASE_AUDIO_RECORD_COMPRESS2" type="in" id="37" />
+        <usecase name="USECASE_INCALL_REC_UPLINK" type="in" id="23" />
+        <usecase name="USECASE_INCALL_REC_DOWNLINK" type="in" id="23" />
+        <usecase name="USECASE_INCALL_REC_UPLINK_AND_DOWNLINK" type="in" id="23" />
     </pcm_ids>
     <config_params>
         <param key="spkr_1_tz_name" value="wsatz.13"/>
