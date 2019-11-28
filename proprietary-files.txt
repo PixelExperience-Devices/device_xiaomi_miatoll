@@ -230,8 +230,6 @@ vendor/bin/hw/android.hardware.neuralnetworks@1.2-service-qti
 vendor/bin/hw/android.hardware.sensors@1.0-service
 vendor/bin/hw/android.hardware.thermal@1.0-service
 vendor/bin/hw/android.hardware.usb@1.0-service
-vendor/bin/hw/android.hardware.wifi@1.0-service
-vendor/bin/hw/hostapd
 vendor/bin/hw/qcrild
 vendor/bin/hw/vendor.display.color@1.0-service
 vendor/bin/hw/vendor.qti.hardware.alarm@1.0-service
@@ -243,7 +241,6 @@ vendor/bin/hw/vendor.qti.hardware.perf@2.0-service
 vendor/bin/hw/vendor.qti.hardware.servicetracker@1.1-service
 vendor/bin/hw/vendor.qti.hardware.vibrator@1.2-service
 vendor/bin/hw/vendor.qti.power.pasrmanager@1.0-service
-vendor/bin/hw/wpa_supplicant
 vendor/bin/ims_rtp_daemon
 vendor/bin/imsdatadaemon
 vendor/bin/imsqmidaemon
@@ -373,9 +370,6 @@ vendor/etc/elliptic_sensor.xml
 vendor/etc/flp.conf
 vendor/etc/gpfspath_oem_config.xml
 vendor/etc/gps.conf
-vendor/etc/hostapd/hostapd.accept
-vendor/etc/hostapd/hostapd.deny
-vendor/etc/hostapd/hostapd_default.conf
 vendor/etc/init/android.hardware.audio@2.0-service.rc
 vendor/etc/init/android.hardware.biometrics.fingerprint@2.1-service.rc
 vendor/etc/init/android.hardware.bluetooth@1.0-service-qti.rc
@@ -396,12 +390,10 @@ vendor/etc/init/android.hardware.neuralnetworks@1.2-service-qti.rc
 vendor/etc/init/android.hardware.sensors@1.0-service.rc
 vendor/etc/init/android.hardware.thermal@1.0-service.rc
 vendor/etc/init/android.hardware.usb@1.0-service.rc
-vendor/etc/init/android.hardware.wifi@1.0-service.rc
 vendor/etc/init/cnd.rc
 vendor/etc/init/dataadpl.rc
 vendor/etc/init/dataqti.rc
 vendor/etc/init/dpmQmiMgr.rc
-vendor/etc/init/hostapd.android.rc
 vendor/etc/init/ims_rtp_daemon.rc
 vendor/etc/init/imsdatadaemon.rc
 vendor/etc/init/imsqmidaemon.rc
@@ -504,10 +496,6 @@ vendor/etc/usb_audio_policy_configuration.xml
 vendor/etc/vintf/compatibility_matrix.xml
 vendor/etc/vintf/manifest/android.hardware.gnss@2.0-service-qti.xml
 vendor/etc/vintf/manifest/vendor.qti.gnss@3.0-service.xml
-vendor/etc/wifi/p2p_supplicant_overlay.conf
-vendor/etc/wifi/WCNSS_qcom_cfg.ini
-vendor/etc/wifi/wpa_supplicant.conf
-vendor/etc/wifi/wpa_supplicant_overlay.conf
 vendor/etc/xtra_root_cert.pem
 vendor/etc/xtwifi.conf
 vendor/firmware/a615_zap.b00
@@ -754,7 +742,6 @@ vendor/lib/libCB.so
 vendor/lib/libcdsp_default_listener.so
 vendor/lib/libcdsprpc.so
 vendor/lib/libcirrusspkrprot.so
-vendor/lib/libcld80211.so
 vendor/lib/libcne.so
 vendor/lib/libcneapiclient.so
 vendor/lib/libcneoplookup.so
@@ -1012,10 +999,7 @@ vendor/lib/libvpphvx.so
 vendor/lib/libvpplibrary.so
 vendor/lib/libvpx.so
 vendor/lib/libwebrtc_audio_preprocessing.so
-vendor/lib/libwifi-hal-ctrl.so
-vendor/lib/libwifi-hal-qcom.so
 vendor/lib/libwms.so
-vendor/lib/libwpa_client.so
 vendor/lib/libwqe.so
 vendor/lib/libwvhidl.so
 vendor/lib/libwvkeybox.so
@@ -1428,7 +1412,6 @@ vendor/lib64/libCB.so
 vendor/lib64/libcdsp_default_listener.so
 vendor/lib64/libcdsprpc.so
 vendor/lib64/libcirrusspkrprot.so
-vendor/lib64/libcld80211.so
 vendor/lib64/libcne.so
 vendor/lib64/libcneapiclient.so
 vendor/lib64/libcneoplookup.so
@@ -1503,8 +1486,6 @@ vendor/lib64/libizat_core.so
 vendor/lib64/libjson.so
 vendor/lib64/libkeymasterdeviceutils.so
 vendor/lib64/libkeymasterutils.so
-vendor/lib64/libkeystore-engine-wifi-hidl.so
-vendor/lib64/libkeystore-wifi-hidl.so
 vendor/lib64/liblbs_core.so
 vendor/lib64/liblearningmodule.so
 vendor/lib64/liblistenjni.so
@@ -1692,11 +1673,7 @@ vendor/lib64/libvppclient.so
 vendor/lib64/libvpphvx.so
 vendor/lib64/libvpplibrary.so
 vendor/lib64/libwebrtc_audio_preprocessing.so
-vendor/lib64/libwifi-hal-ctrl.so
-vendor/lib64/libwifi-hal-qcom.so
-vendor/lib64/libwifi-hal.so
 vendor/lib64/libwms.so
-vendor/lib64/libwpa_client.so
 vendor/lib64/libwqe.so
 vendor/lib64/libwvkeybox.so
 vendor/lib64/libXMFD_AgeGender.so
@@ -1818,10 +1795,6 @@ vendor/lib64/vendor.qti.hardware.servicetracker@1.1.so
 vendor/lib64/vendor.qti.hardware.vpp@1.1.so
 vendor/lib64/vendor.qti.hardware.vpp@1.2.so
 vendor/lib64/vendor.qti.hardware.vpp@1.3.so
-vendor/lib64/vendor.qti.hardware.wifi.hostapd@1.0.so
-vendor/lib64/vendor.qti.hardware.wifi.hostapd@1.1.so
-vendor/lib64/vendor.qti.hardware.wifi.supplicant@2.0.so
-vendor/lib64/vendor.qti.hardware.wifi.supplicant@2.1.so
 vendor/lib64/vendor.qti.ims.callinfo@1.0.so
 vendor/lib64/vendor.qti.ims.rcsconfig@1.0.so
 vendor/lib64/vendor.qti.ims.rcsconfig@1.1.so
