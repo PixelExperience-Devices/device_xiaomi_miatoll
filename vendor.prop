@@ -17,6 +17,7 @@ persist.vendor.audio.avs.afe_api_version=2
 persist.vendor.audio.fluence.speaker=true
 persist.vendor.audio.fluence.tmic.enabled=false
 persist.vendor.audio.fluence.voicecall=true
+persist.vendor.audio.fluence.voicecomm=true
 persist.vendor.audio.fluence.voicerec=false
 persist.vendor.audio.ras.enabled=false
 persist.vendor.audio.spv3.enable=true
