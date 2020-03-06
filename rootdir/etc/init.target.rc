@@ -739,3 +739,7 @@ service audioshell_service /vendor/bin/audioshell_service
 on property:ro.vendor.miui.region=*
     start audioshell_service
 #2019.11.25 longcheer puqirui add for misound MIUI patch end
+
+on property:persist.sys.device_provisioned=1
+    setprop dalvik.vm.dex2oat-cpu-set 0,1,2,3,4,5,7
+    setprop dalvik.vm.dex2oat-threads 6
