@@ -104,6 +104,7 @@ vendor.audio.safx.pbe.enabled=false
 vendor.audio.tunnel.encode=false
 vendor.audio.use.sw.alac.decoder=true
 vendor.audio.use.sw.ape.decoder=true
+vendor.audio.use.sw.mpegh.decoder=true
 vendor.audio.volume.headset.gain.depcal=true
 vendor.audio.hal.boot.timeout.ms=20000
 vendor.audio_hal.in_period_size=144
