@@ -97,16 +97,6 @@
         <fqname>@1.0::IGnss/default</fqname>
     </hal>
     <hal format="hidl">
-        <name>android.hardware.graphics.allocator</name>
-        <transport>hwbinder</transport>
-        <version>2.0</version>
-        <interface>
-            <name>IAllocator</name>
-            <instance>default</instance>
-        </interface>
-        <fqname>@2.0::IAllocator/default</fqname>
-    </hal>
-    <hal format="hidl">
         <name>android.hardware.graphics.composer</name>
         <transport>hwbinder</transport>
         <version>2.3</version>
@@ -115,16 +105,6 @@
             <instance>default</instance>
         </interface>
         <fqname>@2.3::IComposer/default</fqname>
-    </hal>
-    <hal format="hidl">
-        <name>android.hardware.graphics.mapper</name>
-        <transport arch="32+64">passthrough</transport>
-        <version>2.1</version>
-        <interface>
-            <name>IMapper</name>
-            <instance>default</instance>
-        </interface>
-        <fqname>@2.1::IMapper/default</fqname>
     </hal>
     <hal format="hidl">
         <name>android.hardware.ir</name>
@@ -541,26 +521,6 @@
             <instance>default</instance>
         </interface>
         <fqname>@1.0::ILinkLatency/default</fqname>
-    </hal>
-    <hal format="hidl">
-        <name>vendor.qti.hardware.display.allocator</name>
-        <transport>hwbinder</transport>
-        <version>1.0</version>
-        <interface>
-            <name>IQtiAllocator</name>
-            <instance>default</instance>
-        </interface>
-        <fqname>@1.0::IQtiAllocator/default</fqname>
-    </hal>
-    <hal format="hidl">
-        <name>vendor.qti.hardware.display.mapper</name>
-        <transport arch="32+64">passthrough</transport>
-        <version>2.0</version>
-        <interface>
-            <name>IQtiMapper</name>
-            <instance>default</instance>
-        </interface>
-        <fqname>@2.0::IQtiMapper/default</fqname>
     </hal>
     <hal format="hidl">
         <name>vendor.qti.hardware.factory</name>
