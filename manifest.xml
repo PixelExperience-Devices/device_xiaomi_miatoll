@@ -443,6 +443,7 @@
         </interface>
         <fqname>@1.0::ICryptfsHw/default</fqname>
     </hal>
+    <!-- CVP hal services
     <hal format="hidl">
         <name>vendor.qti.hardware.cvp</name>
         <transport>hwbinder</transport>
@@ -452,7 +453,7 @@
             <instance>cvphalservice</instance>
         </interface>
         <fqname>@1.0::ICvp/cvphalservice</fqname>
-    </hal>
+    </hal> -->
     <hal format="hidl">
         <name>vendor.qti.hardware.data.connection</name>
         <transport>hwbinder</transport>
@@ -658,6 +659,7 @@
         <fqname>@1.0::IUimRemoteServiceServer/uimRemoteServer0</fqname>
         <fqname>@1.0::IUimRemoteServiceServer/uimRemoteServer1</fqname>
     </hal>
+    <!-- SCVE Panorama hal services
     <hal format="hidl">
         <name>vendor.qti.hardware.scve.objecttracker</name>
         <transport>hwbinder</transport>
@@ -682,7 +684,7 @@
         </interface>
         <fqname>@1.0::IPanoramaStitching/panoStitching</fqname>
         <fqname>@1.0::IPanoramaTracking/panoTracking</fqname>
-    </hal>
+    </hal> -->
     <hal format="hidl">
         <name>vendor.qti.hardware.sensorscalibrate</name>
         <transport>hwbinder</transport>
