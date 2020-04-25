@@ -103,6 +103,9 @@ vendor.camera.aux.packagelist=org.codeaurora.snapcam,com.android.camera
 # Crypto
 ro.crypto.volume.filenames_mode=aes-256-cts
 
+# Dalvik
+dalvik.vm.dex2oat64.enabled=true
+
 # Display
 ro.surface_flinger.force_hwc_copy_for_virtual_displays=true
 ro.surface_flinger.has_wide_color_display=true
