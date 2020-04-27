@@ -472,7 +472,7 @@
             <param capture_device="HANDSET" />
             <!-- adm_cfg_profile should match with the one defined under adm_config -->
             <!-- Set it to NONE if LSM directly connects to AFE -->
-            <param adm_cfg_profile="NONE" />
+            <param adm_cfg_profile="DEFAULT" />
             <!-- fluence_type: "FLUENCE_MIC", "FLUENCE_DMIC", "FLUENCE_TMIC"   -->
             <!-- "FLUENCE_QMIC". Param value is valid when adm_cfg_profile -->
             <!-- is FFECNS -->
@@ -488,7 +488,7 @@
         </lsm_usecase>
         <lsm_usecase>
             <param capture_device="HEADSET" />
-            <param adm_cfg_profile="NONE" />
+            <param adm_cfg_profile="DEFAULT" />
             <param fluence_type="NONE" />
             <param execution_mode="ADSP" />
             <param app_type="4" /> <!-- app type for MD used in ACDB -->
@@ -522,7 +522,7 @@
             <param capture_device="HANDSET" />
             <!-- adm_cfg_profile should match with the one defined under adm_config -->
             <!-- Set it to NONE if LSM directly connects to AFE -->
-            <param adm_cfg_profile="NONE" />
+            <param adm_cfg_profile="DEFAULT" />
             <!-- fluence_type: "FLUENCE_MIC", "FLUENCE_DMIC", "FLUENCE_TMIC"   -->
             <!-- "FLUENCE_QMIC". Param value is valid when adm_cfg_profile -->
             <!-- is FFECNS -->
@@ -539,7 +539,7 @@
         </lsm_usecase>
         <lsm_usecase>
             <param capture_device="HEADSET" />
-            <param adm_cfg_profile="NONE" />
+            <param adm_cfg_profile="DEFAULT" />
             <param fluence_type="NONE" />
             <param execution_mode="ADSP" />
             <param app_type="3" /> <!-- app type used in ACDB -->
@@ -574,7 +574,7 @@
             <param capture_device="HANDSET" />
             <!-- adm_cfg_profile should match with the one defined under adm_config -->
             <!-- Set it to NONE if LSM directly connects to AFE -->
-            <param adm_cfg_profile="NONE" />
+            <param adm_cfg_profile="DEFAULT" />
             <!-- fluence_type: "FLUENCE_MIC", "FLUENCE_DMIC", "FLUENCE_TMIC"   -->
             <!-- "FLUENCE_QMIC". Param value is valid when adm_cfg_profile -->
             <!-- is FFECNS -->
@@ -591,7 +591,7 @@
         </lsm_usecase>
         <lsm_usecase>
             <param capture_device="HEADSET" />
-            <param adm_cfg_profile="NONE" />
+            <param adm_cfg_profile="DEFAULT" />
             <param fluence_type="NONE" />
             <param execution_mode="ADSP" />
             <param app_type="3" /> <!-- app type used in ACDB -->
@@ -620,5 +620,13 @@
         <param sample_rate="16000" />
         <param bit_width="16" />
         <param out_channels="5"/>
+    </adm_config>
+
+    <adm_config>
+        <param adm_cfg_profile="DEFAULT" />
+        <param app_type="69938" />
+        <param sample_rate="16000" />
+        <param bit_width="16" />
+        <param out_channels="1"/>
     </adm_config>
 </sound_trigger_platform_info>
