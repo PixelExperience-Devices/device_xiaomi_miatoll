@@ -50,3 +50,6 @@ on property:vendor.post_boot.parsed=1
     # Enable schedutil predicted-load boosting
     write /sys/devices/system/cpu/cpu0/cpufreq/schedutil/pl 1
     write /sys/devices/system/cpu/cpu6/cpufreq/schedutil/pl 1
+
+    # Reinit lmkd to reconfigure lmkd properties
+    setprop lmkd.reinit 1
