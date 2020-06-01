@@ -97,16 +97,6 @@
         <fqname>@1.0::IGnss/default</fqname>
     </hal>
     <hal format="hidl">
-        <name>android.hardware.graphics.composer</name>
-        <transport>hwbinder</transport>
-        <version>2.3</version>
-        <interface>
-            <name>IComposer</name>
-            <instance>default</instance>
-        </interface>
-        <fqname>@2.3::IComposer/default</fqname>
-    </hal>
-    <hal format="hidl">
         <name>android.hardware.ir</name>
         <transport>hwbinder</transport>
         <version>1.0</version>
@@ -334,16 +324,6 @@
             <instance>default</instance>
         </interface>
         <fqname>@1.3::IDisplayColor/default</fqname>
-    </hal>
-    <hal format="hidl">
-        <name>vendor.display.config</name>
-        <transport>hwbinder</transport>
-        <version>1.11</version>
-        <interface>
-            <name>IDisplayConfig</name>
-            <instance>default</instance>
-        </interface>
-        <fqname>@1.11::IDisplayConfig/default</fqname>
     </hal>
     <hal format="hidl">
         <name>vendor.display.postproc</name>
