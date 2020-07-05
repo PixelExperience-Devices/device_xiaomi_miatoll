@@ -41,6 +41,13 @@ TARGET_USES_QTI_CAMERA_DEVICE := true
 # Charger
 BOARD_CHARGER_ENABLE_SUSPEND := true
 
+# Dex
+ifeq ($(HOST_OS),linux)
+  ifneq ($(TARGET_BUILD_VARIANT),eng)
+    WITH_DEXPREOPT ?= true
+  endif
+endif
+
 # Kernel
 BOARD_KERNEL_BASE := 0x00000000
 BOARD_KERNEL_IMAGE_NAME := Image.gz-dtb
