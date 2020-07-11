@@ -41,4 +41,7 @@
 
     <!-- Enable 802.11ac for Wifi hotspot (SAP) -->
     <bool name="config_wifi_softap_ieee80211ac_supported">true</bool>
+
+    <!-- Set to true to add links to Cell Broadcast app from Settings and MMS app. -->
+    <bool name="config_cellBroadcastAppLinks">true</bool>
 </resources>
