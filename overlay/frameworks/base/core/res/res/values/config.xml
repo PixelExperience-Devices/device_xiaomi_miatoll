@@ -257,6 +257,9 @@
          and one pSIM) -->
     <integer name="config_num_physical_slots">2</integer>
 
+    <!-- Is the notification LED intrusive? Used to decide if there should be a disable option -->
+    <bool name="config_intrusiveNotificationLed">true</bool>
+
     <!-- Height of the status bar in portrait -->
     <dimen name="status_bar_height_portrait">100px</dimen>
 
