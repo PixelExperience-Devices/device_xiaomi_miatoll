@@ -214,4 +214,16 @@
 
     <!-- Whether the Unprocessed audio source supports the required frequency range and level -->
     <bool name="config_supportAudioSourceUnprocessed">true</bool>
+
+    <!-- Idle current for bluetooth controller. 0 by default-->
+    <integer name="config_bluetooth_idle_cur_ma">3</integer>
+
+    <!-- Rx current for bluetooth controller. 0 by default-->
+    <integer name="config_bluetooth_rx_cur_ma">20</integer>
+
+    <!-- Tx current for bluetooth controller. 0 by default-->
+    <integer name="config_bluetooth_tx_cur_ma">33</integer>
+
+    <!-- Operating voltage for bluetooth controller. 0 by default-->
+    <integer name="config_bluetooth_operating_voltage_mv">3700</integer>
 </resources>
