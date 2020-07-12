@@ -935,8 +935,6 @@ vendor/firmware/vehicle_plane_RTP.bin
 vendor/firmware/Vigor_RTP.bin
 vendor/firmware/wigig/wigig.ini
 vendor/firmware/WindChime_RTP.bin
-vendor/firmware/wlan/qca_cld/WCNSS_qcom_cfg.ini
-vendor/firmware/wlan/qca_cld/wlan_mac.bin
 vendor/framework/com.fingerprints.extension.jar
 vendor/lib/android.hardware.audio.common-util.so
 vendor/lib/android.hardware.audio.common@2.0-util.so
