@@ -23,6 +23,10 @@ PRODUCT_PACKAGES += \
 # API
 PRODUCT_SHIPPING_API_LEVEL := 29
 
+# Camera
+PRODUCT_PACKAGES += \
+    Snap
+
 # HIDL
 PRODUCT_PACKAGES += \
     android.hidl.base@1.0 \
