@@ -1345,7 +1345,7 @@ vendor/lib/libpdnotifier.so
 vendor/lib/libperfconfig.so
 vendor/lib/libperfgluelayer.so
 vendor/lib/libperipheral_client.so
-vendor/lib/libplatformconfig.so
+-vendor/lib/libplatformconfig.so
 vendor/lib/libpn551_fw.so
 vendor/lib/libpn553_fw.so
 vendor/lib/libpn557_fw.so
@@ -2219,7 +2219,7 @@ vendor/lib64/libpdnotifier.so
 vendor/lib64/libperfconfig.so
 vendor/lib64/libperfgluelayer.so
 vendor/lib64/libperipheral_client.so
-vendor/lib64/libplatformconfig.so
+-vendor/lib64/libplatformconfig.so
 vendor/lib64/libprekill.so
 vendor/lib64/libpvr.so
 vendor/lib64/libq3dtools_adreno.so
