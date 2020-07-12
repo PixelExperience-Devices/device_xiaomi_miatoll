@@ -431,7 +431,6 @@ vendor/etc/fmt.xml
 vendor/etc/fmt_Global.xml
 vendor/etc/fs_config_dirs
 vendor/etc/fs_config_files
-vendor/etc/fstab.qcom
 vendor/etc/ftm_loopback
 vendor/etc/ftm_test_config
 vendor/etc/ftm_test_config_atoll-qrd-snd-card
