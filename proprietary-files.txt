@@ -588,8 +588,6 @@ vendor/etc/mixer_paths_wcd937x.xml
 vendor/etc/mixer_paths_wcd937xqrd.xml
 vendor/etc/mkshrc
 vendor/etc/msm_irqbalance.conf
-vendor/etc/NOTICE.xml.gz
-vendor/etc/NOTICE_GPL.html.gz
 vendor/etc/passwd
 vendor/etc/perf/commonresourceconfigs.xml
 vendor/etc/perf/perfboostsconfig.xml
