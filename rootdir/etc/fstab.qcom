@@ -37,6 +37,7 @@ system                                                  /system                 
 product                                                 /product                 ext4    ro,barrier=1,discard                                 wait,logical,first_stage_mount,avb=vbmeta_system
 vendor                                                  /vendor                  ext4    ro,barrier=1,discard                                 wait,logical,first_stage_mount,avb
 /dev/block/bootdevice/by-name/cache                     /cache                   ext4    nosuid,noatime,nodev,barrier=1                       wait
+/dev/block/bootdevice/by-name/boot                      /boot                    emmc    defaults                                             defaults
 /dev/block/by-name/metadata                             /metadata                ext4    noatime,nosuid,nodev,discard                         wait,formattable,wrappedkey,first_stage_mount
 # Add fs_mgr flag - sysfs_path=/sys/devices/platform/soc/xxxx.[ufshc|sdhci] to userdata entry, based on UFS|eMMC device.
 /dev/block/bootdevice/by-name/userdata                  /data                    f2fs    noatime,nosuid,nodev,nodiscard,reserve_root=32768,resgid=1065,fsync_mode=nobarrier     latemount,wait,check,formattable,fileencryption=ice,wrappedkey,quota,reservedsize=128M,checkpoint=fs
