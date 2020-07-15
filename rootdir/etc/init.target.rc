@@ -206,8 +206,6 @@ on charger
     chmod 0771 /mnt/vendor/persist
     mkdir /mnt/vendor/persist/subsys 0770 root system
     start vendor.power_off_alarm
-    setprop sys.usb.controller a600000.dwc3
-    setprop sys.usb.configfs 1
     chown system system /sys/class/leds/red/brightness
     chmod 0666 /sys/class/leds/red/brightness
     mkdir /data/vendor/charge_logger 0771 system system
