@@ -45,7 +45,12 @@ product/lib64/vendor.qti.imsrtpservice@2.0.so
 product/lib64/vendor.qti.imsrtpservice@2.1.so
 -product/priv-app/ims/ims.apk
 
+# Permissions
+etc/permissions/privapp-permissions-qti.xml
+product/etc/permissions/telephony_product_privapp-permissions-qti.xml
+
 # QMI
+etc/sysconfig/qti_whitelist.xml
 etc/permissions/qti_libpermissions.xml
 etc/permissions/qti_permissions.xml
 
