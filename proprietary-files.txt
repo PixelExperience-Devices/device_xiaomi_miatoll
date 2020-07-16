@@ -71,7 +71,6 @@ vendor/bin/adsprpcd
 vendor/bin/ATFWD-daemon
 vendor/bin/athdiag
 vendor/bin/audioflacapp
-vendor/bin/awk
 vendor/bin/batteryd
 vendor/bin/batterysecret
 vendor/bin/bluedut.sh
@@ -84,7 +83,6 @@ vendor/bin/cnd
 vendor/bin/cnss-daemon
 vendor/bin/cnss_diag
 vendor/bin/consumerird
-vendor/bin/cplay
 vendor/bin/dc_cal
 vendor/bin/diag_callback_sample
 vendor/bin/diag_dci_sample
@@ -93,11 +91,8 @@ vendor/bin/diag_mdlog
 vendor/bin/diag_socket_log
 vendor/bin/diag_uart_log
 vendor/bin/dpmQmiMgr
-vendor/bin/dumpsys
 vendor/bin/e_loop
-vendor/bin/egrep
 vendor/bin/FactoryApp
-vendor/bin/fgrep
 vendor/bin/fidoca
 vendor/bin/fm_qsoc_patches
 vendor/bin/fmconfig
@@ -108,9 +103,6 @@ vendor/bin/ftm_flows_test
 vendor/bin/ftmdaemon
 vendor/bin/ftmtest
 vendor/bin/garden_app
-vendor/bin/getevent
-vendor/bin/getprop
-vendor/bin/grep
 vendor/bin/gsort
 vendor/bin/hal_proxy_daemon
 vendor/bin/hbtp_daemon
@@ -184,14 +176,12 @@ vendor/bin/ipacm
 vendor/bin/ipacm-diag
 vendor/bin/iperf
 vendor/bin/irsc_util
-vendor/bin/iw
 vendor/bin/iwlist
 vendor/bin/iwpriv
 vendor/bin/KmInstallKeybox
 vendor/bin/LctReadWriteNV
 vendor/bin/loadalgo
 vendor/bin/loc_launcher
-vendor/bin/logwrapper
 vendor/bin/loopback.sh
 vendor/bin/loopbacktest
 vendor/bin/lowi-server
@@ -236,7 +226,6 @@ vendor/bin/secure_ui_sample_client
 vendor/bin/sensors.qti
 vendor/bin/sensors_client_test
 vendor/bin/sensors_test
-vendor/bin/sh
 vendor/bin/shell_11ad
 vendor/bin/shsusrd
 vendor/bin/sigma_dut
@@ -257,13 +246,10 @@ vendor/bin/thermal-engine
 vendor/bin/tidad@1.2
 vendor/bin/time_daemon
 vendor/bin/tloc_daemon
-vendor/bin/toolbox
 vendor/bin/vendor.qti.hardware.soter@1.0-provision
 vendor/bin/vendor_cmd_tool
 vendor/bin/vib_cal
 vendor/bin/vibrator_calibration
-vendor/bin/vndservice
-vendor/bin/vndservicemanager
 vendor/bin/vppservice
 vendor/bin/vsimd
 vendor/bin/wdsdaemon
@@ -417,8 +403,6 @@ vendor/etc/elliptic_sensor.xml
 vendor/etc/flp.conf
 vendor/etc/fmt.xml
 vendor/etc/fmt_Global.xml
-vendor/etc/fs_config_dirs
-vendor/etc/fs_config_files
 vendor/etc/ftm_loopback
 vendor/etc/ftm_test_config
 vendor/etc/ftm_test_config_atoll-qrd-snd-card
@@ -523,7 +507,6 @@ vendor/etc/init/vendor.xiaomi.hardware.tidaservice@1.2-service.rc
 vendor/etc/init/vendor.xiaomi.hardware.touchfeature@1.0-service.rc
 vendor/etc/init/vendor.xiaomi.hardware.vibratorfeature@1.0-service.rc
 vendor/etc/init/vendor.xiaomi.hardware.vsimapp@1.0-service.rc
-vendor/etc/init/vndservicemanager.rc
 vendor/etc/init/vppservice.rc
 vendor/etc/init/wfdvndservice.rc
 vendor/etc/IPACM_cfg.xml
@@ -568,9 +551,7 @@ vendor/etc/mixer_paths.xml
 vendor/etc/mixer_paths_qrd.xml
 vendor/etc/mixer_paths_wcd937x.xml
 vendor/etc/mixer_paths_wcd937xqrd.xml
-vendor/etc/mkshrc
 vendor/etc/msm_irqbalance.conf
-vendor/etc/passwd
 vendor/etc/perf/commonresourceconfigs.xml
 vendor/etc/perf/perfboostsconfig.xml
 vendor/etc/perf/perfconfigstore.xml
