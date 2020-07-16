@@ -157,7 +157,7 @@ on boot
     chmod 0666 sys/devices/platform/soc/890000.i2c/i2c-1/1-005a/osc_cali
 
 #Load WLAN driver
-    insmod /vendor/lib/modules/qca_cld3_wlan.ko
+    insmod /vendor/lib/modules/wlan.ko
 
 #Load exfat driver
     insmod /vendor/lib/modules/exfat.ko
