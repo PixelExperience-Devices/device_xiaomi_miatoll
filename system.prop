@@ -39,6 +39,7 @@ persist.dpm.feature=1
 
 # HVDCP
 persist.vendor.cp.taper_term_mv=6500
+persist.vendor.cp.fcc_main_ua=400000
 
 # Media
 debug.stagefright.ccodec=1
