@@ -285,7 +285,6 @@ vendor/etc/acdbdata/QRD/QRD_Headset_cal.acdb
 vendor/etc/acdbdata/QRD/QRD_Speaker_cal.acdb
 vendor/etc/acdbdata/QRD/QRD_workspaceFile.qwsp
 vendor/etc/apdr.conf
-vendor/etc/audio/audio_policy_configuration.xml
 vendor/etc/audio_configs.xml
 vendor/etc/audio_configs_stock.xml
 vendor/etc/audio_diag.cfg
@@ -295,7 +294,6 @@ vendor/etc/audio_io_policy.conf
 vendor/etc/audio_platform_info.xml
 vendor/etc/audio_platform_info_intcodec.xml
 vendor/etc/audio_platform_info_qrd.xml
-vendor/etc/audio_policy_configuration.xml
 vendor/etc/audio_policy_volumes.xml
 vendor/etc/bluetooth_qti_audio_policy_configuration.xml
 vendor/etc/bt_diag.cfg
