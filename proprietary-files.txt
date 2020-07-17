@@ -128,7 +128,6 @@ vendor/bin/hw/android.hardware.graphics.composer@2.3-service
 vendor/bin/hw/android.hardware.health@2.0-service
 vendor/bin/hw/android.hardware.ir@1.0-service
 vendor/bin/hw/android.hardware.keymaster@4.0-service-qti
-vendor/bin/hw/android.hardware.light@2.0-service
 vendor/bin/hw/android.hardware.media.omx@1.0-service
 vendor/bin/hw/android.hardware.memtrack@1.0-service
 vendor/bin/hw/android.hardware.neuralnetworks@1.2-service-qti
@@ -430,7 +429,6 @@ vendor/etc/init/android.hardware.graphics.composer@2.3-service.rc
 vendor/etc/init/android.hardware.health@2.0-service.rc
 vendor/etc/init/android.hardware.ir@1.0-service.rc
 vendor/etc/init/android.hardware.keymaster@4.0-service-qti.rc
-vendor/etc/init/android.hardware.light@2.0-service.rc
 vendor/etc/init/android.hardware.media.omx@1.0-service.rc
 vendor/etc/init/android.hardware.memtrack@1.0-service.rc
 vendor/etc/init/android.hardware.neuralnetworks@1.2-service-qti.rc
@@ -1035,7 +1033,6 @@ vendor/lib/hw/android.hardware.gatekeeper@1.0-impl-qti.so
 vendor/lib/hw/android.hardware.gnss@2.0-impl-qti.so
 vendor/lib/hw/android.hardware.graphics.mapper@2.0-impl-qti-display.so
 vendor/lib/hw/android.hardware.ir@1.0-impl.so
-vendor/lib/hw/android.hardware.light@2.0-impl.so
 vendor/lib/hw/android.hardware.memtrack@1.0-impl.so
 vendor/lib/hw/android.hardware.renderscript@1.0-impl.so
 vendor/lib/hw/android.hardware.sensors@1.0-impl.so
@@ -1055,7 +1052,6 @@ vendor/lib/hw/consumerir.default.so
 vendor/lib/hw/gralloc.atoll.so
 vendor/lib/hw/gralloc.default.so
 vendor/lib/hw/hwcomposer.atoll.so
-vendor/lib/hw/lights.atoll.so
 vendor/lib/hw/local_time.default.so
 vendor/lib/hw/memtrack.atoll.so
 vendor/lib/hw/power.default.so
@@ -1867,7 +1863,6 @@ vendor/lib64/hw/android.hardware.gatekeeper@1.0-impl-qti.so
 vendor/lib64/hw/android.hardware.gnss@2.0-impl-qti.so
 vendor/lib64/hw/android.hardware.graphics.mapper@2.0-impl-qti-display.so
 vendor/lib64/hw/android.hardware.ir@1.0-impl.so
-vendor/lib64/hw/android.hardware.light@2.0-impl.so
 vendor/lib64/hw/android.hardware.memtrack@1.0-impl.so
 vendor/lib64/hw/android.hardware.renderscript@1.0-impl.so
 vendor/lib64/hw/android.hardware.sensors@1.0-impl.so
@@ -1888,7 +1883,6 @@ vendor/lib64/hw/fingerprint.goodix.default.so
 vendor/lib64/hw/gralloc.atoll.so
 vendor/lib64/hw/gralloc.default.so
 vendor/lib64/hw/hwcomposer.atoll.so
-vendor/lib64/hw/lights.atoll.so
 vendor/lib64/hw/local_time.default.so
 vendor/lib64/hw/memtrack.atoll.so
 vendor/lib64/hw/power.default.so
