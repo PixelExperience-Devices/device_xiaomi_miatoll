@@ -24,6 +24,9 @@ PRODUCT_PACKAGES += \
 PRODUCT_SHIPPING_API_LEVEL := 29
 
 # Audio
+PRODUCT_PACKAGES += \
+    libvolumelistener
+
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/audio/audio_policy_configuration.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio/audio_policy_configuration.xml
 
