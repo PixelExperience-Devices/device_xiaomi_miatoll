@@ -1420,7 +1420,6 @@ vendor/lib/libspkrprot.so
 vendor/lib/libssc.so
 vendor/lib/libssc_default_listener.so
 vendor/lib/libssd.so
-vendor/lib/libssrec.so
 vendor/lib/libst_sr_models.so
 vendor/lib/libstagefright_amrnb_common.so
 vendor/lib/libstagefright_enc_common.so
@@ -2292,7 +2291,6 @@ vendor/lib64/libspkrprot.so
 vendor/lib64/libssc.so
 vendor/lib64/libssc_default_listener.so
 vendor/lib64/libssd.so
-vendor/lib64/libssrec.so
 vendor/lib64/libst_sr_models.so
 vendor/lib64/libstagefright_soft_qtiflacdec.so
 vendor/lib64/libstagefright_softomx.so
