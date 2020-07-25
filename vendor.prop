@@ -194,7 +194,7 @@ vendor.power.pasr.enabled=true
 ro.vendor.extension_library=libqti-perfd-client.so
 
 # Priv-app permissions
-ro.control_privapp_permissions=enforce
+ro.control_privapp_permissions=log
 
 # Radio
 DEVICE_PROVISIONED=1
