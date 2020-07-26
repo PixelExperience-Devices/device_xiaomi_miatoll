@@ -713,9 +713,7 @@ vendor/etc/ssg/ta_config.json
 vendor/etc/ssg/tz_whitelist.json
 vendor/etc/SVIConfig.xml
 vendor/etc/system_properties.xml
-vendor/etc/thermal-engine-camera.conf
 vendor/etc/thermal-engine-map.conf
-vendor/etc/thermal-engine-normal.conf
 vendor/etc/thermal-engine.conf
 vendor/etc/usb_audio_policy_configuration.xml
 vendor/etc/vintf/compatibility_matrix.xml
