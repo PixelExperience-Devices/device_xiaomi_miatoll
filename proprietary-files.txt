@@ -84,12 +84,6 @@ vendor/bin/cnss-daemon
 vendor/bin/cnss_diag
 vendor/bin/consumerird
 vendor/bin/dc_cal
-vendor/bin/diag_callback_sample
-vendor/bin/diag_dci_sample
-vendor/bin/diag_klog
-vendor/bin/diag_mdlog
-vendor/bin/diag_socket_log
-vendor/bin/diag_uart_log
 vendor/bin/dpmQmiMgr
 vendor/bin/e_loop
 vendor/bin/FactoryApp
@@ -277,7 +271,6 @@ vendor/etc/acdbdata/IDP/IDP_workspaceFile.qwsp
 vendor/etc/apdr.conf
 vendor/etc/audio_configs.xml
 vendor/etc/audio_configs_stock.xml
-vendor/etc/audio_diag.cfg
 vendor/etc/audio_effects.conf
 vendor/etc/audio_effects.xml
 vendor/etc/audio_io_policy.conf
@@ -286,7 +279,6 @@ vendor/etc/audio_platform_info_intcodec.xml
 vendor/etc/audio_platform_info_qrd.xml
 vendor/etc/audio_policy_volumes.xml
 vendor/etc/bluetooth_qti_audio_policy_configuration.xml
-vendor/etc/bt_diag.cfg
 vendor/etc/cacert_location.pem
 vendor/etc/calib.config
 vendor/etc/camera/102_SummerDay.png
@@ -338,7 +330,6 @@ vendor/etc/data/netmgr_config.xml
 vendor/etc/default.lm
 vendor/etc/default_volume_tables.xml
 vendor/etc/device_features/curtana.xml
-vendor/etc/Diag.cfg
 vendor/etc/elliptic_sensor.xml
 vendor/etc/flp.conf
 vendor/etc/fmt.xml
@@ -349,7 +340,6 @@ vendor/etc/ftm_test_config_atoll-qrd-snd-card
 vendor/etc/ftm_test_config_atoll-wcd937x-snd-card
 vendor/etc/gpfspath_oem_config.xml
 vendor/etc/gps.conf
-vendor/etc/gps_diag.cfg
 vendor/etc/hbtp/loader.cfg
 vendor/etc/hostapd/hostapd.accept
 vendor/etc/hostapd/hostapd.deny
@@ -510,7 +500,6 @@ vendor/etc/selinux/vendor_property_contexts
 vendor/etc/selinux/vendor_seapp_contexts
 vendor/etc/selinux/vendor_sepolicy.cil
 vendor/etc/selinux/vndservice_contexts
-vendor/etc/sensor_diag.cfg
 vendor/etc/sensors/config/adux1050_0.json
 vendor/etc/sensors/config/atoll_adux1050_0.json
 vendor/etc/sensors/config/atoll_ak991x_0.json
