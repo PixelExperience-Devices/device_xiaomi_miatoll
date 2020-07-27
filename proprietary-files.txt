@@ -793,9 +793,6 @@ vendor/lib/libperfconfig.so
 vendor/lib/libperfgluelayer.so
 vendor/lib/libperipheral_client.so
 -vendor/lib/libplatformconfig.so
-vendor/lib/libpn551_fw.so
-vendor/lib/libpn553_fw.so
-vendor/lib/libpn557_fw.so
 vendor/lib/libpvr.so
 vendor/lib/libq3dtools_adreno.so
 vendor/lib/libqcbor.so
@@ -863,8 +860,6 @@ vendor/lib/libsettings.so
 vendor/lib/libsi.so
 vendor/lib/libskewknob.so
 vendor/lib/libslimclient.so
-vendor/lib/libsmwrapper.so
-vendor/lib/libsn100u_fw.so
 vendor/lib/libsndmonitor.so
 vendor/lib/libsns_device_mode_stub.so
 vendor/lib/libsns_fastRPC_util.so
