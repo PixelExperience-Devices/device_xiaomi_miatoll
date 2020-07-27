@@ -303,6 +303,7 @@ vendor/etc/data/netmgr_config.xml
 vendor/etc/default.lm
 vendor/etc/default_volume_tables.xml
 vendor/etc/device_features/curtana.xml
+vendor/etc/Diag.cfg
 vendor/etc/elliptic_sensor.xml
 vendor/etc/flp.conf
 vendor/etc/gpfspath_oem_config.xml
