@@ -75,7 +75,6 @@ vendor/bin/batteryd
 vendor/bin/batterysecret
 vendor/bin/bluedut.sh
 vendor/bin/bt_close.sh
-vendor/bin/cameratest
 vendor/bin/cdsprpcd
 vendor/bin/charge_logger
 vendor/bin/checkpoint_gc
@@ -89,12 +88,7 @@ vendor/bin/e_loop
 vendor/bin/fidoca
 vendor/bin/fm_qsoc_patches
 vendor/bin/fmconfig
-vendor/bin/fmfactorytest
-vendor/bin/fmfactorytestserver
 vendor/bin/fstman
-vendor/bin/ftm_flows_test
-vendor/bin/ftmdaemon
-vendor/bin/ftmtest
 vendor/bin/garden_app
 vendor/bin/gsort
 vendor/bin/hal_proxy_daemon
@@ -129,7 +123,6 @@ vendor/bin/hw/android.hardware.sensors@1.0-service
 vendor/bin/hw/android.hardware.thermal@1.0-service
 vendor/bin/hw/android.hardware.usb@1.0-service
 vendor/bin/hw/android.hardware.wifi@1.0-service
-vendor/bin/hw/capabilityconfigstoretest
 vendor/bin/hw/hostapd
 vendor/bin/hw/qcrild
 vendor/bin/hw/vendor.display.color@1.0-service
@@ -177,19 +170,12 @@ vendor/bin/loc_launcher
 vendor/bin/lowi-server
 vendor/bin/mlid
 vendor/bin/mlipayd@1.1
-vendor/bin/mm-audio-ftm
-vendor/bin/mm-vidc-omx-test
-vendor/bin/mmid
 vendor/bin/msm_irqbalance
 vendor/bin/mtd@1.2
-vendor/bin/myftm
-vendor/bin/myftm.agent.sh
 vendor/bin/netmgrd
 vendor/bin/npu_launcher
 vendor/bin/nv_mac
 vendor/bin/pd-mapper
-vendor/bin/pktlogconf
-vendor/bin/PktRspTest
 vendor/bin/pm-proxy
 vendor/bin/pm-service
 vendor/bin/pnscr
@@ -199,8 +185,6 @@ vendor/bin/ppd
 vendor/bin/qca6234-service.sh
 vendor/bin/qdcmss
 vendor/bin/qdmastatsd
-vendor/bin/qmi-framework-tests/qmi_test_mt_client_init_instance
-vendor/bin/qmi_simple_ril_test
 vendor/bin/qrtr-cfg
 vendor/bin/qrtr-lookup
 vendor/bin/qrtr-ns
@@ -212,13 +196,10 @@ vendor/bin/record_playback.sh
 vendor/bin/rmt_storage
 vendor/bin/secure_ui_sample_client
 vendor/bin/sensors.qti
-vendor/bin/sensors_client_test
-vendor/bin/sensors_test
 vendor/bin/shell_11ad
 vendor/bin/shsusrd
 vendor/bin/sigma_dut
 vendor/bin/slim_daemon
-vendor/bin/sns_sar_rw_test
 vendor/bin/SoterProvisioningTool
 vendor/bin/spectraltool
 vendor/bin/sscrpcd
@@ -228,7 +209,6 @@ vendor/bin/ssr_diag
 vendor/bin/ssr_setup
 vendor/bin/subsystem_ramdump
 vendor/bin/sviswitch
-vendor/bin/test_diag
 vendor/bin/tftp_server
 vendor/bin/thermal-engine
 vendor/bin/tidad@1.2
@@ -245,8 +225,6 @@ vendor/bin/wfdhdcphalservice
 vendor/bin/wfdvndservice
 vendor/bin/wifidisplayhalservice
 vendor/bin/wifilearner
-vendor/bin/wifitest.sh
-vendor/bin/wifitest_close.sh
 vendor/bin/wigig_wiburn
 vendor/bin/wigighalsvc
 vendor/bin/wigignpt
@@ -327,12 +305,6 @@ vendor/etc/default_volume_tables.xml
 vendor/etc/device_features/curtana.xml
 vendor/etc/elliptic_sensor.xml
 vendor/etc/flp.conf
-vendor/etc/fmt.xml
-vendor/etc/fmt_Global.xml
-vendor/etc/ftm_loopback
-vendor/etc/ftm_test_config
-vendor/etc/ftm_test_config_atoll-qrd-snd-card
-vendor/etc/ftm_test_config_atoll-wcd937x-snd-card
 vendor/etc/gpfspath_oem_config.xml
 vendor/etc/gps.conf
 vendor/etc/hbtp/loader.cfg
@@ -466,7 +438,6 @@ vendor/etc/perf/perfboostsconfig.xml
 vendor/etc/perf/perfconfigstore.xml
 vendor/etc/perf/targetconfig.xml
 vendor/etc/perf/targetresourceconfigs.xml
-vendor/etc/pm_test_item_config.xml
 vendor/etc/powerhint.xml
 vendor/etc/public.libraries.txt
 vendor/etc/pushfiles.sh
@@ -698,7 +669,6 @@ vendor/lib/egl/libGLESv2_adreno.so
 vendor/lib/egl/libq3dtools_adreno.so
 vendor/lib/egl/libq3dtools_esx.so
 vendor/lib/egl/libQTapGLES.so
-vendor/lib/ftm_fm_lib.so
 vendor/lib/hw/android.hardware.audio.effect@2.0-impl.so
 vendor/lib/hw/android.hardware.audio.effect@4.0-impl.so
 vendor/lib/hw/android.hardware.audio.effect@5.0-impl.so
@@ -1161,7 +1131,6 @@ vendor/lib/libvorbisidec.so
 vendor/lib/libvppclient.so
 vendor/lib/libvpphvx.so
 vendor/lib/libvpplibrary.so
-vendor/lib/libvpptestutils.so
 vendor/lib/libvpx.so
 vendor/lib/libvsim.so
 vendor/lib/libwebrtc_audio_preprocessing.so
@@ -1188,7 +1157,6 @@ vendor/lib/libwfduibcsrcinterface_proprietary.so
 vendor/lib/libwifi-hal-ctrl.so
 vendor/lib/libwifi-hal-qcom.so
 vendor/lib/libwigig_flashaccess.so
-vendor/lib/libwigig_ftm_flows.so
 vendor/lib/libwigig_pciaccess.so
 vendor/lib/libwigig_utils.so
 vendor/lib/libwms.so
@@ -1520,7 +1488,6 @@ vendor/lib64/egl/libGLESv2_adreno.so
 vendor/lib64/egl/libq3dtools_adreno.so
 vendor/lib64/egl/libq3dtools_esx.so
 vendor/lib64/egl/libQTapGLES.so
-vendor/lib64/ftm_fm_lib.so
 vendor/lib64/hw/android.hardware.audio.effect@2.0-impl.so
 vendor/lib64/hw/android.hardware.audio.effect@4.0-impl.so
 vendor/lib64/hw/android.hardware.audio.effect@5.0-impl.so
@@ -2002,14 +1969,12 @@ vendor/lib64/libvndfwk_detect_jni.qti.so
 vendor/lib64/libvppclient.so
 vendor/lib64/libvpphvx.so
 vendor/lib64/libvpplibrary.so
-vendor/lib64/libvpptestutils.so
 vendor/lib64/libwebrtc_audio_preprocessing.so
 vendor/lib64/libwfdhdcpcp.so
 vendor/lib64/libwifi-hal-ctrl.so
 vendor/lib64/libwifi-hal-qcom.so
 vendor/lib64/libwifi-hal.so
 vendor/lib64/libwigig_flashaccess.so
-vendor/lib64/libwigig_ftm_flows.so
 vendor/lib64/libwigig_pciaccess.so
 vendor/lib64/libwigig_utils.so
 vendor/lib64/libwms.so
