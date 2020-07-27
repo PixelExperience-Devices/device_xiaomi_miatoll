@@ -86,7 +86,6 @@ vendor/bin/consumerird
 vendor/bin/dc_cal
 vendor/bin/dpmQmiMgr
 vendor/bin/e_loop
-vendor/bin/FactoryApp
 vendor/bin/fidoca
 vendor/bin/fm_qsoc_patches
 vendor/bin/fmconfig
@@ -280,7 +279,6 @@ vendor/etc/audio_platform_info_qrd.xml
 vendor/etc/audio_policy_volumes.xml
 vendor/etc/bluetooth_qti_audio_policy_configuration.xml
 vendor/etc/cacert_location.pem
-vendor/etc/calib.config
 vendor/etc/camera/102_SummerDay.png
 vendor/etc/camera/103_Fantasy.png
 vendor/etc/camera/104_Meet.png
@@ -471,7 +469,6 @@ vendor/etc/perf/perfboostsconfig.xml
 vendor/etc/perf/perfconfigstore.xml
 vendor/etc/perf/targetconfig.xml
 vendor/etc/perf/targetresourceconfigs.xml
-vendor/etc/PinkNoise.wav
 vendor/etc/pm_test_item_config.xml
 vendor/etc/powerhint.xml
 vendor/etc/public.libraries.txt
@@ -532,7 +529,6 @@ vendor/etc/sensors/config/sns_tilt_sw_enabled.json
 vendor/etc/sensors/config/sns_tilt_to_wake.json
 vendor/etc/sensors/hals.conf
 vendor/etc/sensors/sns_reg_config
-vendor/etc/Silence.wav
 vendor/etc/sound_trigger_mixer_paths.xml
 vendor/etc/sound_trigger_mixer_paths_qrd.xml
 vendor/etc/sound_trigger_mixer_paths_wcd937x.xml
