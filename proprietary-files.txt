@@ -76,7 +76,6 @@ vendor/bin/cnd
 vendor/bin/cnss-daemon
 vendor/bin/dpmQmiMgr
 vendor/bin/garden_app
-vendor/bin/hostapd_cli
 vendor/bin/hvdcp_opti
 vendor/bin/hw/android.hardware.audio@2.0-service
 vendor/bin/hw/android.hardware.biometrics.fingerprint@2.1-service
