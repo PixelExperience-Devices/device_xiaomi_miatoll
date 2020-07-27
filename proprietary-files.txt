@@ -174,8 +174,6 @@ vendor/bin/KmInstallKeybox
 vendor/bin/LctReadWriteNV
 vendor/bin/loadalgo
 vendor/bin/loc_launcher
-vendor/bin/loopback.sh
-vendor/bin/loopbacktest
 vendor/bin/lowi-server
 vendor/bin/mlid
 vendor/bin/mlipayd@1.1
@@ -192,7 +190,6 @@ vendor/bin/nv_mac
 vendor/bin/pd-mapper
 vendor/bin/pktlogconf
 vendor/bin/PktRspTest
-vendor/bin/playback.sh
 vendor/bin/pm-proxy
 vendor/bin/pm-service
 vendor/bin/pnscr
@@ -533,7 +530,6 @@ vendor/etc/sound_trigger_mixer_paths.xml
 vendor/etc/sound_trigger_mixer_paths_qrd.xml
 vendor/etc/sound_trigger_mixer_paths_wcd937x.xml
 vendor/etc/sound_trigger_platform_info.xml
-vendor/etc/spk_pb.wav
 vendor/etc/ssg/ta_config.json
 vendor/etc/ssg/tz_whitelist.json
 vendor/etc/SVIConfig.xml
