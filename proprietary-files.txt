@@ -406,7 +406,6 @@ vendor/firmware/ipa_fws.mdt
 vendor/firmware/novatek_ts_tianma_fw.bin
 vendor/firmware/novatek_ts_tianma_mp.bin
 vendor/firmware/osc_rtp_24K_5s.bin
-vendor/framework/com.fingerprints.extension.jar
 vendor/lib/android.hardware.audio.common-util.so
 vendor/lib/android.hardware.audio.common@2.0-util.so
 vendor/lib/android.hardware.audio.common@4.0-util.so
