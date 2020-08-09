@@ -68,8 +68,6 @@ product/framework/QtiTelephonyServicelibrary.jar
 vendor/bin/adpl
 vendor/bin/adsprpcd
 vendor/bin/ATFWD-daemon
-vendor/bin/batteryd
-vendor/bin/batterysecret
 vendor/bin/cdsprpcd
 vendor/bin/cnd
 vendor/bin/cnss-daemon
@@ -254,8 +252,6 @@ vendor/etc/init/imsdatadaemon.rc
 vendor/etc/init/imsqmidaemon.rc
 vendor/etc/init/imsrcsd.rc
 vendor/etc/init/init-qcril-data.rc
-vendor/etc/init/init.batteryd.rc
-vendor/etc/init/init.batterysecret.rc
 vendor/etc/init/init.qti.fm.rc
 vendor/etc/init/init.time_daemon.rc
 vendor/etc/init/init_thermal-engine.rc
