@@ -411,7 +411,6 @@ vendor/etc/init/imsrcsd.rc
 vendor/etc/init/init-qcril-data.rc
 vendor/etc/init/init.qti.fm.rc
 vendor/etc/init/init.time_daemon.rc
-vendor/etc/init/init_thermal-engine.rc
 vendor/etc/init/ipa_fws.rc
 vendor/etc/init/ipacm-diag.rc
 vendor/etc/init/ipacm.rc
