@@ -501,7 +501,6 @@ vendor/etc/sound_trigger_mixer_paths_wcd937x.xml
 vendor/etc/sound_trigger_platform_info.xml
 vendor/etc/SVIConfig.xml
 vendor/etc/system_properties.xml
-vendor/etc/thermal-engine-map.conf
 vendor/etc/thermal-engine.conf
 vendor/etc/usb_audio_policy_configuration.xml
 vendor/etc/vintf/compatibility_matrix.xml
