@@ -40,7 +40,8 @@ Return<void> Power::powerHint(PowerHint_1_0, int32_t) {
 }
 
 bool isSupportedInputName(char* name) {
-    return false;
+    return strcmp(name, "fts_ts") == 0
+            || strcmp(name, "NVTCapacitiveTouchScreen") == 0;
 }
 
 int openInputFd() {
