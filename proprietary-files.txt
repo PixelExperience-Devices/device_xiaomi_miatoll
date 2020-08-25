@@ -13,6 +13,15 @@ product/lib64/libdpmframework.so
 product/lib64/libdpmtcm.so
 -product/priv-app/dpmserviceapp/dpmserviceapp.apk
 
+# FM
+lib64/fm_helium.so
+lib64/libfm-hci.so
+-product/lib64/vendor.qti.hardware.fm@1.0.so
+vendor/bin/fm_qsoc_patches
+vendor/lib64/ftm_fm_lib.so
+vendor/lib64/hw/vendor.qti.hardware.fm@1.0-impl.so
+vendor/lib64/vendor.qti.hardware.fm@1.0.so
+
 # IMS
 -product/app/uceShimService/uceShimService.apk
 product/etc/permissions/com.qualcomm.qti.imscmservice-V2.0-java.xml
