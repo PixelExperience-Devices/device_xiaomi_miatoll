@@ -27,25 +27,6 @@
 # ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 #
 
-function configure_zram_parameters() {
-    MemTotalStr=`cat /proc/meminfo | grep MemTotal`
-    MemTotal=${MemTotalStr:16:8}
-
-    # Zram disk - 75% for Go devices.
-    # For >=2GB Non-Go devices, size = 50% of RAM size. Limit the size to 4GB.
-
-    RamSizeGB=`echo "($MemTotal / 1048576 ) + 1" | bc`
-    zRamSizeBytes=`echo "$RamSizeGB * 1024 * 1024 * 1024 / 2" | bc`
-    if [ $zRamSizeBytes -gt 4294967296 ]; then
-        zRamSizeBytes=4294967296
-    fi
-
-            echo 1 > /sys/block/zram0/use_dedup
-            echo $zRamSizeBytes > /sys/block/zram0/disksize
-        mkswap /dev/block/zram0
-        swapon /dev/block/zram0 -p 32758
-}
-
 function configure_read_ahead_kb_values() {
     # set 512 for >= 4GB targets.
         echo 512 > /sys/block/mmcblk0/bdi/read_ahead_kb
@@ -140,8 +121,6 @@ function configure_memory_parameters() {
     # Back to default VM settings
     echo 3000 > /proc/sys/vm/dirty_expire_centisecs
     echo 10 > /proc/sys/vm/dirty_background_ratio
-
-    configure_zram_parameters
 
     configure_read_ahead_kb_values
 }
