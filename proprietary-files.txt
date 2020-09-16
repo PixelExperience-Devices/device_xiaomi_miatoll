@@ -802,7 +802,6 @@ vendor/lib/libgpu_tonemapper.so
 vendor/lib/libgralloccore.so
 vendor/lib/libgrallocutils.so
 vendor/lib/libgsl.so
-vendor/lib/libgui_vendor.so
 vendor/lib/libHalSuperSensorServer.so
 vendor/lib/libhdmiedid.so
 vendor/lib/libhdmipassthru.so
@@ -1472,7 +1471,6 @@ vendor/lib64/libgpu_tonemapper.so
 vendor/lib64/libgralloccore.so
 vendor/lib64/libgrallocutils.so
 vendor/lib64/libgsl.so
-vendor/lib64/libgui_vendor.so
 vendor/lib64/libHalSuperSensorServer.so
 vendor/lib64/libhdmiedid.so
 vendor/lib64/libhdmipassthru.so
