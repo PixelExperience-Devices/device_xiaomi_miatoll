@@ -1149,8 +1149,6 @@ vendor/lib/vendor.qti.imsrtpservice@2.1-service-Impl.so
 vendor/lib/vendor.qti.imsrtpservice@2.1.so
 vendor/lib/vendor.qti.latency@2.0.so
 vendor/lib/vendor.qti.power.pasrmanager@1.0.so
-vendor/lib/vndk/libstagefright_foundation.so
-vendor/lib/vndk/libstagefright_omx.so
 vendor/lib64/android.hardware.audio.common-util.so
 vendor/lib64/android.hardware.audio.common@2.0-util.so
 vendor/lib64/android.hardware.audio.common@4.0-util.so
