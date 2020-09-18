@@ -208,7 +208,7 @@ vendor/etc/init/wfdvndservice.rc
 -vendor/app/CneApp/CneApp.apk
 -vendor/app/IWlanService/IWlanService.apk
 -vendor/app/pasrservice/pasrservice.apk
--vendor/app/TimeService/TimeService.apk;:timeservice_app_cert
+-vendor/app/TimeService/TimeService.apk
 vendor/bin/adpl
 vendor/bin/adsprpcd
 vendor/bin/ATFWD-daemon
