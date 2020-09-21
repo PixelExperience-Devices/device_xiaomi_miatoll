@@ -235,7 +235,6 @@ vendor/bin/hw/android.hardware.keymaster@4.0-service-qti
 vendor/bin/hw/android.hardware.media.omx@1.0-service
 vendor/bin/hw/android.hardware.memtrack@1.0-service
 vendor/bin/hw/android.hardware.neuralnetworks@1.2-service-qti
-vendor/bin/hw/android.hardware.sensors@1.0-service
 vendor/bin/hw/android.hardware.thermal@1.0-service
 vendor/bin/hw/android.hardware.usb@1.0-service
 vendor/bin/hw/qcrild
@@ -392,7 +391,6 @@ vendor/etc/init/android.hardware.keymaster@4.0-service-qti.rc
 vendor/etc/init/android.hardware.media.omx@1.0-service.rc
 vendor/etc/init/android.hardware.memtrack@1.0-service.rc
 vendor/etc/init/android.hardware.neuralnetworks@1.2-service-qti.rc
-vendor/etc/init/android.hardware.sensors@1.0-service.rc
 vendor/etc/init/android.hardware.thermal@1.0-service.rc
 vendor/etc/init/android.hardware.usb@1.0-service.rc
 vendor/etc/init/cnd.rc
@@ -657,7 +655,6 @@ vendor/lib/hw/android.hardware.graphics.mapper@2.0-impl-qti-display.so
 vendor/lib/hw/android.hardware.ir@1.0-impl.so
 vendor/lib/hw/android.hardware.memtrack@1.0-impl.so
 vendor/lib/hw/android.hardware.renderscript@1.0-impl.so
-vendor/lib/hw/android.hardware.sensors@1.0-impl.so
 vendor/lib/hw/android.hardware.soundtrigger@2.1-impl.so
 vendor/lib/hw/android.hardware.soundtrigger@2.2-impl.so
 vendor/lib/hw/android.hardware.thermal@1.0-impl.so
@@ -1301,7 +1298,6 @@ vendor/lib64/hw/android.hardware.graphics.mapper@2.0-impl-qti-display.so
 vendor/lib64/hw/android.hardware.ir@1.0-impl.so
 vendor/lib64/hw/android.hardware.memtrack@1.0-impl.so
 vendor/lib64/hw/android.hardware.renderscript@1.0-impl.so
-vendor/lib64/hw/android.hardware.sensors@1.0-impl.so
 vendor/lib64/hw/android.hardware.soundtrigger@2.2-impl.so
 vendor/lib64/hw/android.hardware.thermal@1.0-impl.so
 vendor/lib64/hw/audio.bluetooth.default.so
