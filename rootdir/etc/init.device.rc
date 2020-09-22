@@ -23,9 +23,14 @@ on init && property:ro.boot.hwname=joyeuse
     setprop ro.boot.product.hardware.sku joyeuse
     start vendor.nfc_hal_service
 
+# perf tuning
 on property:persist.sys.device_provisioned=1
     setprop dalvik.vm.dex2oat-cpu-set 0,1,2,3,4,5,7
     setprop dalvik.vm.dex2oat-threads 6
+
+on early-init
+    # Disable UFS clock scaling
+    write /sys/bus/platform/devices/1d84000.ufshc/clkscale_enable 0
 
 on late-init
     # Start services for bootanim
@@ -35,7 +40,10 @@ on late-init
     start vendor.configstore-hal
     start vendor.qti.hardware.display.allocator
 
-# perf tuning
+on property:sys.boot_completed=1
+    # Enable UFS clock scaling back
+    write /sys/bus/platform/devices/1d84000.ufshc/clkscale_enable 1
+
 on property:vendor.post_boot.parsed=1
     # Setup runtime cpusets
     write /dev/cpuset/top-app/cpus 0-7
