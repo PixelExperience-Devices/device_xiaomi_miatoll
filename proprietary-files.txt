@@ -971,8 +971,6 @@ vendor/lib/libstagefright_soft_rawdec.so
 vendor/lib/libstagefright_soft_vorbisdec.so
 vendor/lib/libstagefright_soft_vpxdec.so
 vendor/lib/libstagefright_soft_vpxenc.so
-vendor/lib/libstagefright_softomx.so
-vendor/lib/libstagefright_softomx_plugin.so
 vendor/lib/libstagefrighthw.so
 vendor/lib/libStDrvInt.so
 vendor/lib/libstreamparser.so
@@ -1637,7 +1635,6 @@ vendor/lib64/libssc.so
 vendor/lib64/libssd.so
 vendor/lib64/libst_sr_models.so
 vendor/lib64/libstagefright_soft_qtiflacdec.so
-vendor/lib64/libstagefright_softomx.so
 vendor/lib64/libstagefrighthw.so
 vendor/lib64/libSuperSensor.so
 vendor/lib64/libSuperSensorCPU.so
