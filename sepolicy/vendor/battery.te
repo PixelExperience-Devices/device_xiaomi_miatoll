@@ -11,7 +11,6 @@ init_daemon_domain(batterysecret)
 
 r_dir_file(battery_daemons, cgroup)
 r_dir_file(battery_daemons, mnt_vendor_file)
-r_dir_file(battery_daemons, persist_file)
 r_dir_file(battery_daemons, persist_subsys_file)
 r_dir_file(battery_daemons, rootfs)
 r_dir_file(battery_daemons, sysfs_battery_supply)
