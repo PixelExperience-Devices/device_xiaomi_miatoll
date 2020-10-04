@@ -234,7 +234,6 @@ vendor/bin/hw/android.hardware.keymaster@4.0-service-qti
 vendor/bin/hw/android.hardware.media.omx@1.0-service
 vendor/bin/hw/android.hardware.memtrack@1.0-service
 vendor/bin/hw/android.hardware.neuralnetworks@1.2-service-qti
-vendor/bin/hw/android.hardware.thermal@1.0-service
 vendor/bin/hw/android.hardware.usb@1.0-service
 vendor/bin/hw/qcrild
 vendor/bin/hw/vendor.display.color@1.0-service
@@ -388,7 +387,6 @@ vendor/etc/init/android.hardware.keymaster@4.0-service-qti.rc
 vendor/etc/init/android.hardware.media.omx@1.0-service.rc
 vendor/etc/init/android.hardware.memtrack@1.0-service.rc
 vendor/etc/init/android.hardware.neuralnetworks@1.2-service-qti.rc
-vendor/etc/init/android.hardware.thermal@1.0-service.rc
 vendor/etc/init/android.hardware.usb@1.0-service.rc
 vendor/etc/init/cnd.rc
 vendor/etc/init/dataadpl.rc
@@ -653,7 +651,6 @@ vendor/lib/hw/android.hardware.memtrack@1.0-impl.so
 vendor/lib/hw/android.hardware.renderscript@1.0-impl.so
 vendor/lib/hw/android.hardware.soundtrigger@2.1-impl.so
 vendor/lib/hw/android.hardware.soundtrigger@2.2-impl.so
-vendor/lib/hw/android.hardware.thermal@1.0-impl.so
 vendor/lib/hw/audio.bluetooth.default.so
 vendor/lib/hw/audio.bluetooth_qti.default.so
 vendor/lib/hw/audio.primary.atoll.so
@@ -667,7 +664,6 @@ vendor/lib/hw/gralloc.atoll.so
 vendor/lib/hw/hwcomposer.atoll.so
 vendor/lib/hw/memtrack.atoll.so
 vendor/lib/hw/sound_trigger.primary.atoll.so
-vendor/lib/hw/thermal.atoll.so
 vendor/lib/hw/vendor.qti.gnss@3.0-impl.so
 vendor/lib/hw/vendor.qti.hardware.alarm@1.0-impl.so
 vendor/lib/hw/vendor.qti.hardware.audiohalext@1.0-impl.so
@@ -1293,7 +1289,6 @@ vendor/lib64/hw/android.hardware.ir@1.0-impl.so
 vendor/lib64/hw/android.hardware.memtrack@1.0-impl.so
 vendor/lib64/hw/android.hardware.renderscript@1.0-impl.so
 vendor/lib64/hw/android.hardware.soundtrigger@2.2-impl.so
-vendor/lib64/hw/android.hardware.thermal@1.0-impl.so
 vendor/lib64/hw/audio.bluetooth.default.so
 vendor/lib64/hw/audio.bluetooth_qti.default.so
 vendor/lib64/hw/audio.primary.atoll.so
@@ -1309,7 +1304,6 @@ vendor/lib64/hw/gralloc.atoll.so
 vendor/lib64/hw/hwcomposer.atoll.so
 vendor/lib64/hw/memtrack.atoll.so
 vendor/lib64/hw/sound_trigger.primary.atoll.so
-vendor/lib64/hw/thermal.atoll.so
 vendor/lib64/hw/vendor.qti.gnss@3.0-impl.so
 vendor/lib64/hw/vendor.qti.hardware.alarm@1.0-impl.so
 vendor/lib64/hw/vendor.qti.hardware.audiohalext@1.0-impl.so
