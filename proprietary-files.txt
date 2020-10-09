@@ -295,14 +295,6 @@ vendor/etc/acdbdata/IDP/IDP_Headset_cal.acdb
 vendor/etc/acdbdata/IDP/IDP_Speaker_cal.acdb
 vendor/etc/acdbdata/IDP/IDP_workspaceFile.qwsp
 vendor/etc/apdr.conf
-vendor/etc/audio_configs.xml
-vendor/etc/audio_configs_stock.xml
-vendor/etc/audio_effects.conf
-vendor/etc/audio_effects.xml
-vendor/etc/audio_io_policy.conf
-vendor/etc/audio_platform_info.xml
-vendor/etc/audio_platform_info_intcodec.xml
-vendor/etc/bluetooth_qti_audio_policy_configuration.xml
 vendor/etc/cacert_location.pem
 vendor/etc/camera/almalence_sr_params_tele.config
 vendor/etc/camera/almalence_sr_params_wide.config
@@ -435,7 +427,6 @@ vendor/etc/media_codecs_google_audio.xml
 vendor/etc/media_codecs_google_telephony.xml
 vendor/etc/media_codecs_google_video.xml
 vendor/etc/media_codecs_performance.xml
-vendor/etc/mixer_paths_wcd937x.xml
 vendor/etc/msm_irqbalance.conf
 vendor/etc/perf/commonresourceconfigs.xml
 vendor/etc/perf/perfboostsconfig.xml
@@ -481,8 +472,6 @@ vendor/etc/sensors/config/sns_tilt_sw_enabled.json
 vendor/etc/sensors/config/sns_tilt_to_wake.json
 vendor/etc/sensors/hals.conf
 vendor/etc/sensors/sns_reg_config
-vendor/etc/sound_trigger_mixer_paths_wcd937x.xml
-vendor/etc/sound_trigger_platform_info.xml
 vendor/etc/SVIConfig.xml
 vendor/etc/system_properties.xml
 vendor/etc/thermal-engine.conf
