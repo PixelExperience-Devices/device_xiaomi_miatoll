@@ -624,6 +624,7 @@ vendor/lib/hw/android.hardware.ir@1.0-impl.so
 vendor/lib/hw/android.hardware.memtrack@1.0-impl.so
 vendor/lib/hw/android.hardware.renderscript@1.0-impl.so
 vendor/lib/hw/audio.bluetooth_qti.default.so
+vendor/lib/hw/audio.primary.atoll.so
 vendor/lib/hw/camera.qcom.so
 vendor/lib/hw/com.qti.chi.override.so
 vendor/lib/hw/com.qualcomm.qti.ant@1.0-impl.so
@@ -1212,6 +1213,7 @@ vendor/lib64/hw/android.hardware.ir@1.0-impl.so
 vendor/lib64/hw/android.hardware.memtrack@1.0-impl.so
 vendor/lib64/hw/android.hardware.renderscript@1.0-impl.so
 vendor/lib64/hw/audio.bluetooth_qti.default.so
+vendor/lib64/hw/audio.primary.atoll.so
 vendor/lib64/hw/camera.qcom.so
 vendor/lib64/hw/com.qti.chi.override.so
 vendor/lib64/hw/com.qualcomm.qti.ant@1.0-impl.so
