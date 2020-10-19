@@ -177,9 +177,11 @@ product/lib/vendor.display.config@1.9.so
 product/lib/vendor.qti.hardware.wifidisplaysession@1.0.so
 
 # Wifi Display Vendor Common
+vendor/lib/libdisplayconfig.so
 vendor/lib/libwfdcommonutils_proprietary.so
 vendor/lib/libwfdhdcpcp.so
 vendor/lib/libwfdhdcpservice_proprietary.so
+vendor/lib64/libdisplayconfig.so
 
 # Wifi Display Vendor HAL Service
 vendor/bin/wifidisplayhalservice
