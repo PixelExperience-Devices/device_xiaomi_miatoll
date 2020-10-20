@@ -255,7 +255,6 @@ vendor/bin/ims_rtp_daemon
 vendor/bin/imsdatadaemon
 vendor/bin/imsqmidaemon
 vendor/bin/imsrcsd
-vendor/bin/ipacm
 vendor/bin/ipacm-diag
 vendor/bin/irsc_util
 vendor/bin/loc_launcher
@@ -391,7 +390,6 @@ vendor/etc/init/init.qti.fm.rc
 vendor/etc/init/init.time_daemon.rc
 vendor/etc/init/ipa_fws.rc
 vendor/etc/init/ipacm-diag.rc
-vendor/etc/init/ipacm.rc
 vendor/etc/init/netmgrd.rc
 vendor/etc/init/port-bridge.rc
 vendor/etc/init/qcrild.rc
@@ -411,7 +409,6 @@ vendor/etc/init/vendor.qti.power.pasrmanager@1.0-service.rc
 vendor/etc/init/vendor.qti.rmt_storage.rc
 vendor/etc/init/vendor.qti.tftp.rc
 vendor/etc/init/vppservice.rc
-vendor/etc/IPACM_cfg.xml
 vendor/etc/izat.conf
 vendor/etc/lm/AdaptLaunchFeature.xml
 vendor/etc/lm/AppClassifierFeature.xml
@@ -1264,7 +1261,6 @@ vendor/lib64/libhta_hexagon_runtime.so
 vendor/lib64/libhvx_interface.so
 vendor/lib64/libhwminijail.so
 vendor/lib64/libidl.so
-vendor/lib64/libipanat.so
 vendor/lib64/libizat_client_api.so
 vendor/lib64/libizat_core.so
 vendor/lib64/libjson.so
@@ -1311,17 +1307,14 @@ vendor/lib64/libMpeg4SwEncoder.so
 vendor/lib64/libmt.so
 vendor/lib64/libmt@1.2.so
 vendor/lib64/libmulawdec.so
-vendor/lib64/libnetfilter_conntrack.so
 vendor/lib64/libnetmgr.so
 vendor/lib64/libnetmgr_common.so
 vendor/lib64/libnetmgr_nr_fusion.so
 vendor/lib64/libnetmgr_rmnet_ext.so
-vendor/lib64/libnfnetlink.so
 vendor/lib64/libnlnetmgr.so
 vendor/lib64/libnotifyaudiohal.so
 vendor/lib64/libnpu.so
 vendor/lib64/liboemcrypto.so
-vendor/lib64/liboffloadhal.so
 vendor/lib64/libOmxAlacDec.so
 vendor/lib64/libOmxAlacDecSw.so
 vendor/lib64/libOmxAmrDec.so
