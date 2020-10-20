@@ -236,7 +236,6 @@ vendor/bin/garden_app
 vendor/bin/hvdcp_opti
 vendor/bin/hw/android.hardware.biometrics.fingerprint@2.1-service
 vendor/bin/hw/android.hardware.bluetooth@1.0-service-qti
-vendor/bin/hw/android.hardware.camera.provider@2.4-service_64
 vendor/bin/hw/android.hardware.gatekeeper@1.0-service-qti
 vendor/bin/hw/android.hardware.gnss@2.0-service-qti
 vendor/bin/hw/android.hardware.ir@1.0-service
@@ -369,7 +368,6 @@ vendor/etc/gpfspath_oem_config.xml
 vendor/etc/gps.conf
 vendor/etc/init/android.hardware.biometrics.fingerprint@2.1-service.rc
 vendor/etc/init/android.hardware.bluetooth@1.0-service-qti.rc
-vendor/etc/init/android.hardware.camera.provider@2.4-service_64.rc
 vendor/etc/init/android.hardware.gatekeeper@1.0-service-qti.rc
 vendor/etc/init/android.hardware.gnss@2.0-service-qti.rc
 vendor/etc/init/android.hardware.ir@1.0-service.rc
@@ -493,17 +491,8 @@ vendor/firmware/ipa_fws.mdt
 vendor/firmware/novatek_ts_tianma_fw.bin
 vendor/firmware/novatek_ts_tianma_mp.bin
 vendor/firmware/osc_rtp_24K_5s.bin
-vendor/lib/android.hardware.camera.provider@2.4-external.so
-vendor/lib/android.hardware.camera.provider@2.4-legacy.so
 vendor/lib/android.hidl.base@1.0.so
 vendor/lib/btaudio_offload_if.so
-vendor/lib/camera.device@1.0-impl.so
-vendor/lib/camera.device@3.2-impl.so
-vendor/lib/camera.device@3.3-impl.so
-vendor/lib/camera.device@3.4-external-impl.so
-vendor/lib/camera.device@3.4-impl.so
-vendor/lib/camera.device@3.5-external-impl.so
-vendor/lib/camera.device@3.5-impl.so
 vendor/lib/camera/com.qti.eeprom.sunny_gc8034.so
 vendor/lib/camera/com.qti.sensor.curtana_gc02m1.so
 vendor/lib/camera/com.qti.sensor.curtana_gc8034.so
@@ -601,7 +590,6 @@ vendor/lib/egl/libGLESv2_adreno.so
 vendor/lib/egl/libq3dtools_adreno.so
 vendor/lib/egl/libq3dtools_esx.so
 vendor/lib/egl/libQTapGLES.so
-vendor/lib/hw/android.hardware.camera.provider@2.4-impl.so
 vendor/lib/hw/android.hardware.gatekeeper@1.0-impl-qti.so
 vendor/lib/hw/android.hardware.gnss@2.0-impl-qti.so
 vendor/lib/hw/android.hardware.ir@1.0-impl.so
@@ -925,7 +913,6 @@ vendor/lib/vendor.qti.hardware.alarm@1.0.so
 vendor/lib/vendor.qti.hardware.automotive.vehicle@1.0.so
 vendor/lib/vendor.qti.hardware.bluetooth_sar@1.0.so
 vendor/lib/vendor.qti.hardware.cacert@1.0.so
-vendor/lib/vendor.qti.hardware.camera.device@1.0.so
 vendor/lib/vendor.qti.hardware.capabilityconfigstore@1.0.so
 vendor/lib/vendor.qti.hardware.cvp@1.0-halimpl.so
 vendor/lib/vendor.qti.hardware.cvp@1.0.so
@@ -977,17 +964,8 @@ vendor/lib/vendor.qti.imsrtpservice@2.1-service-Impl.so
 vendor/lib/vendor.qti.imsrtpservice@2.1.so
 vendor/lib/vendor.qti.latency@2.0.so
 vendor/lib/vendor.qti.power.pasrmanager@1.0.so
-vendor/lib64/android.hardware.camera.provider@2.4-external.so
-vendor/lib64/android.hardware.camera.provider@2.4-legacy.so
 vendor/lib64/android.hidl.base@1.0.so
 vendor/lib64/btaudio_offload_if.so
-vendor/lib64/camera.device@1.0-impl.so
-vendor/lib64/camera.device@3.2-impl.so
-vendor/lib64/camera.device@3.3-impl.so
-vendor/lib64/camera.device@3.4-external-impl.so
-vendor/lib64/camera.device@3.4-impl.so
-vendor/lib64/camera.device@3.5-external-impl.so
-vendor/lib64/camera.device@3.5-impl.so
 vendor/lib64/camera/com.qti.eeprom.sunny_gc8034.so
 vendor/lib64/camera/com.qti.sensor.curtana_gc02m1.so
 vendor/lib64/camera/com.qti.sensor.curtana_gc8034.so
@@ -1111,7 +1089,6 @@ vendor/lib64/egl/libq3dtools_adreno.so
 vendor/lib64/egl/libq3dtools_esx.so
 vendor/lib64/egl/libQTapGLES.so
 vendor/lib64/hw/android.hardware.bluetooth@1.0-impl-qti.so
-vendor/lib64/hw/android.hardware.camera.provider@2.4-impl.so
 vendor/lib64/hw/android.hardware.gatekeeper@1.0-impl-qti.so
 vendor/lib64/hw/android.hardware.gnss@2.0-impl-qti.so
 vendor/lib64/hw/android.hardware.ir@1.0-impl.so
@@ -1460,7 +1437,6 @@ vendor/lib64/vendor.qti.hardware.alarm@1.0.so
 vendor/lib64/vendor.qti.hardware.automotive.vehicle@1.0.so
 vendor/lib64/vendor.qti.hardware.bluetooth_sar@1.0.so
 vendor/lib64/vendor.qti.hardware.cacert@1.0.so
-vendor/lib64/vendor.qti.hardware.camera.device@1.0.so
 vendor/lib64/vendor.qti.hardware.capabilityconfigstore@1.0.so
 vendor/lib64/vendor.qti.hardware.cvp@1.0-halimpl.so
 vendor/lib64/vendor.qti.hardware.cvp@1.0.so
