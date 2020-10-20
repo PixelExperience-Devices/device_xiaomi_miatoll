@@ -723,7 +723,6 @@ vendor/lib/libhta_hexagon_runtime.so
 vendor/lib/libidl.so
 vendor/lib/libizat_client_api.so
 vendor/lib/libizat_core.so
-vendor/lib/libjson.so
 vendor/lib/libkeymasterdeviceutils.so
 vendor/lib/libkeymasterutils.so
 vendor/lib/liblbs_core.so
@@ -820,10 +819,7 @@ vendor/lib/libril-qc-hal-qmi.so
 vendor/lib/libril-qc-ltedirectdisc.so
 vendor/lib/libril-qc-radioconfig.so
 vendor/lib/libril-qcril-hook-oem.so
-vendor/lib/libril.so
 vendor/lib/librilqmiservices.so
-vendor/lib/librilutils.so
-vendor/lib/librmnetctl.so
 vendor/lib/librpmb.so
 vendor/lib/libsdedrm.so
 vendor/lib/libsdk_sr.so
@@ -1263,7 +1259,6 @@ vendor/lib64/libhwminijail.so
 vendor/lib64/libidl.so
 vendor/lib64/libizat_client_api.so
 vendor/lib64/libizat_core.so
-vendor/lib64/libjson.so
 vendor/lib64/libkeymasterdeviceutils.so
 vendor/lib64/libkeymasterutils.so
 vendor/lib64/liblbs_core.so
@@ -1373,10 +1368,7 @@ vendor/lib64/libril-qc-hal-qmi.so
 vendor/lib64/libril-qc-ltedirectdisc.so
 vendor/lib64/libril-qc-radioconfig.so
 vendor/lib64/libril-qcril-hook-oem.so
-vendor/lib64/libril.so
 vendor/lib64/librilqmiservices.so
-vendor/lib64/librilutils.so
-vendor/lib64/librmnetctl.so
 vendor/lib64/librpmb.so
 vendor/lib64/libsdedrm.so
 vendor/lib64/libsdk_sr.so
