@@ -838,7 +838,6 @@ vendor/lib/libtrustedapploader.so
 vendor/lib/libVDClearShot.so
 vendor/lib/libVDSuperPhotoAPI.so
 vendor/lib/libvideoutils.so
-vendor/lib/libvndfwk_detect_jni.qti.so
 vendor/lib/libvppclient.so
 vendor/lib/libvpphvx.so
 vendor/lib/libvpplibrary.so
@@ -1381,7 +1380,6 @@ vendor/lib64/libVDSuperPhotoAPI.so
 vendor/lib64/libvendor.goodix.hardware.biometrics.fingerprint@2.1.so
 vendor/lib64/libvideofilter_only.so
 vendor/lib64/libvidhance.so
-vendor/lib64/libvndfwk_detect_jni.qti.so
 vendor/lib64/libvppclient.so
 vendor/lib64/libvpphvx.so
 vendor/lib64/libvpplibrary.so
