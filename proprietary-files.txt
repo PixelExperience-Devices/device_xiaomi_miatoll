@@ -485,7 +485,6 @@ vendor/firmware/ipa_fws.mdt
 vendor/firmware/novatek_ts_tianma_fw.bin
 vendor/firmware/novatek_ts_tianma_mp.bin
 vendor/firmware/osc_rtp_24K_5s.bin
-vendor/lib/android.hidl.base@1.0.so
 vendor/lib/btaudio_offload_if.so
 vendor/lib/camera/com.qti.eeprom.sunny_gc8034.so
 vendor/lib/camera/com.qti.sensor.curtana_gc02m1.so
@@ -958,7 +957,6 @@ vendor/lib/vendor.qti.imsrtpservice@2.1-service-Impl.so
 vendor/lib/vendor.qti.imsrtpservice@2.1.so
 vendor/lib/vendor.qti.latency@2.0.so
 vendor/lib/vendor.qti.power.pasrmanager@1.0.so
-vendor/lib64/android.hidl.base@1.0.so
 vendor/lib64/btaudio_offload_if.so
 vendor/lib64/camera/com.qti.eeprom.sunny_gc8034.so
 vendor/lib64/camera/com.qti.sensor.curtana_gc02m1.so
