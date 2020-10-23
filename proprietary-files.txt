@@ -232,7 +232,6 @@ vendor/bin/cnss-daemon
 vendor/bin/dpmQmiMgr
 vendor/bin/garden_app
 vendor/bin/hvdcp_opti
-vendor/bin/hw/android.hardware.biometrics.fingerprint@2.1-service
 vendor/bin/hw/android.hardware.bluetooth@1.0-service-qti
 vendor/bin/hw/android.hardware.gatekeeper@1.0-service-qti
 vendor/bin/hw/android.hardware.gnss@2.0-service-qti
@@ -363,7 +362,6 @@ vendor/etc/elliptic_sensor.xml
 vendor/etc/flp.conf
 vendor/etc/gpfspath_oem_config.xml
 vendor/etc/gps.conf
-vendor/etc/init/android.hardware.biometrics.fingerprint@2.1-service.rc
 vendor/etc/init/android.hardware.bluetooth@1.0-service-qti.rc
 vendor/etc/init/android.hardware.gatekeeper@1.0-service-qti.rc
 vendor/etc/init/android.hardware.gnss@2.0-service-qti.rc
