@@ -183,6 +183,11 @@ PRODUCT_PACKAGES += \
     libipanat \
     liboffloadhal
 
+# IR
+PRODUCT_PACKAGES += \
+    android.hardware.ir@1.0-impl \
+    android.hardware.ir@1.0-service
+
 # Rootdir
 PRODUCT_PACKAGES += \
     init.qcom.early_boot.sh \
