@@ -760,7 +760,6 @@ vendor/lib/libpdnotifier.so
 vendor/lib/libperfconfig.so
 vendor/lib/libperfgluelayer.so
 vendor/lib/libperipheral_client.so
--vendor/lib/libplatformconfig.so
 vendor/lib/libq3dtools_adreno.so
 vendor/lib/libqcbor.so
 vendor/lib/libqcci_legacy.so
@@ -901,7 +900,6 @@ vendor/lib/vendor.qti.hardware.alarm@1.0.so
 vendor/lib/vendor.qti.hardware.automotive.vehicle@1.0.so
 vendor/lib/vendor.qti.hardware.bluetooth_sar@1.0.so
 vendor/lib/vendor.qti.hardware.cacert@1.0.so
-vendor/lib/vendor.qti.hardware.capabilityconfigstore@1.0.so
 vendor/lib/vendor.qti.hardware.cvp@1.0-halimpl.so
 vendor/lib/vendor.qti.hardware.cvp@1.0.so
 vendor/lib/vendor.qti.hardware.data.cne.internal.api@1.0.so
@@ -1287,7 +1285,6 @@ vendor/lib64/libpdnotifier.so
 vendor/lib64/libperfconfig.so
 vendor/lib64/libperfgluelayer.so
 vendor/lib64/libperipheral_client.so
--vendor/lib64/libplatformconfig.so
 vendor/lib64/libprekill.so
 vendor/lib64/libq3dtools_adreno.so
 vendor/lib64/libqcbor.so
@@ -1416,7 +1413,6 @@ vendor/lib64/vendor.qti.hardware.alarm@1.0.so
 vendor/lib64/vendor.qti.hardware.automotive.vehicle@1.0.so
 vendor/lib64/vendor.qti.hardware.bluetooth_sar@1.0.so
 vendor/lib64/vendor.qti.hardware.cacert@1.0.so
-vendor/lib64/vendor.qti.hardware.capabilityconfigstore@1.0.so
 vendor/lib64/vendor.qti.hardware.cvp@1.0-halimpl.so
 vendor/lib64/vendor.qti.hardware.cvp@1.0.so
 vendor/lib64/vendor.qti.hardware.data.cne.internal.api@1.0.so
