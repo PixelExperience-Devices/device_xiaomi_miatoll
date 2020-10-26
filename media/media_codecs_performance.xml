@@ -97,7 +97,7 @@ limitations under the License.
             <Limit name="measured-frame-rate-1920x1088" range="93-146" />
         </MediaCodec>
             <MediaCodec name="OMX.qcom.video.decoder.hevc" type="video/hevc" update="true">
-            <Limit name="measured-frame-rate-352x288" range="279-401" />
+            <Limit name="measured-frame-rate-352x288" range="222-222" />
             <Limit name="measured-frame-rate-720x480" range="268-360" />
             <Limit name="measured-frame-rate-1280x720" range="191-268" />
             <Limit name="measured-frame-rate-1920x1080" range="94-147" />
