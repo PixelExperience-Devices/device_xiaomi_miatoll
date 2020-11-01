@@ -12,6 +12,11 @@
 -->
 <config>
     <component-override package="com.android.bluetooth" >
-        <component class=".sap.SapService" enabled="false" />
+        <component class=".a2dpsink.A2dpSinkService" enabled="true" />
+        <component class=".avrcp.AvrcpTargetService" enabled="false" />
+        <component class=".avrcpcontroller.AvrcpControllerService" enabled="true" />
+        <component class=".ba.BATService" enabled="true" />
+        <component class=".hfpclient.HeadsetClientService" enabled="false" />
+        <component class=".hid.HidDeviceService" enabled="false" />
     </component-override>
 </config>
