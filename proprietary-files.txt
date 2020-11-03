@@ -2,6 +2,10 @@
 vendor/lib/hw/vendor.qti.hardware.audiohalext@1.0-impl.so
 vendor/lib64/hw/vendor.qti.hardware.audiohalext@1.0-impl.so
 
+# Camera provider
+vendor/lib/android.hardware.camera.provider@2.4-legacy.so
+vendor/lib64/android.hardware.camera.provider@2.4-legacy.so
+
 # Consumerir
 vendor/lib/hw/consumerir.default.so:vendor/lib/hw/consumerir.atoll.so
 vendor/lib64/hw/consumerir.default.so:vendor/lib64/hw/consumerir.atoll.so
