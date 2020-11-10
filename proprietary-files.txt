@@ -35,6 +35,24 @@ vendor/lib64/ftm_fm_lib.so
 vendor/lib64/hw/vendor.qti.hardware.fm@1.0-impl.so
 vendor/lib64/vendor.qti.hardware.fm@1.0.so
 
+# Graphics (SDM) - from NX627J RKQ1.200826.002
+vendor/lib/libqseed3.so|3d54259d2b90b6193ff4b2565ad82b15a31b42af
+vendor/lib/libsdedrm.so|abb87737f0833482c77134c7cd5991f20b106a20
+vendor/lib/libsdm-color.so|f83bb292a60dba8ff3b8efc643a0494e556a40c1
+vendor/lib/libsdm-colormgr-algo.so|ff4d2727b6a89d405729c17cd5a565dd5a2b614d
+vendor/lib/libsdm-diag.so|5cd1fa74b3bed8039ac82faecff59ed31231d1c1
+vendor/lib/libsdm-disp-vndapis.so|951ad465af2faece2d79ecf7a2ea60bb676505c6
+vendor/lib/libsdmextension.so|51957aaf2e9481fa8aeb102ea654b33a07a204c0
+vendor/lib/libtinyxml2_1.so|73f7b6a9aa52ac469c01d60d72219d2d0f4b11e1
+vendor/lib64/libqseed3.so|a449d79b912415f542509874b43338b27795a1c3
+vendor/lib64/libsdedrm.so|582910d21139781ad9e414c35207584f51e035e2
+vendor/lib64/libsdm-color.so|b2bcf2c205b501024407ed5c216d2b290688bd64
+vendor/lib64/libsdm-colormgr-algo.so|6d17546d7822803700dc21968f75069d1b7392b1
+vendor/lib64/libsdm-diag.so|3d5c311d7d5d842e5a75e9ae3f9f70ceb00cd1cf
+vendor/lib64/libsdm-disp-vndapis.so|42f536763a2f91dcbae5b4b7214e652283c389d6
+vendor/lib64/libsdmextension.so|0aed8ab6ecf878ae57ecba4b8a9bfb0d184ab5f7
+vendor/lib64/libtinyxml2_1.so|621dbc8e3d0529b9ee35393698de82ea006ca7fa
+
 # IMS
 -product/app/uceShimService/uceShimService.apk
 product/etc/permissions/com.qualcomm.qti.imscmservice-V2.0-java.xml
@@ -777,7 +795,6 @@ vendor/lib/libqmiservices.so
 vendor/lib/libqrtr.so
 vendor/lib/libqsap_sdk.so
 vendor/lib/libQSEEComAPI.so
-vendor/lib/libqseed3.so
 vendor/lib/libqsocket.so
 vendor/lib/libqti-iopd-client.so
 vendor/lib/libqti-iopd.so
@@ -794,13 +811,7 @@ vendor/lib/libril-qc-radioconfig.so
 vendor/lib/libril-qcril-hook-oem.so
 vendor/lib/librilqmiservices.so
 vendor/lib/librpmb.so
-vendor/lib/libsdedrm.so
 vendor/lib/libsdk_sr.so
-vendor/lib/libsdm-color.so
-vendor/lib/libsdm-colormgr-algo.so
-vendor/lib/libsdm-diag.so
-vendor/lib/libsdm-disp-vndapis.so
-vendor/lib/libsdmextension.so
 vendor/lib/libsdsprpc.so
 vendor/lib/libsensorslog.so
 vendor/lib/libsettings.so
@@ -826,7 +837,6 @@ vendor/lib/libsystem_health_mon.so
 vendor/lib/libthermalclient.so
 vendor/lib/libthermalfeature.so
 vendor/lib/libtime_genoff.so
-vendor/lib/libtinyxml2_1.so
 vendor/lib/libtrustedapploader.so
 vendor/lib/libVDClearShot.so
 vendor/lib/libVDSuperPhotoAPI.so
@@ -1301,7 +1311,6 @@ vendor/lib64/libqmiservices.so
 vendor/lib64/libqrtr.so
 vendor/lib64/libqsap_sdk.so
 vendor/lib64/libQSEEComAPI.so
-vendor/lib64/libqseed3.so
 vendor/lib64/libqsocket.so
 vendor/lib64/libqti-iopd-client.so
 vendor/lib64/libqti-iopd.so
@@ -1319,13 +1328,7 @@ vendor/lib64/libril-qc-radioconfig.so
 vendor/lib64/libril-qcril-hook-oem.so
 vendor/lib64/librilqmiservices.so
 vendor/lib64/librpmb.so
-vendor/lib64/libsdedrm.so
 vendor/lib64/libsdk_sr.so
-vendor/lib64/libsdm-color.so
-vendor/lib64/libsdm-colormgr-algo.so
-vendor/lib64/libsdm-diag.so
-vendor/lib64/libsdm-disp-vndapis.so
-vendor/lib64/libsdmextension.so
 vendor/lib64/libsdsprpc.so
 vendor/lib64/libSEESalt.so
 vendor/lib64/libsensorslog.so
@@ -1352,7 +1355,6 @@ vendor/lib64/libsystem_health_mon.so
 vendor/lib64/libthermalclient.so
 vendor/lib64/libthermalfeature.so
 vendor/lib64/libtime_genoff.so
-vendor/lib64/libtinyxml2_1.so
 vendor/lib64/libtriplecam_optical_zoom_control.so
 vendor/lib64/libtriplecam_video_optical_zoom.so
 vendor/lib64/libtrustedapploader.so
