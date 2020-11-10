@@ -159,6 +159,10 @@ product/framework/qcrilhook.jar
 product/framework/QtiTelephonyServicelibrary.jar
 -product/priv-app/qcrilmsgtunnel/qcrilmsgtunnel.apk
 
+# Soundtrigger HAL - from NX627J RKQ1.200826.002
+vendor/lib/hw/sound_trigger.primary.msmnile.so:vendor/lib/hw/sound_trigger.primary.atoll.so|eb6fb591c5fd066e5fc9395de57f997a8a2fbb0c
+vendor/lib64/hw/sound_trigger.primary.msmnile.so:vendor/lib64/hw/sound_trigger.primary.atoll.so|200398edce0435b3e57f7e4f83e194952b757837
+
 # Wifi Display System Service App
 -framework/WfdCommon.jar
 -priv-app/WfdService/WfdService.apk
@@ -641,7 +645,6 @@ vendor/lib/hw/audio.bluetooth_qti.default.so
 vendor/lib/hw/camera.qcom.so
 vendor/lib/hw/com.qti.chi.override.so
 vendor/lib/hw/com.qualcomm.qti.ant@1.0-impl.so
-vendor/lib/hw/sound_trigger.primary.atoll.so
 vendor/lib/hw/vendor.qti.gnss@3.0-impl.so
 vendor/lib/hw/vendor.qti.hardware.alarm@1.0-impl.so
 vendor/lib/hw/vendor.qti.hardware.bluetooth_audio@2.0-impl.so
@@ -1106,7 +1109,6 @@ vendor/lib64/hw/com.qti.chi.override.so
 vendor/lib64/hw/com.qualcomm.qti.ant@1.0-impl.so
 vendor/lib64/hw/fingerprint.fpc.default.so
 vendor/lib64/hw/fingerprint.goodix.default.so
-vendor/lib64/hw/sound_trigger.primary.atoll.so
 vendor/lib64/hw/vendor.qti.gnss@3.0-impl.so
 vendor/lib64/hw/vendor.qti.hardware.alarm@1.0-impl.so
 vendor/lib64/hw/vendor.qti.hardware.bluetooth_audio@2.0-impl.so
