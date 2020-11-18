@@ -674,7 +674,6 @@ vendor/lib/libdrmtime.so
 vendor/lib/libdsd2pcm.so
 vendor/lib/libdsi_netctrl.so
 vendor/lib/libdsutils.so
-vendor/lib/libEGL_adreno.so
 vendor/lib/libFaceGrade.so
 vendor/lib/libfastcrc.so
 vendor/lib/libfastcvdsp_stub.so
@@ -688,7 +687,6 @@ vendor/lib/libgcs-osal.so
 vendor/lib/libgcs.so
 vendor/lib/libgdtap.so
 vendor/lib/libgeofencing.so
-vendor/lib/libGLESv2_adreno.so
 vendor/lib/libgnss.so
 vendor/lib/libGPreqcancel.so
 vendor/lib/libGPreqcancel_svc.so
@@ -760,7 +758,6 @@ vendor/lib/libpdnotifier.so
 vendor/lib/libperfconfig.so
 vendor/lib/libperfgluelayer.so
 vendor/lib/libperipheral_client.so
-vendor/lib/libq3dtools_adreno.so
 vendor/lib/libqcbor.so
 vendor/lib/libqcci_legacy.so
 vendor/lib/libqcmaputils.so
@@ -1183,7 +1180,6 @@ vendor/lib64/libdrmfs.so
 vendor/lib64/libdrmtime.so
 vendor/lib64/libdsi_netctrl.so
 vendor/lib64/libdsutils.so
-vendor/lib64/libEGL_adreno.so
 vendor/lib64/libFaceGrade.so
 vendor/lib64/libfastcvdsp_stub.so
 vendor/lib64/libfastcvopt.so
@@ -1200,7 +1196,6 @@ vendor/lib64/libgdtap.so
 vendor/lib64/libgeofencing.so
 vendor/lib64/libgf_ca.so
 vendor/lib64/libgf_hal.so
-vendor/lib64/libGLESv2_adreno.so
 vendor/lib64/libgnss.so
 vendor/lib64/libgoodixhwfingerprint.so
 vendor/lib64/libGPreqcancel.so
@@ -1286,7 +1281,6 @@ vendor/lib64/libperfconfig.so
 vendor/lib64/libperfgluelayer.so
 vendor/lib64/libperipheral_client.so
 vendor/lib64/libprekill.so
-vendor/lib64/libq3dtools_adreno.so
 vendor/lib64/libqcbor.so
 vendor/lib64/libqcci_legacy.so
 vendor/lib64/libqcmaputils.so
