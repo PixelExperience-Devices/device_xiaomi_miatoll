@@ -7,8 +7,6 @@ audio.deep_buffer.media=true
 audio.offload.buffer.size.kb=32
 audio.offload.gapless.enabled=true
 audio.offload.video=true
-audio.sys.noisy.broadcast.delay=600
-audio.sys.offload.pstimeout.secs=3
 persist.audio.fluence.speaker=true
 persist.audio.fluence.audiorec=true
 persist.audio.fluence.voicecall=true
@@ -24,27 +22,11 @@ persist.vendor.audio.fluence.voicerec=true
 persist.vendor.audio.ras.enabled=false
 persist.vendor.audio.spv3.enable=true
 persist.vendor.audio.voicecall.speaker.stereo=false
-ro.af.client_heap_size_kbyte=7168
 ro.qc.sdk.audio.fluencetype=fluence
 ro.vendor.audio.sdk.fluencetype=fluence
 ro.vendor.audio.sdk.ssr=false
 ro.vendor.audio.soundfx.type=mi
 ro.vendor.audio.soundfx.usb=true
-ro.vendor.audio.soundtrigger.appdefine.cnn.level=31
-ro.vendor.audio.soundtrigger.appdefine.gmm.level=55
-ro.vendor.audio.soundtrigger.appdefine.gmm.user.level=50
-ro.vendor.audio.soundtrigger.appdefine.vop.level=10
-ro.vendor.audio.soundtrigger.lowpower=true
-ro.vendor.audio.soundtrigger.training.level=50
-ro.vendor.audio.soundtrigger.xanzn.cnn.level=70
-ro.vendor.audio.soundtrigger.xanzn.gmm.level=45
-ro.vendor.audio.soundtrigger.xanzn.gmm.user.level=30
-ro.vendor.audio.soundtrigger.xanzn.vop.level=10
-ro.vendor.audio.soundtrigger.xatx.cnn.level=27
-ro.vendor.audio.soundtrigger.xatx.gmm.level=50
-ro.vendor.audio.soundtrigger.xatx.gmm.user.level=40
-ro.vendor.audio.soundtrigger.xatx.vop.level=10
-ro.vendor.audio.soundtrigger=sva
 vendor.audio.adm.buffering.ms=2
 vendor.audio.chk.cal.spk=0
 vendor.audio.chk.cal.us=0
@@ -124,7 +106,10 @@ persist.vendor.btstack.a2dp_offload_cap=sbc-aptx-aptxtws-aptxhd-aac-ldac
 persist.vendor.btstack.enable.splita2dp=true
 persist.vendor.qcom.bluetooth.a2dp_offload_cap=sbc-aptx-aptxtws-aptxhd-aac-ldac-aptxadaptive
 persist.vendor.qcom.bluetooth.aac_frm_ctl.enabled=true
+persist.vendor.qcom.bluetooth.aac_vbr_ctl.enabled=false
 persist.vendor.qcom.bluetooth.enable.splita2dp=true
+persist.vendor.qcom.bluetooth.scram.enabled=true
+persist.vendor.qcom.bluetooth.soc=cherokee
 persist.vendor.qcom.bluetooth.twsp_state.enabled=false
 ro.bluetooth.a2dp_offload.supported=true
 ro.bluetooth.emb_wp_mode=true
@@ -193,7 +178,7 @@ media.stagefright.enable-qcp=true
 media.stagefright.enable-scan=true
 media.stagefright.thumbnail.prefer_hw_codecs=true
 ro.media.recorder-max-base-layer-fps=60
-vendor.mm.enable.qcom_parser=63963135
+vendor.mm.enable.qcom_parser=16777215
 
 # PASR
 vendor.power.pasr.enabled=true
@@ -229,6 +214,8 @@ telephony.lteOnCdmaDevice=1
 
 # Sensors
 persist.vendor.sensors.odl.adsp=true
+persist.vendor.sensors.support_direct_channel=false
+persist.vendor.sensors.allow_non_default_discovery=true
 
 # SSR
 persist.vendor.ssr.restart_level=ALL_ENABLE
