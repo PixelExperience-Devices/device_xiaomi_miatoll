@@ -1,0 +1,2 @@
+get_prop(hal_ir_default, lirc_prop)
+allow hal_ir_default spidev_device:chr_file rw_file_perms;

@@ -1,0 +1,8 @@
+allow system_app vendor_default_prop:file { getattr open read };
+allow system_app vendor_default_prop:file {map};
+allow system_app vendor_sysfs_graphics:file { getattr open read };
+allow system_app vendor_sysfs_msm_perf:dir { search };
+allow system_app apk_data_file:dir { write };
+allow system_app sysfs_zram:dir { search };
+allow system_app sysfs_zram:file { read };
+allow system_app sysfs_thermal:file { write };

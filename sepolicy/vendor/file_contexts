@@ -3,8 +3,41 @@
 /vendor/bin/batterysecret		u:object_r:batterysecret_exec:s0
 /mnt/vendor/persist/subsys(/.*)?                u:object_r:persist_subsys_file:s0
 
+# Biometric
+/vendor/bin/hw/android\.hardware\.biometrics\.fingerprint@2\.1-service\.xiaomi_sm6250                               u:object_r:hal_fingerprint_default_exec:s0
+
+# Camera
+/mnt/vendor/persist/camera(/.*)? u:object_r:camera_persist_file:s0
+
+# Device Nodes
+/dev/stune(/.*)?                                        u:object_r:cgroup:s0
+
 # Fingerprint
-/vendor/bin/hw/android\.hardware\.fingerprint@2\.1-service\.xiaomi_sm6250                               u:object_r:hal_fingerprint_default_exec:s0
+/data/gf_data(/.*)?                             u:object_r:fingerprintd_data_file:s0
+/data/vendor/fpc(/.*)?                          u:object_r:fingerprint_vendor_data_file:s0
+/data/vendor/gf_data(/.*)?                      u:object_r:fingerprint_vendor_data_file:s0
+/data/vendor/goodix(/.*)?                       u:object_r:fingerprint_vendor_data_file:s0
+/dev/goodix_fp                                  u:object_r:fingerprint_device:s0
+
+# IR
+/dev/lirc0                                      u:object_r:spidev_device:s0
+/dev/spidev7.1                                  u:object_r:spidev_device:s0
+/dev/spidev0.1					u:object_r:spidev_device:s0
 
 # Power HAL
 /vendor/bin/hw/android\.hardware\.power@1\.3-service\.xiaomi_sm6250                                     u:object_r:hal_power_default_exec:s0
+
+# Light
+/vendor/bin/hw/android\.hardware\.light@2\.0-service\.xiaomi_sm6250    u:object_r:hal_light_default_exec:s0
+
+# Perf
+/vendor/bin/hw/vendor\.qti\.hardware\.perf@2\.2-service\.xiaomi_sm6250    u:object_r:same_process_hal_file:s0
+
+# Mac
+/data/vendor/mac_addr(/.*)?                     u:object_r:vendor_wifi_vendor_data_file:s0
+/vendor/bin/nv_mac                              u:object_r:vendor_wcnss_service_exec:s0
+
+# Misys
+/(vendor|system/vendor)/bin/hw/vendor\.xiaomi\.hardware\.misys@1\.0-service          u:object_r:hal_misys_default_exec:s0
+/(vendor|system/vendor)/bin/hw/vendor\.xiaomi\.hardware\.misys@2\.0-service          u:object_r:hal_misys_default_exec:s0
+/(vendor|system/vendor)/bin/hw/vendor\.xiaomi\.hardware\.misys@3\.0-service          u:object_r:hal_misys_default_exec:s0

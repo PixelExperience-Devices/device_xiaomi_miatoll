@@ -1,0 +1,1 @@
+allow vendor_sysfs_battery_supply vendor_sysfs_battery_supply:dir { read };
