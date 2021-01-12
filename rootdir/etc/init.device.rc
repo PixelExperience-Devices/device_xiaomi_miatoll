@@ -26,3 +26,27 @@ on init && property:ro.boot.hwname=joyeuse
 on property:persist.sys.device_provisioned=1
     setprop dalvik.vm.dex2oat-cpu-set 0,1,2,3,4,5,7
     setprop dalvik.vm.dex2oat-threads 6
+
+# perf tuning
+on property:vendor.post_boot.parsed=1
+    # Setup runtime cpusets
+    write /dev/cpuset/top-app/cpus 0-7
+    write /dev/cpuset/foreground/cpus 0-5,7
+    write /dev/cpuset/background/cpus 4-5
+    write /dev/cpuset/system-background/cpus 2-5
+    write /dev/cpuset/restricted/cpus 2-5
+
+    # Setup default schedTune value for foreground/top-app
+    write /dev/stune/foreground/schedtune.prefer_idle 1
+    write /dev/stune/top-app/schedtune.boost 5
+    write /dev/stune/top-app/schedtune.prefer_idle 1
+
+    # Setup schedutil ratelimits
+    write /sys/devices/system/cpu/cpu0/cpufreq/schedutil/up_rate_limit_us 500
+    write /sys/devices/system/cpu/cpu0/cpufreq/schedutil/down_rate_limit_us 20000
+    write /sys/devices/system/cpu/cpu6/cpufreq/schedutil/up_rate_limit_us 500
+    write /sys/devices/system/cpu/cpu6/cpufreq/schedutil/down_rate_limit_us 20000
+
+    # Enable schedutil predicted-load boosting
+    write /sys/devices/system/cpu/cpu0/cpufreq/schedutil/pl 1
+    write /sys/devices/system/cpu/cpu6/cpufreq/schedutil/pl 1
