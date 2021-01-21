@@ -38,7 +38,7 @@ on property:vendor.post_boot.parsed=1
 
     # Setup default schedTune value for foreground/top-app
     write /dev/stune/foreground/schedtune.prefer_idle 1
-    write /dev/stune/top-app/schedtune.boost 5
+    write /dev/stune/top-app/schedtune.boost 10
     write /dev/stune/top-app/schedtune.prefer_idle 1
 
     # Setup schedutil ratelimits
