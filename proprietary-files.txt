@@ -1155,6 +1155,9 @@ vendor/lib64/vendor.display.color@1.2.so
 vendor/lib64/vendor.display.color@1.3.so
 vendor/lib64/vendor.display.postproc@1.0.so
 
+# Power-off charging daemon - from qssi-user 11 RKQ1.200826.002 V12.0.1.0.RJWINXM release-keys
+bin/charger:bin/charger
+
 # Public libraries
 vendor/etc/public.libraries.txt
 
