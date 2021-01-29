@@ -58,3 +58,7 @@ on property:vendor.post_boot.parsed=1
 
     # Reinit lmkd to reconfigure lmkd properties
     setprop lmkd.reinit 1
+
+    # EAS
+    write /proc/sys/kernel/sched_upmigrate 95
+    write /proc/sys/kernel/sched_downmigrate 85
