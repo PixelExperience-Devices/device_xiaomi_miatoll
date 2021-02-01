@@ -4,7 +4,10 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
-COMMON_PATH := device/xiaomi/sm6250-common
+# Inherit proprietary blobs
+include vendor/xiaomi/miatoll/BoardConfigVendor.mk
+
+DEVICE_PATH := device/xiaomi/miatoll
 
 BUILD_BROKEN_DUP_RULES := true
 
@@ -39,11 +42,12 @@ USE_CUSTOM_AUDIO_POLICY := 1
 USE_XML_AUDIO_POLICY_CONF := 1
 
 # Bluetooth
-BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := $(COMMON_PATH)/bluetooth/include
+BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := $(DEVICE_PATH)/bluetooth/include
 TARGET_USE_QTI_BT_STACK := true
 
 # Bootloader
 TARGET_NO_BOOTLOADER := true
+TARGET_BOOTLOADER_BOARD_NAME := miatoll
 
 # Build broken
 BUILD_BROKEN_USES_BUILD_COPY_HEADERS := true
@@ -63,7 +67,7 @@ TARGET_SCREEN_DENSITY := 440
 TARGET_USES_HWC2 := true
 
 # Filesystem
-TARGET_FS_CONFIG_GEN := $(COMMON_PATH)/config.fs
+TARGET_FS_CONFIG_GEN := $(DEVICE_PATH)/configs/config.fs
 
 # FM
 AUDIO_FEATURE_ENABLED_FM_POWER_OPT := true
@@ -105,16 +109,24 @@ BOARD_KERNEL_CMDLINE += video=vfb:640x400,bpp=32,memsize=3072000
 BOARD_KERNEL_CMDLINE += androidboot.selinux=permissive
 
 # HIDL
-DEVICE_MANIFEST_FILE := $(COMMON_PATH)/manifest.xml
-DEVICE_MATRIX_FILE := $(COMMON_PATH)/compatibility_matrix.xml
+DEVICE_MANIFEST_FILE := $(DEVICE_PATH)/manifest.xml
+DEVICE_MATRIX_FILE := $(DEVICE_PATH)/compatibility_matrix.xml
+
+ODM_MANIFEST_SKUS += \
+    joyeuse
+
+ODM_MANIFEST_JOYEUSE_FILES := $(DEVICE_PATH)/configs/manifest_joyeuse.xml
 
 # Init
-TARGET_INIT_VENDOR_LIB := //$(COMMON_PATH):libinit_xiaomi_sm6250
-TARGET_RECOVERY_DEVICE_MODULES := libinit_xiaomi_sm6250
+TARGET_INIT_VENDOR_LIB := //$(DEVICE_PATH):libinit_miatoll
+TARGET_RECOVERY_DEVICE_MODULES := libinit_miatoll
 
 # Media
 TARGET_USES_ION := true
 TARGET_DISABLED_UBWC := true
+
+# OTA assert
+TARGET_OTA_ASSERT_DEVICE := curtana,excalibur,gram,joyeuse
 
 # Partitions
 BOARD_BOOTIMAGE_PARTITION_SIZE := 134217728
@@ -159,10 +171,10 @@ BOARD_FLASH_BLOCK_SIZE := 131072
 TARGET_BOARD_PLATFORM := atoll
 
 # Properties
-TARGET_ODM_PROP += $(COMMON_PATH)/odm.prop
-TARGET_PRODUCT_PROP += $(COMMON_PATH)/product.prop
-TARGET_SYSTEM_PROP += $(COMMON_PATH)/system.prop
-TARGET_VENDOR_PROP += $(COMMON_PATH)/vendor.prop
+TARGET_ODM_PROP += $(DEVICE_PATH)/odm.prop
+TARGET_PRODUCT_PROP += $(DEVICE_PATH)/product.prop
+TARGET_SYSTEM_PROP += $(DEVICE_PATH)/system.prop
+TARGET_VENDOR_PROP += $(DEVICE_PATH)/vendor.prop
 
 # QCOM
 BOARD_USES_QCOM_HARDWARE := true
@@ -170,14 +182,14 @@ TARGET_FWK_SUPPORTS_FULL_VALUEADDS := true
 
 # Recovery
 BOARD_INCLUDE_RECOVERY_DTBO := true
-TARGET_RECOVERY_FSTAB := $(COMMON_PATH)/rootdir/etc/fstab.qcom
+TARGET_RECOVERY_FSTAB := $(DEVICE_PATH)/rootdir/etc/fstab.qcom
 TARGET_RECOVERY_PIXEL_FORMAT := "RGBX_8888"
 TARGET_USERIMAGES_USE_EXT4 := true
 TARGET_USERIMAGES_USE_F2FS := true
 TARGET_USES_MKE2FS := true
 
 # Releasetools
-TARGET_RELEASETOOLS_EXTENSIONS := $(COMMON_PATH)
+TARGET_RELEASETOOLS_EXTENSIONS := $(DEVICE_PATH)
 
 # RenderScript
 OVERRIDE_RS_DRIVER := libRSDriver_adreno.so
@@ -191,9 +203,12 @@ VENDOR_SECURITY_PATCH := 2020-07-01
 # Sepolicy
 include device/qcom/sepolicy_vndr/SEPolicy.mk
 
-BOARD_PLAT_PRIVATE_SEPOLICY_DIR += $(COMMON_PATH)/sepolicy/private
-BOARD_PLAT_PUBLIC_SEPOLICY_DIR += $(COMMON_PATH)/sepolicy/public
-BOARD_SEPOLICY_DIRS += $(COMMON_PATH)/sepolicy/vendor
+BOARD_PLAT_PRIVATE_SEPOLICY_DIR += $(DEVICE_PATH)/sepolicy/private
+BOARD_PLAT_PUBLIC_SEPOLICY_DIR += $(DEVICE_PATH)/sepolicy/public
+BOARD_SEPOLICY_DIRS += $(DEVICE_PATH)/sepolicy/vendor
+
+# Side FP key for InputDispatcher to skip
+TARGET_INPUTDISPATCHER_SKIP_EVENT_KEY := 96
 
 # Verified Boot
 BOARD_AVB_ENABLE := true

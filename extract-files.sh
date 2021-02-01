@@ -7,6 +7,11 @@
 
 set -e
 
+export DEVICE=miatoll
+export VENDOR=xiaomi
+
+export DEVICE_BRINGUP_YEAR=2020
+
 # Load extract_utils and do some sanity checks
 MY_DIR="${BASH_SOURCE%/*}"
 if [[ ! -d "${MY_DIR}" ]]; then MY_DIR="${PWD}"; fi

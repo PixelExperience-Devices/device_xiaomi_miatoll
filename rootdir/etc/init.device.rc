@@ -1,0 +1,24 @@
+service thermal-engine /vendor/bin/thermal-engine
+    class main
+    user root
+    group root
+    socket thermal-send-client stream 0660 system oem_2907
+    socket thermal-recv-client stream 0660 system oem_2907
+    socket thermal-recv-passive-client stream 0660 system oem_2907
+    socket thermal-send-rule stream 0660 system oem_2907
+    disabled
+
+service vendor.nfc_hal_service /vendor/bin/hw/android.hardware.nfc@1.2-service
+    override
+    class hal
+    user nfc
+    group nfc
+    disabled
+
+on boot && property:ro.product.vendor.device=*
+    mount none /vendor/etc/thermal-engine-map-${ro.product.vendor.device}.conf /vendor/etc/thermal-engine-map.conf bind
+    start thermal-engine
+
+on init && property:ro.boot.hwname=joyeuse
+    setprop ro.boot.product.hardware.sku joyeuse
+    start vendor.nfc_hal_service

@@ -404,6 +404,49 @@ vendor/lib64/libMegviiFacepp-0.5.2.so
 vendor/lib/android.hardware.camera.provider@2.4-legacy.so
 vendor/lib64/android.hardware.camera.provider@2.4-legacy.so
 
+# Camera sensors - curtana & gram
+vendor/lib/camera/com.qti.sensormodule.ofilm_gc02m1_filter.bin|4687d1d2eb8d36b5bed2ceafb197ef21d22bd97e
+vendor/lib/camera/com.qti.sensormodule.ofilm_s5kgm2.bin|5ebb58c43e95d598f35a0808a0497f51affdcbd6
+vendor/lib/camera/com.qti.sensormodule.sunny_imx582.bin|0b0d77edf59fe95073c16ed8698a00e7b5a5ed3c
+vendor/lib/camera/com.qti.sensormodule.sunny_s5kgm2.bin|c92b87076645f2049507211ac09c99a0e54119d3
+vendor/lib/camera/com.qti.tuned.ofilm_gc02m1.bin|31210b8e66517d745c4f9f964589417df9c16990
+vendor/lib/camera/com.qti.tuned.ofilm_gc02m1_filter.bin|31210b8e66517d745c4f9f964589417df9c16990
+vendor/lib/camera/com.qti.tuned.ofilm_s5kgm2.bin|e0e1bc67bbf6a5a3a34fdf72d00b667cf94f6924
+vendor/lib/camera/com.qti.tuned.sunny_imx582.bin|9f047280e23c745c48056050beb422de57f0d5ef
+vendor/lib64/camera/com.qti.sensormodule.ofilm_gc02m1_filter.bin|4687d1d2eb8d36b5bed2ceafb197ef21d22bd97e
+vendor/lib64/camera/com.qti.sensormodule.ofilm_s5kgm2.bin|5ebb58c43e95d598f35a0808a0497f51affdcbd6
+vendor/lib64/camera/com.qti.sensormodule.sunny_imx582.bin|0b0d77edf59fe95073c16ed8698a00e7b5a5ed3c
+vendor/lib64/camera/com.qti.sensormodule.sunny_s5kgm2.bin|c92b87076645f2049507211ac09c99a0e54119d3
+vendor/lib64/camera/com.qti.tuned.ofilm_gc02m1.bin|31210b8e66517d745c4f9f964589417df9c16990
+vendor/lib64/camera/com.qti.tuned.ofilm_gc02m1_filter.bin|31210b8e66517d745c4f9f964589417df9c16990
+vendor/lib64/camera/com.qti.tuned.ofilm_s5kgm2.bin|e0e1bc67bbf6a5a3a34fdf72d00b667cf94f6924
+vendor/lib64/camera/com.qti.tuned.sunny_imx582.bin|9f047280e23c745c48056050beb422de57f0d5ef
+
+# Camera sensors - excalibur & joyeuse
+vendor/lib/camera/com.qti.sensormodule.ofilm_s5kgw1.bin|334d371b7a983ce68b00517adda673c3c0e929b2
+vendor/lib/camera/com.qti.sensormodule.ofilm_s5kgw1_mirrorflip.bin|917c57ddd0a00f9b05b953709b05142768f702b2
+vendor/lib/camera/com.qti.sensormodule.sunny_s5kgw1.bin|e1a6c85a562f88fbc8eb6ea0bdc1b1308754d70e
+vendor/lib/camera/com.qti.sensormodule.sunny_s5kgw1_mirrorflip.bin|a3a755a5b11679cf4b42a7b606221a299ff4e012
+vendor/lib/camera/com.qti.tuned.sunny_gc02m1.bin|188b18e794fcc417f479b878b6ab9d51d4951878
+vendor/lib/camera/com.qti.tuned.sunny_s5kgw1.bin|6ab3770bdb571fa89870bd3dfb8a081cf9f02842
+vendor/lib64/camera/com.qti.sensormodule.ofilm_s5kgw1.bin|334d371b7a983ce68b00517adda673c3c0e929b2
+vendor/lib64/camera/com.qti.sensormodule.ofilm_s5kgw1_mirrorflip.bin|917c57ddd0a00f9b05b953709b05142768f702b2
+vendor/lib64/camera/com.qti.sensormodule.sunny_s5kgw1.bin|e1a6c85a562f88fbc8eb6ea0bdc1b1308754d70e
+vendor/lib64/camera/com.qti.sensormodule.sunny_s5kgw1_mirrorflip.bin|a3a755a5b11679cf4b42a7b606221a299ff4e012
+vendor/lib64/camera/com.qti.tuned.sunny_gc02m1.bin|188b18e794fcc417f479b878b6ab9d51d4951878
+vendor/lib64/camera/com.qti.tuned.sunny_s5kgw1.bin|6ab3770bdb571fa89870bd3dfb8a081cf9f02842
+
+# Camera sensors - excalibur
+vendor/lib/camera/com.qti.sensormodule.sunny_ov32a1q.bin|c97a60bf1b3cd584fa4eb80495ad3ced41cb64a3
+vendor/lib/camera/com.qti.tuned.sunny_ov32a1q.bin|e3c8cb221d8bbfd82f81063dbff148d28136390f
+vendor/lib64/camera/com.qti.sensormodule.sunny_ov32a1q.bin|c97a60bf1b3cd584fa4eb80495ad3ced41cb64a3
+vendor/lib64/camera/com.qti.tuned.sunny_ov32a1q.bin|e3c8cb221d8bbfd82f81063dbff148d28136390f
+
+# Camera sensors - joyeuse
+vendor/lib/camera/com.qti.tuned.ofilm_s5kgw1.bin|0223771138a3c43a29ca1867b75f5064f6bb6f72
+vendor/lib64/camera/com.qti.tuned.ofilm_s5kgw1.bin|0223771138a3c43a29ca1867b75f5064f6bb6f72
+
+
 # CDSP
 vendor/bin/cdsprpcd
 vendor/etc/init/vendor.qti.cdsprpc-service.rc
@@ -1007,6 +1050,9 @@ vendor/lib64/liblogwrap_vendor.so
 vendor/lib64/vendor.xiaomi.hardware.misys@1.0.so
 vendor/lib64/vendor.xiaomi.hardware.misys@2.0.so
 vendor/lib64/vendor.xiaomi.hardware.misys@3.0.so
+
+# NFC
+vendor/lib/libpn553_fw.so|a8e29cc3ebb2e0df0fb505fc2da9c69a015680fb
 
 # Neural Networks
 vendor/bin/hw/android.hardware.neuralnetworks@1.3-service-qti
