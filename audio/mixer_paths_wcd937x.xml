@@ -365,9 +365,8 @@
     <!-- TX Controls -->
     <ctl name="TX_CDC_DMA_TX_3 Channels" value="One" />
     <ctl name="MultiMedia1 Mixer TX_CDC_DMA_TX_3" value="0" />
-    <ctl name="ADC2_MIXER Switch" value="1" />
-    <ctl name="ADC1_MIXER Switch" value="1" />
-    <ctl name="ADC2 MUX" value="INP3" />
+    <ctl name="ADC2_MIXER Switch" value="0" />
+    <ctl name="ADC2 MUX" value="ZERO" />
     <ctl name="DEC0_BCS Switch" value="0" />
     <ctl name="TX_AIF1_CAP Mixer DEC0" value="0" />
     <ctl name="TX_AIF1_CAP Mixer DEC1" value="0" />
@@ -3123,9 +3122,7 @@
     </path>
 
     <path name="voice-rec-mic">
-        <path name="amic1" />
-        <ctl name="TX_DEC0 Volume" value="94" />
-        <ctl name="ADC1 Volume" value="6" />
+        <path name="handset-mic" />
     </path>
 
     <path name="camcorder-mic">
