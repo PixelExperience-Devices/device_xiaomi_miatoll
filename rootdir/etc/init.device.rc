@@ -74,3 +74,6 @@ on property:vendor.post_boot.parsed=1
     # EAS
     write /proc/sys/kernel/sched_upmigrate 95
     write /proc/sys/kernel/sched_downmigrate 85
+
+    # Reduce CPU input boost duration
+    write /sys/module/cpu_boost/parameters/input_boost_ms 100
