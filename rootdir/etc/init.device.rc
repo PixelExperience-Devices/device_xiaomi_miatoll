@@ -75,5 +75,6 @@ on property:vendor.post_boot.parsed=1
     write /proc/sys/kernel/sched_upmigrate 95
     write /proc/sys/kernel/sched_downmigrate 85
 
-    # Reduce CPU input boost duration
+    # Configure CPU input boost
+    write /sys/module/cpu_boost/parameters/input_boost_freq "0:1324800 6:1324800"
     write /sys/module/cpu_boost/parameters/input_boost_ms 100
