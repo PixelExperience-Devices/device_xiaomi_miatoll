@@ -13,6 +13,9 @@ debug.sf.enable_hwc_vds=1
 # DPM
 persist.vendor.dpm.feature=11
 
+# FUSE
+persist.sys.fuse.passthrough.enable=true
+
 # Fwk detect
 ro.vendor.qti.va_aosp.support=1
 
