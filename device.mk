@@ -313,7 +313,8 @@ PRODUCT_USE_DYNAMIC_PARTITIONS := true
 
 # Power
 PRODUCT_PACKAGES += \
-    android.hardware.power@1.3-service.xiaomi_sm6250
+    android.hardware.power@1.3-service.xiaomi_sm6250 \
+    vendor.qti.hardware.perf@2.2.vendor
 
 # RCS
 PRODUCT_PACKAGES += \
