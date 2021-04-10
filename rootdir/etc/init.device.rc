@@ -19,6 +19,12 @@ on boot && property:ro.product.vendor.device=*
     mount none /vendor/etc/thermal-engine-map-${ro.product.vendor.device}.conf /vendor/etc/thermal-engine-map.conf bind
     start thermal-engine
 
+on init && property:ro.boot.hwname=curtana
+    mount none /vendor/lib/libcpion_curtana.so /vendor/lib/libcpion.so bind
+    mount none /vendor/lib/liboemcrypto_curtana.so /vendor/lib/liboemcrypto.so bind
+    mount none /vendor/lib64/libcpion_curtana.so /vendor/lib64/libcpion.so bind
+    mount none /vendor/lib64/liboemcrypto_curtana.so /vendor/lib64/liboemcrypto.so bind
+
 on init && property:ro.boot.hwname=joyeuse
     setprop ro.boot.product.hardware.sku joyeuse
     start vendor.nfc_hal_service
