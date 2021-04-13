@@ -664,4 +664,7 @@
         <item>0</item> <!-- COLOR_MODE_DEFAULT    -->
         <item>9</item> <!-- COLOR_MODE_DISPLAY_P3 -->
     </integer-array>
+
+    <!-- Whether device has fingerprint on power button -->
+    <bool name="config_powerButtonFingerprint">true</bool>
 </resources>
