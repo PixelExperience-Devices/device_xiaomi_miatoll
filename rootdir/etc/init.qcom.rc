@@ -227,6 +227,12 @@ on boot
     mkdir /persist/display 0770 system graphics
     mkdir /mnt/vendor/persist/display 0770 system graphics
 
+    # Enable qcrild and data services on boot so process starts in main
+    enable vendor.qcrild
+    enable vendor.qcrild2
+    enable vendor.dataqti
+    enable vendor.dataadpl
+
     # Create vpp directory
     mkdir /mnt/vendor/persist/vpp 0770 media media
 
@@ -406,11 +412,6 @@ on post-fs-data
 
     #Create dir for TUI
     mkdir /data/vendor/tui 0700 system drmrpc
-
-    start vendor.qcrild
-    start vendor.qcrild2
-    start vendor.dataqti
-    start vendor.dataadpl
 
 service nqnfcinfo /system/vendor/bin/nqnfcinfo
     class late_start
