@@ -12,7 +12,7 @@ $(call inherit-product, vendor/xiaomi/sm6250-common/sm6250-common-vendor.mk)
 $(call inherit-product, vendor/xiaomi/miatoll/miatoll-vendor.mk)
 
 # Enable updating of APEXes
-$(call inherit-product, $(SRC_TARGET_DIR)/product/updatable_apex.mk)
+#$(call inherit-product, $(SRC_TARGET_DIR)/product/updatable_apex.mk)
 
 # Setup dalvik vm configs
 $(call inherit-product, frameworks/native/build/phone-xhdpi-4096-dalvik-heap.mk)

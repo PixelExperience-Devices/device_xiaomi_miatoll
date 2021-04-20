@@ -619,4 +619,14 @@
     <!-- Enable Zram writeback feature to allow unused pages in zram be written to flash. -->
     <bool name="config_zramWriteback">true</bool>
 
+   <!--   For example, a device with notification and battery lights that supports
+         pulsating and RGB control would set this config to 75. -->
+    <integer name="config_deviceLightCapabilities">224</integer>
+
+    <!-- Whether device has a physical display cutout -->
+    <bool name="config_physicalDisplayCutout">true</bool>
+
+    <!-- Whether device has a physical display cutout centered -->
+    <bool name="config_physicalDisplayCutoutCentered">true</bool>
+
 </resources>
