@@ -1,8 +1,8 @@
 [
   {
     "remote": "pixel-devices",
-    "repository": "kernel_xiaomi_sm6250",
-    "target_path": "kernel/xiaomi/sm6250",
+    "repository": "kernel_xiaomi_miatoll",
+    "target_path": "kernel/xiaomi/miatoll",
     "branch": "eleven"
   },
   {
