@@ -70,6 +70,11 @@ on property:sys.boot_completed=1
     # Enable ZRAM on boot_complete
     swapon_all /vendor/etc/fstab.qcom
 
+on property:sys.boot_completed=1
+   # Back to default VM settings
+    write /proc/sys/vm/dirty_expire_centisecs 3000
+    write /proc/sys/vm/dirty_background_ratio 10
+
 on post-fs-data
     mkdir /data/vendor/touchpad 0775 system system
     mkdir /data/tombstones 0771 system system
