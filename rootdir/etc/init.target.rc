@@ -167,5 +167,9 @@ on property:sys.boot_completed=1
     # Mount swap partitions specified in fstab
     swapon_all /vendor/etc/fstab.qcom
 
+    # Back to default VM settings
+    write /proc/sys/vm/dirty_expire_centisecs 3000
+    write /proc/sys/vm/dirty_background_ratio 10
+
 on property:ro.boot.multisim_config=*
     setprop persist.radio.multisim.config ${ro.boot.multisim_config}
