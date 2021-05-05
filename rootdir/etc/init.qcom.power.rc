@@ -29,14 +29,6 @@
 on enable-low-power
     # Apply settings for atoll
 
-    # Setting b.L scheduler parameters
-    # default sched up and down migrate values are 95 and 85
-    write /proc/sys/kernel/sched_downmigrate 65
-    write /proc/sys/kernel/sched_upmigrate 71
-    # default sched up and down migrate values are 100 and 95
-    write /proc/sys/kernel/sched_group_downmigrate 85
-    write /proc/sys/kernel/sched_group_upmigrate 100
-
     # Enable bus-dcvs
     write /sys/devices/platform/soc/soc:qcom,cpu-cpu-llcc-bw/devfreq/soc:qcom,cpu-cpu-llcc-bw/governor "bw_hwmon"
     write /sys/devices/platform/soc/soc:qcom,cpu-cpu-llcc-bw/devfreq/soc:qcom,cpu-cpu-llcc-bw/bw_hwmon/mbps_zones "2288 4577 7110 9155 12298 14236"
