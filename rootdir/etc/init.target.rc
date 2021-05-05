@@ -66,15 +66,6 @@ on late-fs
     exec_start wait_for_keymaster
     mount_all /vendor/etc/fstab.qcom --late
 
-on property:sys.boot_completed=1
-    # Enable ZRAM on boot_complete
-    swapon_all /vendor/etc/fstab.qcom
-
-on property:sys.boot_completed=1
-   # Back to default VM settings
-    write /proc/sys/vm/dirty_expire_centisecs 3000
-    write /proc/sys/vm/dirty_background_ratio 10
-
 on post-fs-data
     mkdir /data/vendor/touchpad 0775 system system
     mkdir /data/tombstones 0771 system system
@@ -98,6 +89,15 @@ on boot
     chmod 0444 /sys/class/drm/card0-DSI-1/panel_info
     start rmt_storage
     start rfs_access
+
+# Add a cpuset for the camera daemon
+# We want all cores for camera
+    mkdir /dev/cpuset/camera-daemon
+    write /dev/cpuset/camera-daemon/cpus 0-7
+    write /dev/cpuset/camera-daemon/mems 0
+    chown cameraserver cameraserver /dev/cpuset/camera-daemon
+    chown cameraserver cameraserver /dev/cpuset/camera-daemon/tasks
+    chmod 0660 /dev/cpuset/camera-daemon/tasks
 
 #add runin factory charging test
     chmod 0777 /sys/class/power_supply/battery/input_suspend
@@ -128,16 +128,6 @@ on boot
     setprop vendor.usb.dpl.inst.name "dpl"
     setprop vendor.usb.qdss.inst.name "qdss"
     setprop sys.usb.configfs 1
-
-on boot
-# Add a cpuset for the camera daemon
-# We want all cores for camera
-    mkdir /dev/cpuset/camera-daemon
-    write /dev/cpuset/camera-daemon/cpus 0-7
-    write /dev/cpuset/camera-daemon/mems 0
-    chown cameraserver cameraserver /dev/cpuset/camera-daemon
-    chown cameraserver cameraserver /dev/cpuset/camera-daemon/tasks
-    chmod 0660 /dev/cpuset/camera-daemon/tasks
 
 #pd-mapper
 service vendor.pd_mapper /vendor/bin/pd-mapper
@@ -184,7 +174,14 @@ service vibrator_calibration /vendor/bin/vibrator_calibration
      oneshot
 
 on property:sys.boot_completed=1
-	start vibrator_calibration
+    start vibrator_calibration
+
+    # Enable ZRAM on boot_complete
+    swapon_all /vendor/etc/fstab.qcom
+
+    # Back to default VM settings
+    write /proc/sys/vm/dirty_expire_centisecs 3000
+    write /proc/sys/vm/dirty_background_ratio 10
 
 on property:ro.boot.multisim_config=*
     setprop persist.radio.multisim.config ${ro.boot.multisim_config}
