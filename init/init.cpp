@@ -156,4 +156,3 @@ void vendor_load_properties() {
 void load_common_properties() {
     load_dalvik_properties();
 }
-
