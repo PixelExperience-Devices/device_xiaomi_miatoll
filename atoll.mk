@@ -188,6 +188,10 @@ PRODUCT_PACKAGES += \
     android.hardware.ir@1.0-impl \
     android.hardware.ir@1.0-service
 
+# Lights
+PRODUCT_PACKAGES += \
+    android.hardware.lights-service.example
+
 # Rootdir
 PRODUCT_PACKAGES += \
     init.qcom.early_boot.sh \
