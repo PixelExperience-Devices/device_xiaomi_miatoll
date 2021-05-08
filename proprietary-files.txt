@@ -134,7 +134,6 @@ vendor/lib64/hw/audio.bluetooth_qti.default.so
 vendor/lib64/hw/vendor.qti.hardware.bluetooth_audio@2.0-impl.so
 
 # Camera
-vendor/etc/camera/camxoverridesettings.txt
 vendor/etc/camera/CFR_para_M_src1.bin
 vendor/etc/camera/CFR_para_M_src2.bin
 vendor/etc/camera/CFR_para_UW_src1.bin
