@@ -69,6 +69,9 @@ PRODUCT_PACKAGES += \
     libvolumelistener \
     sound_trigger.primary.atoll:32
 
+PRODUCT_COPY_FILES += \
+     $(call find-copy-subdir-files,*,$(LOCAL_PATH)/audio/,$(TARGET_COPY_OUT_VENDOR)/etc)
+
 # Rootdir
 PRODUCT_PACKAGES += \
     init.qcom.early_boot.sh \
