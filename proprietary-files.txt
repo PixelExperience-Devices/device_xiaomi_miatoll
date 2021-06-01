@@ -784,7 +784,7 @@ vendor/lib64/unnhal-acc-hta.so
 vendor/lib64/unnhal-acc-hvx.so
 
 # Permissions
-etc/permissions/privapp-permissions-qti.xml
+system/etc/permissions/privapp-permissions-qti.xml
 product/etc/permissions/telephony_product_privapp-permissions-qti.xml
 system_ext/etc/permissions/telephony_system-ext_privapp-permissions-qti.xml
 
@@ -807,7 +807,7 @@ vendor/lib64/vendor.display.postproc@1.0.so
 vendor/etc/public.libraries.txt
 
 # QMI
-etc/sysconfig/qti_whitelist.xml
+system/etc/sysconfig/qti_whitelist.xml
 system_ext/etc/sysconfig/qti_whitelist_system_ext.xml
 system_ext/etc/permissions/qti_libpermissions.xml
 system_ext/etc/permissions/qti_permissions.xml
@@ -1031,7 +1031,7 @@ vendor/firmware/Drv2624Date.ini
 vendor/bin/cnss-daemon
 
 # WiFi Display
-framework/WfdCommon.jar
+system/framework/WfdCommon.jar
 system_ext/bin/rtspclient
 system_ext/bin/rtspserver
 system_ext/bin/wfdservice
