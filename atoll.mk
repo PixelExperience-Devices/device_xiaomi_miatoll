@@ -30,5 +30,18 @@ $(call inherit-product, frameworks/native/build/phone-xhdpi-4096-dalvik-heap.mk)
 PRODUCT_PACKAGES += \
     fs_config_files
 
+# Rootdir
+PRODUCT_PACKAGES += \
+    init.qcom.early_boot.sh \
+    init.qcom.sh \
+    init.qti.chg_policy.sh
+
+PRODUCT_PACKAGES += \
+    init.qcom.rc \
+    init.recovery.qcom.rc \
+    init.target.rc \
+    fstab.qcom \
+    ueventd.qcom.rc
+
 # Inherit proprietary targets
 $(call inherit-product, vendor/xiaomi/sm6250-common/sm6250-common-vendor.mk)
