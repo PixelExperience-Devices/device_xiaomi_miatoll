@@ -25,11 +25,10 @@
 # ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 #
 
-import /vendor/etc/init/hw/init.qti.ufs.rc
 import /vendor/etc/init/hw/init.qcom.usb.rc
+import /vendor/etc/init/hw/init.qcom.power.rc
+import /vendor/etc/init/hw/init.device.rc
 import /vendor/etc/init/hw/init.target.rc
-import /vendor/etc/init/hw/init.qcom.factory.rc
-import /vendor/etc/init/hw/init.qcom.test.rc
 
 on early-init
     mount debugfs debugfs /sys/kernel/debug
@@ -88,8 +87,6 @@ on early-boot
     write /sys/devices/virtual/npu/msm_npu/boot 1
     write /sys/devices/virtual/cvp/cvp/boot 1
     exec u:r:vendor_qti_init_shell:s0 -- /vendor/bin/init.qcom.early_boot.sh
-    exec u:r:vendor_qti_init_shell:s0 -- /vendor/bin/init.qti.can.sh
-    setprop ro.sf.lcd_density ${vendor.display.lcd_density}
 
     chown system system /mnt/vendor/persist/data/pfm/licenses
     chmod 0775 /mnt/vendor/persist/data/pfm/licenses
@@ -417,6 +414,11 @@ on post-fs-data
     #Create dir for TUI
     mkdir /data/vendor/tui 0700 system drmrpc
 
+    start vendor.qcrild
+    start vendor.qcrild2
+    start vendor.dataqti
+    start vendor.dataadpl
+
 service nqnfcinfo /system/vendor/bin/nqnfcinfo
     class late_start
     group nfc
@@ -503,12 +505,6 @@ on property:sys.boot_completed=1
     #Reinit lmkd to reconfigure lmkd properties
     setprop lmkd.reinit 1
 
-on property:persist.vendor.radio.atfwd.start=false
-    stop vendor.atfwd
-
-on property:vendor.radio.atfwd.start=false
-    stop vendor.atfwd
-
 # corefile limit
 on property:persist.debug.trace=1
     mkdir /data/core 0777 root root
@@ -521,19 +517,7 @@ on property:vendor.media.target_variant=*
     setprop ro.media.xml_variant.codecs ${vendor.media.target_variant}
     setprop ro.media.xml_variant.codecs_performance ${vendor.media.target_variant}
 
-service qcom-c_core-sh  /vendor/bin/init.qcom.class_core.sh
-    class core
-    user root
-    oneshot
-
-service qcom-c_main-sh /vendor/bin/init.class_main.sh
-    class main
-    user root
-    group root system
-    oneshot
-
 on property:vold.decrypt=trigger_restart_framework
-    start qcom-c_main-sh
     start wcnss-service
 
 service vendor.qrtr-ns /vendor/bin/qrtr-ns -f
@@ -734,34 +718,6 @@ service qcom-sh /vendor/bin/init.qcom.sh
     user root
     group root system radio
     oneshot
-# Remove since is deprecated but throws AVC denial.
-# service crashdata-sh /vendor/bin/init.qcom.crashdata.sh
-#    class late_start
-#    user root
-#    oneshot
-
-service qcom-post-boot /vendor/bin/init.qcom.post_boot.sh
-    class late_start
-    user root
-    group root system wakelock graphics
-    disabled
-    oneshot
-
-
-service wifi-sdio-on /vendor/bin/init.qcom.sdio.sh
-    class late_start
-    group wifi inet
-    disabled
-    oneshot
-
-service wifi-crda /vendor/bin/init.crda.sh
-   class late_start
-   user root
-   disabled
-   oneshot
-
-on property:sys.boot_completed=1
-    start qcom-post-boot
 
 on property:ro.vendor.ril.mbn_copy_completed=1
     write /data/vendor/radio/copy_complete 1
@@ -901,19 +857,6 @@ service vendor.msm_irqbalance /vendor/bin/msm_irqbalance -f /system/vendor/etc/m
     class core
     user root
     group root
-    disabled
-
-service vendor.msm_irqbal_lb /vendor/bin/msm_irqbalance -f /system/vendor/etc/msm_irqbalance_little_big.conf
-    class core
-    user root
-    group root
-    disabled
-
-service vendor.msm_irqbl_sdm630 /vendor/bin/msm_irqbalance -f /system/vendor/etc/msm_irqbalance_sdm630.conf
-    class core
-    user root
-    group root
-    disabled
 
 # service for USERDEBUG
 service vendor.LKCore-dbg /vendor/bin/LKCore
@@ -944,7 +887,6 @@ service esepmdaemon /system/vendor/bin/esepmdaemon
 
 on charger
     setprop persist.sys.usb.config mass_storage
-    start qcom-post-boot
 
 #add poweroffhandler
 service poweroffhandler /system/vendor/bin/poweroffhandler

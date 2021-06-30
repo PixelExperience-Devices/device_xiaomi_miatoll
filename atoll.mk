@@ -37,6 +37,7 @@ PRODUCT_PACKAGES += \
     init.qti.chg_policy.sh
 
 PRODUCT_PACKAGES += \
+    init.qcom.power.rc \
     init.qcom.rc \
     init.recovery.qcom.rc \
     init.target.rc \
