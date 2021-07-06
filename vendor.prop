@@ -98,7 +98,7 @@ ro.vendor.bluetooth.wipower=false
 
 # Camera
 camera.disable_zsl_mode=true
-vendor.camera.aux.packagelist=org.codeaurora.snapcam,com.xiaomi.cameratest,com.xiaomi.factory.mmi,com.android.camera
+vendor.camera.aux.packagelist=org.codeaurora.snapcam,com.android.camera
 
 # Crypto
 ro.crypto.volume.filenames_mode=aes-256-cts
