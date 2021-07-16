@@ -121,6 +121,10 @@ on enable-low-power
     # Enable PowerHAL hint processing
     setprop vendor.powerhal.init 1
 
+on boot
+   # Enable suspend to idle mode to reduce latency during suspend/resume
+    write /sys/power/mem_sleep "s2idle"
+
 on property:sys.boot_completed=1
     trigger enable-low-power
 
