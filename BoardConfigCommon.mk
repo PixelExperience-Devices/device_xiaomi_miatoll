@@ -24,3 +24,7 @@ TARGET_2ND_CPU_VARIANT := cortex-a76
 # Bootloader
 TARGET_BOOTLOADER_BOARD_NAME := atoll
 TARGET_NO_BOOTLOADER := true
+
+# HIDL
+DEVICE_MATRIX_FILE := $(COMMON_PATH)/compatibility_matrix.xml
+DEVICE_MANIFEST_FILE := $(COMMON_PATH)/manifest.xml
