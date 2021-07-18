@@ -101,7 +101,10 @@ camera.disable_zsl_mode=true
 vendor.camera.aux.packagelist=org.codeaurora.snapcam,com.android.camera
 
 # Crypto
+ro.crypto.dm_default_key.options_format.version=2
+ro.crypto.volume.metadata.method=dm-default-key
 ro.crypto.volume.filenames_mode=aes-256-cts
+ro.crypto.volume.options=::v2
 
 # Dalvik
 dalvik.vm.dex2oat64.enabled=true
