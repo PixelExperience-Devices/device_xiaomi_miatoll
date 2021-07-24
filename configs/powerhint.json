@@ -54,7 +54,7 @@
       "Path": "/sys/class/kgsl/kgsl-3d0/min_pwrlevel",
       "Values": [
         "0",
-        "7"
+        "5"
       ],
       "ResetOnInit": true
     },
@@ -145,8 +145,8 @@
       "Path": "/sys/class/devfreq/soc:qcom,cpu-llcc-ddr-bw/min_freq",
       "Values": [
         "6881",
-        "2597",
-        "762"
+        "2929",
+        "1144"
       ],
       "ResetOnInit": true
     },
@@ -267,7 +267,7 @@
       "PowerHint": "INTERACTION",
       "Node": "LLCCBWMinFreq",
       "Duration": 0,
-      "Value": "2597"
+      "Value": "2929"
     },
     {
       "PowerHint": "LAUNCH",
