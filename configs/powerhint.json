@@ -35,8 +35,6 @@
       "Path": "/sys/devices/system/cpu/cpu6/cpufreq/scaling_min_freq",
       "Values": [
         "9999999",
-        "1555200",
-        "1248000",
         "652800"
       ],
       "ResetOnInit": true
@@ -56,19 +54,7 @@
       "Path": "/sys/class/kgsl/kgsl-3d0/min_pwrlevel",
       "Values": [
         "0",
-        "3",
         "7"
-      ],
-      "ResetOnInit": true
-    },
-    {
-      "Name": "GPUBusMinFreq",
-      "Path": "/sys/class/devfreq/soc:qcom,gpubw/min_freq",
-      "Values": [
-        "6881",
-        "5931",
-        "3879",
-        "0"
       ],
       "ResetOnInit": true
     },
@@ -150,7 +136,6 @@
       "Values": [
         "14236",
         "9155",
-        "7110",
         "4577"
       ],
       "ResetOnInit": true
