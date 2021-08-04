@@ -1297,13 +1297,12 @@ vendor/etc/init/vendor.qti.hardware.servicetracker@1.2-service.rc
 vendor/lib/hw/vendor.qti.hardware.servicetracker@1.2-impl.so
 vendor/lib64/hw/vendor.qti.hardware.servicetracker@1.2-impl.so
 
-# Thermal
-vendor/bin/thermal-engine
-vendor/etc/thermal-engine.conf
+# Thermal engine - from sunfish - RQ3A.210805.001.A1/7474174
+vendor/bin/thermal-engine|549f8284d4aca92e2b8187ab2a283a90c40e6dca
+
+# ThermalClient
 vendor/lib/libthermalclient.so
-vendor/lib/libthermalfeature.so
 vendor/lib64/libthermalclient.so
-vendor/lib64/libthermalfeature.so
 
 # Time services
 -vendor/app/TimeService/TimeService.apk

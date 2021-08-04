@@ -92,10 +92,6 @@ on fs
     mkdir /mnt/vendor/persist/subsys 0770 root system
     mkdir /mnt/vendor/persist/audio 0755 system system
     mkdir /mnt/vendor/persist/haptics 0755 system system
-    chmod 0664 /sys/class/thermal/thermal_message/sconfig
-    chown system system /sys/class/thermal/thermal_message/sconfig
-    chmod 0666 /sys/class/thermal/thermal_message/temp_state
-    chown system system /sys/class/thermal/thermal_message/temp_state
 
 on post-fs
     write /dev/ipa 1
@@ -111,8 +107,6 @@ on post-fs-data
     mkdir /persist/qti_fp 0700 system system
     mkdir /data/vendor/nnhal 0700 system system
     mkdir /data/vendor/mac_addr 0771 system system
-    mkdir /data/vendor/thermal 0771 root system
-    mkdir /data/vendor/thermal/config 0771 root system
 
 on boot
     chown system system /sys/class/drm/card0-DSI-1/disp_param
@@ -165,6 +159,11 @@ service vendor.per_proxy /vendor/bin/pm-proxy
     user system
     group system
     disabled
+
+service vendor.thermal-engine /vendor/bin/thermal-engine -c /vendor/etc/thermal-engine-${ro.boot.hwname}.conf
+   class main
+   user root
+   group root
 
 on property:init.svc.vendor.per_mgr=running
     start vendor.per_proxy
