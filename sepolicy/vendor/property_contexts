@@ -1,2 +1,26 @@
+# Camera
+persist.vendor.camera.mi.module.	u:object_r:vendor_camera_prop:s0
+vendor.camera.				u:object_r:vendor_camera_prop:s0
+persist.camera.				u:object_r:vendor_camera_prop:s0
+
+# Fingerprint
+persist.vendor.sys.fp.                  u:object_r:vendor_fp_prop:s0
+ro.hardware.fp                          u:object_r:vendor_fp_prop:s0
+vendor.fps_hal.                         u:object_r:vendor_fp_prop:s0
+vendor.sys.fp                           u:object_r:vendor_fp_prop:s0
+
+# Power
+vendor.powerhal.state                   u:object_r:power_prop:s0
+vendor.powerhal.audio                   u:object_r:power_prop:s0
+vendor.powerhal.lpm                     u:object_r:power_prop:s0
+vendor.powerhal.init                    u:object_r:power_prop:s0
+vendor.powerhal.rendering               u:object_r:power_prop:s0
+
+# Recovery
+ro.build.expect.                        u:object_r:exported_default_prop:s0
+
 # Thermal
 vendor.thermal.                         u:object_r:vendor_thermal_prop:s0
+
+# USB
+sys.usb.configfs                	u:object_r:system_prop:s0
