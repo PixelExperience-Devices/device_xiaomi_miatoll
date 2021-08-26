@@ -161,8 +161,9 @@ vendor.gralloc.disable_ubwc=0
 ro.hardware.keystore_desede=true
 
 # Media
-debug.stagefright.ccodec=1
-debug.stagefright.omx_default_rank=0
+debug.media.codec2=2
+debug.stagefright.ccodec=4
+debug.stagefright.omx_default_rank=512
 
 # Perf
 ro.vendor.extension_library=libqti-perfd-client.so
