@@ -85,12 +85,11 @@
         <param key="input_mic_max_count" value="2"/>
     </config_params>
     <acdb_ids>
-        <device name="SND_DEVICE_OUT_SPEAKER" acdb_id="10011"/>
-        <device name="SND_DEVICE_OUT_SPEAKER_REVERSE" acdb_id="10011"/>
+        <device name="SND_DEVICE_OUT_SPEAKER" acdb_id="15"/>
+        <device name="SND_DEVICE_OUT_SPEAKER_REVERSE" acdb_id="15"/>
         <device name="SND_DEVICE_OUT_SPEAKER_PROTECTED" acdb_id="124"/>
         <device name="SND_DEVICE_OUT_VOICE_SPEAKER_PROTECTED" acdb_id="101"/>
         <device name="SND_DEVICE_OUT_SPEAKER_PROTECTED_VBAT" acdb_id="124"/>
-        <device name="SND_DEVICE_OUT_SPEAKER_CLEAN" acdb_id="20011"/>
         <device name="SND_DEVICE_OUT_VOICE_SPEAKER_PROTECTED_VBAT" acdb_id="101"/>
         <device name="SND_DEVICE_IN_CAPTURE_VI_FEEDBACK" acdb_id="102"/>
         <device name="SND_DEVICE_OUT_VOICE_SPEAKER_2_PROTECTED" acdb_id="150"/>
@@ -108,17 +107,6 @@
         <device name="SND_DEVICE_IN_UNPROCESSED_QUAD_MIC" acdb_id="146"/>
         <device name="SND_DEVICE_IN_UNPROCESSED_HEADSET_MIC" acdb_id="147"/>
         <device name="SND_DEVICE_IN_HANDSET_GENERIC_QMIC" acdb_id="157"/>
-        <device name="SND_DEVICE_OUT_HEADPHONES" acdb_id="10012"/>
-        <device name="SND_DEVICE_OUT_HEADPHONES_44_1" acdb_id="10012"/>
-        <device name="SND_DEVICE_OUT_USB_HEADSET" acdb_id="10012"/>
-        <device name="SND_DEVICE_OUT_USB_HEADPHONES" acdb_id="10012"/>
-        <device name="SND_DEVICE_OUT_HEADPHONES_CE" acdb_id="10012"/>
-        <device name="SND_DEVICE_OUT_HEADPHONES_NO_CE" acdb_id="10012"/>
-        <device name="SND_DEVICE_IN_HEADSET_MIC_VOICE_RECORD" acdb_id="10018"/>
-        <device name="SND_DEVICE_IN_USB_HEADSET_MIC_VOICE_RECORD" acdb_id="10018"/>
-        <device name="SND_DEVICE_IN_VOICE_SPEAKER_MIC" acdb_id="11"/>
-        <device name="SND_DEVICE_IN_VOICE_SPEAKER_DMIC_DUO" acdb_id="10013"/>
-        <device name="SND_DEVICE_IN_VOICE_REC_HEADSET_MIC_CTS" acdb_id="10032"/>
     </acdb_ids>
     <backend_names>
         <device name="SND_DEVICE_OUT_HEADPHONES" backend="headphones" interface="RX_CDC_DMA_RX_0"/>
