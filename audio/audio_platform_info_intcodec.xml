@@ -82,7 +82,7 @@
         <param key="hifi_filter" value="false"/>
         <param key="native_audio_mode" value="multiple_mix_dsp"/>
         <param key="hfp_pcm_dev_id" value="39"/>
-        <param key="input_mic_max_count" value="4"/>
+        <param key="input_mic_max_count" value="2"/>
     </config_params>
     <acdb_ids>
         <device name="SND_DEVICE_OUT_SPEAKER" acdb_id="10011"/>
