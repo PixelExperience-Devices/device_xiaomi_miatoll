@@ -26,7 +26,7 @@
 /dev/spidev0.1                                                          u:object_r:lirc_device:s0
 
 # Lights
-/vendor/bin/hw/android\.hardware\.lights-service\.xiaomi_atoll          u:object_r:hal_light_default_exec:s0
+/vendor/bin/hw/android\.hardware\.light-service\.xiaomi                 u:object_r:hal_light_default_exec:s0
 
 # Persist subsystem
 /mnt/vendor/persist/subsys(/.*)?                                        u:object_r:persist_subsys_file:s0
