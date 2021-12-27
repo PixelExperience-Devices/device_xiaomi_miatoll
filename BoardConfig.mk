@@ -10,7 +10,7 @@ include device/xiaomi/sm6250-common/BoardConfigCommon.mk
 DEVICE_PATH := device/xiaomi/miatoll
 
 # Display
-TARGET_SCREEN_DENSITY := 440
+TARGET_SCREEN_DENSITY := 420
 
 # HIDL
 ODM_MANIFEST_SKUS += \
