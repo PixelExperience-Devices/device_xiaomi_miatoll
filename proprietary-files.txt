@@ -1,4 +1,4 @@
-# All unpinned blobs below are extracted from curtana-user 11 RKQ1.200826.002 V12.0.4.0.RJWMIXM release-keys
+# All unpinned blobs below are extracted from curtana_global-user 11 RKQ1.200826.002 V12.5.1.0.RJWMIXM release-keys
 
 # ACDB
 vendor/etc/acdbdata/adsp_avs_config.acdb
