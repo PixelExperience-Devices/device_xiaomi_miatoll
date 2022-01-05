@@ -64,4 +64,7 @@
     <!-- Boolean indicating that wifi only link configuratios that have exact same credentials (i.e PSK) -->
     <bool name="config_wifi_only_link_same_credential_configurations">false</bool>
 
+    <!-- Indicate the driver support NL80211_REG_CHANGED event. -->
+    <bool name="config_wifiDriverSupportedNl80211RegChangedEvent">true</bool>
+
 </resources>
