@@ -16,6 +16,7 @@ $(call inherit-product, device/xiaomi/miatoll/device.mk)
 
 TARGET_BOOT_ANIMATION_RES := 1080
 TARGET_GAPPS_ARCH := arm64
+TARGET_SUPPORTS_QUICK_TAP := true
 
 PRODUCT_NAME := aosp_miatoll
 PRODUCT_DEVICE := miatoll
