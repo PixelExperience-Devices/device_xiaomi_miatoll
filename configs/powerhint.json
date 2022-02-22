@@ -5,7 +5,7 @@
       "Path": "/sys/devices/system/cpu/cpu0/cpufreq/scaling_max_freq",
       "Values": [
         "9999999",
-        "1248000"
+        "1324800"
       ],
       "DefaultIndex": 0,
       "ResetOnInit": true
@@ -16,7 +16,7 @@
       "Values": [
         "9999999",
 	"1708800",
-        "1248000",
+        "1324800",
         "576000"
       ],
       "ResetOnInit": true
@@ -37,6 +37,7 @@
       "Values": [
         "9999999",
 	"1900800",
+	"825600",
         "652800"
       ],
       "ResetOnInit": true
@@ -84,15 +85,6 @@
       "Values": [
         "10000",
         "80"
-      ],
-      "ResetOnInit": true
-    },
-    {
-      "Name": "TASchedtuneBoost",
-      "Path": "/dev/stune/top-app/schedtune.boost",
-      "Values": [
-        "20",
-        "10"
       ],
       "ResetOnInit": true
     },
@@ -206,7 +198,7 @@
       "PowerHint": "SUSTAINED_PERFORMANCE",
       "Node": "CPULittleClusterMaxFreq",
       "Duration": 0,
-      "Value": "1248000"
+      "Value": "1324800"
     },
     {
       "PowerHint": "SUSTAINED_PERFORMANCE",
@@ -216,15 +208,15 @@
     },
     {
       "PowerHint": "INTERACTION",
-      "Node": "CPULittleClusterMinFreq",
+      "Node": "CPUBigClusterMinFreq",
       "Duration": 0,
-      "Value": "1248000"
+      "Value": "825600"
     },
     {
       "PowerHint": "INTERACTION",
-      "Node": "TASchedtuneBoost",
+      "Node": "CPULittleClusterMinFreq",
       "Duration": 0,
-      "Value": "20"
+      "Value": "1324800"
     },
     {
       "PowerHint": "INTERACTION",
