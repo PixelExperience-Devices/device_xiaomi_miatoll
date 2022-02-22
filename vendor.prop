@@ -146,9 +146,6 @@ drm.service.enabled=true
 ro.frp.pst=/dev/block/bootdevice/by-name/frp
 
 # Graphics
-debug.egl.hw=0
-debug.mdpcomp.logs=0
-debug.sf.hw=0
 persist.sys.sf.color_mode=9
 persist.sys.sf.color_saturation=1.0
 persist.sys.sf.native_mode=2
@@ -194,9 +191,6 @@ ro.telephony.iwlan_operation_mode=legacy
 # Sensors
 persist.vendor.sensors.enable.mag_filter=true
 persist.vendor.sensors.allow_non_default_discovery=true
-
-# Shutdown
-sys.vendor.shutdown.waittime=500
 
 # USB
 vendor.usb.diag.func.name=diag

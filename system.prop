@@ -1,7 +1,5 @@
 # Audio
 audio.offload.min.duration.secs=30
-persist.audio.button_jack.profile=volume
-persist.audio.button_jack.switch=0
 
 # Charger
 ro.charger.enable_suspend=true
