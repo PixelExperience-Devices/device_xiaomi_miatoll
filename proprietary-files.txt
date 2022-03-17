@@ -156,6 +156,7 @@ vendor/lib64/camera/com.qti.sensor.excalibur_ov32a1q.so
 vendor/lib64/camera/com.qti.sensor.excalibur_ov8856.so
 vendor/lib64/camera/com.qti.sensor.excalibur_s5k5e9.so
 vendor/lib64/camera/com.qti.sensor.excalibur_s5kgw1.so
+vendor/lib64/camera/com.qti.sensormodule.ofilm_gc02m1.bin
 vendor/lib64/camera/com.qti.sensormodule.ofilm_ov16a1q.bin
 vendor/lib64/camera/com.qti.sensormodule.ofilm_ov2180.bin
 vendor/lib64/camera/com.qti.sensormodule.ofilm_ov8856.bin
