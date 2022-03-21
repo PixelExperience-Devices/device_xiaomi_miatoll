@@ -235,6 +235,7 @@ Only the three quirks included above are recognized at this point:
              <Limit name="performance-point-864x480" value="30" />
              <Limit name="performance-point-720x480" value="30" />
              <Limit name="performance-point-720x576" value="25" />
+             <Attribute name="software-codec" />
         </MediaCodec>
     </Encoders>
     <Decoders>
