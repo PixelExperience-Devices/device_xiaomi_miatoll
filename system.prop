@@ -29,6 +29,3 @@ ro.netflix.bsp_rev=Q6250-19132-1
 
 # SSR
 persist.vendor.ssr.restart_level=ALL_ENABLE
-
-# Zygote
-persist.device_config.runtime_native.usap_pool_enabled=true
