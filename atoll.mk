@@ -46,26 +46,17 @@ PRODUCT_PACKAGES += \
 
 PRODUCT_PACKAGES += \
     liba2dpoffload \
-    libaudiopreprocessing \
-    libaudio-resampler \
     libbatterylistener \
-    libbundlewrapper \
     libcomprcapture \
-    libdownmix \
-    libdynproc \
-    libeffectproxy \
     libexthwplugin \
     libhdmiedid \
     libhfp \
-    libldnhncr \
     libqcompostprocbundle \
     libqcomvisualizer \
     libqcomvoiceprocessing \
-    libreverbwrapper \
     libsndmonitor \
     libspkrprot \
     libssrec \
-    libvisualizer \
     libvolumelistener \
     sound_trigger.primary.atoll:32
 
