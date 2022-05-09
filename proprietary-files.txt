@@ -329,11 +329,6 @@ vendor/lib64/libXMFD_AgeGender.so
 vendor/lib64/libxmi_high_dynamic_range.so
 vendor/lib64/libxml2_vendor.so
 
-# Camera (Megvii)
-vendor/etc/camera/megviifacepp_0_5_2_model
-vendor/lib64/libmegface.so
-vendor/lib64/libMegviiFacepp-0.5.2.so
-
 # CDSP
 vendor/bin/cdsprpcd
 vendor/etc/init/vendor.qti.cdsprpc-service.rc
