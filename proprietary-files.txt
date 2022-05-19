@@ -804,9 +804,6 @@ vendor/bin/npu_launcher
 vendor/etc/init/android.hardware.neuralnetworks@1.3-service-qti.rc
 -vendor/etc/vintf/manifest/android.hardware.neuralnetworks@1.3-service-qti.xml
 -vendor/etc/vintf/manifest/android.hardware.neuralnetworks@1.3-service-qti-hta.xml
-vendor/lib/libhta_hexagon_runtime.so
-vendor/lib/libnpu.so
-vendor/lib/unnhal-acc-hta.so
 vendor/lib64/libnpu.so
 vendor/lib64/libhexagon_nn_stub.so
 vendor/lib64/libhta_hexagon_runtime.so
