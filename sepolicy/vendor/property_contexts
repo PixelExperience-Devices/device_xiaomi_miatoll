@@ -4,10 +4,10 @@ vendor.camera.				u:object_r:vendor_camera_prop:s0
 persist.camera.				u:object_r:vendor_camera_prop:s0
 
 # Fingerprint
-persist.vendor.sys.fp.                  u:object_r:vendor_fp_prop:s0
-ro.hardware.fp                          u:object_r:vendor_fp_prop:s0
-vendor.fps_hal.                         u:object_r:vendor_fp_prop:s0
-vendor.sys.fp                           u:object_r:vendor_fp_prop:s0
+persist.vendor.sys.fp.                  u:object_r:vendor_fingerprint_prop:s0
+ro.hardware.fp                          u:object_r:vendor_fingerprint_prop:s0
+vendor.fps_hal.                         u:object_r:vendor_fingerprint_prop:s0
+vendor.sys.fp                           u:object_r:vendor_fingerprint_prop:s0
 
 # Power
 vendor.powerhal.state                   u:object_r:vendor_power_prop:s0
