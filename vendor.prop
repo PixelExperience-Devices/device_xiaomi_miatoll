@@ -15,7 +15,6 @@ persist.vendor.audio.voicecall.speaker.stereo=false
 ro.vendor.audio.sdk.fluencetype=fluence
 ro.vendor.audio.sdk.ssr=false
 vendor.audio.adm.buffering.ms=2
-vendor.audio.capture.enforce_legacy_copp_sr=true
 vendor.audio.dolby.ds2.enabled=false
 vendor.audio.dolby.ds2.hardbypass=false
 vendor.audio.enable.mirrorlink=false
@@ -120,14 +119,12 @@ ro.surface_flinger.use_color_management=true
 ro.surface_flinger.wcg_composition_dataspace=143261696
 ro.vendor.display.sensortype=2
 ro.vendor.display.svi=1
-vendor.display.comp_mask=0
 vendor.display.dataspace_saturation_matrix=1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0
 vendor.display.disable_decimation=1
 vendor.display.disable_excl_rect=0
 vendor.display.disable_hw_recovery=1
 vendor.display.disable_hw_recovery_dump=1
 vendor.display.disable_inline_rotator=1
-vendor.display.disable_scaler=0
 vendor.display.disable_ui_3d_tonemap=1
 vendor.display.enable_default_color_mode=0
 vendor.display.enable_null_display=0
@@ -150,7 +147,6 @@ persist.sys.sf.native_mode=2
 ro.hardware.egl=adreno
 ro.hardware.vulkan=adreno
 ro.opengles.version=196610
-vendor.gralloc.disable_ubwc=0
 
 # Keystore
 ro.hardware.keystore_desede=true
@@ -161,9 +157,6 @@ debug.stagefright.omx_default_rank=0
 
 # Perf
 ro.vendor.extension_library=libqti-perfd-client.so
-
-# Qualcomm System Daemon
-persist.vendor.qcomsysd.enabled=1
 
 # Radio
 persist.radio.multisim.config=dsds
