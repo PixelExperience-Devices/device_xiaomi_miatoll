@@ -35,9 +35,9 @@
     <string name="config_wifi_tcp_buffers" translatable="false">524288,1048576,5505024,262144,524288,5505024</string>
 
     <!-- Channel list for softap 2G band. Empty means all channels -->
-    <string translateble="false" name="config_wifiSoftap2gChannelList"></string>
+    <string translatable="false" name="config_wifiSoftap2gChannelList"></string>
     <!-- Channel list for softap 5G band. Empty means all channels -->
-    <string translateble="false" name="config_wifiSoftap5gChannelList"></string>
+    <string translatable="false" name="config_wifiSoftap5gChannelList"></string>
 
     <!-- True if the firmware supports p2p MAC randomization -->
     <bool name="config_wifi_p2p_mac_randomization_supported">true</bool>
