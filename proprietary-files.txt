@@ -1,4 +1,4 @@
-# All unpinned blobs below are extracted from curtana_global-user 11 RKQ1.200826.002 V12.5.5.0.RJWINXM release-keys
+# All unpinned blobs below are extracted from V13.0.2.0.SJWMIXM (CURTANAGlobal)
 
 # ACDB
 vendor/etc/acdbdata/adsp_avs_config.acdb
@@ -99,17 +99,24 @@ vendor/lib64/vendor.qti.hardware.bluetooth_sar@1.1.so
 
 # Bluetooth (Audio)
 vendor/lib/libbluetooth_audio_session_qti.so
+vendor/lib/libbluetooth_audio_session_qti_2_1.so
 vendor/lib/hw/audio.bluetooth_qti.default.so
 vendor/lib/hw/vendor.qti.hardware.bluetooth_audio@2.0-impl.so
+vendor/lib/hw/vendor.qti.hardware.bluetooth_audio@2.1-impl.so
 
 # Bluetooth (aptX) - from sunfish - RQ3A.210805.001.A1/7474174
 system_ext/lib64/libaptXHD_encoder.so|e13fa70c97caaa24d061678bdee608eb8850a69e
 system_ext/lib64/libaptX_encoder.so|df1c89d7af1bb35808d5fe3496b04ba066c10cbc
 
 # Camera
+vendor/etc/camera/almalence_sr_params_tele.config
+vendor/etc/camera/almalence_sr_params_wide.config
+vendor/etc/camera/beauty_ui9_intelligent_params.config
+vendor/etc/camera/body_slim_ui9_params.config
 vendor/etc/camera/camxoverridesettings.txt
 vendor/etc/camera/CFR_para_M_src1.bin
 vendor/etc/camera/CFR_para_M_src2.bin
+vendor/etc/camera/CFR_para_M_src3.bin
 vendor/etc/camera/CFR_para_UW_src1.bin
 vendor/etc/camera/CFR_para_UW_src2.bin
 vendor/etc/camera/CFR_para_UW_src3.bin
@@ -135,6 +142,11 @@ vendor/etc/camera/sceneDetection.xml
 vendor/etc/camera/score_bg.png
 vendor/etc/camera/score_icon.png
 vendor/etc/camera/vidhance_calibration
+vendor/etc/camera/vidhance_calibration_gc8034
+vendor/etc/camera/vidhance_calibration_imx582
+vendor/etc/camera/vidhance_calibration_ov8856
+vendor/etc/camera/vidhance_calibration_s5kgm2
+vendor/etc/camera/vidhance_calibration_s5kgw1
 vendor/etc/camera/watermark_font_2300_3199.dat
 vendor/firmware/CAMERA_ICP.elf
 vendor/firmware/osc_rtp_24K_5s.bin
@@ -335,8 +347,8 @@ vendor/etc/init/vendor.qti.hardware.charger_monitor@1.0-service.rc
 vendor/app/CneApp/CneApp.apk
 vendor/app/IWlanService/IWlanService.apk
 vendor/bin/cnd
-vendor/etc/cne/profileSlm.xml
-vendor/etc/cne/slm.conf
+vendor/etc/cne/mwqem.conf
+vendor/etc/cne/profileMwqem.xml
 vendor/etc/cne/wqeclient/ATT/ATT_profile1.xml
 vendor/etc/cne/wqeclient/ATT/ATT_profile2.xml
 vendor/etc/cne/wqeclient/ATT/ATT_profile3.xml
@@ -374,6 +386,9 @@ vendor/lib64/libwqe.so
 vendor/lib64/libxml.so
 vendor/lib64/vendor.qti.data.factory@2.0.so
 vendor/lib64/vendor.qti.data.factory@2.1.so
+vendor/lib64/vendor.qti.data.factory@2.2.so
+vendor/lib64/vendor.qti.data.factory@2.3.so
+vendor/lib64/vendor.qti.data.mwqem@1.0.so
 vendor/lib64/vendor.qti.data.slm@1.0.so
 vendor/lib64/vendor.qti.hardware.data.cne.internal.api@1.0.so
 vendor/lib64/vendor.qti.hardware.data.cne.internal.constants@1.0.so
@@ -383,9 +398,12 @@ vendor/lib64/vendor.qti.hardware.data.connection@1.1.so
 vendor/lib64/vendor.qti.hardware.data.dynamicdds@1.0.so
 vendor/lib64/vendor.qti.hardware.data.iwlan@1.0.so
 vendor/lib64/vendor.qti.hardware.data.latency@1.0.so
+vendor/lib64/vendor.qti.hardware.data.lce@1.0.so
 vendor/lib64/vendor.qti.hardware.data.qmi@1.0.so
+vendor/lib64/vendor.qti.hardware.mwqemadapter@1.0.so
 vendor/lib64/vendor.qti.hardware.slmadapter@1.0.so
 vendor/lib64/vendor.qti.latency@2.0.so
+vendor/lib64/vendor.qti.latency@2.1.so
 
 # Configstore
 vendor/bin/hw/vendor.qti.hardware.capabilityconfigstore@1.0-service
@@ -580,6 +598,7 @@ vendor/lib64/libgdtap.so
 vendor/lib64/libgeofencing.so
 vendor/lib64/libgnss.so
 vendor/lib64/libgps.utils.so
+vendor/lib64/libjnihelper.so
 vendor/lib64/libizat_client_api.so
 vendor/lib64/libizat_core.so
 vendor/lib64/liblbs_core.so
@@ -627,6 +646,7 @@ system_ext/lib64/com.qualcomm.qti.imscmservice@2.2.so
 system_ext/lib64/com.qualcomm.qti.uceservice@2.0.so
 system_ext/lib64/com.qualcomm.qti.uceservice@2.1.so
 system_ext/lib64/com.qualcomm.qti.uceservice@2.2.so
+system_ext/lib64/com.qualcomm.qti.uceservice@2.3.so
 system_ext/lib64/lib-imsvideocodec.so
 system_ext/lib64/lib-imsvt.so
 system_ext/lib64/lib-imsvtextutils.so
@@ -661,6 +681,7 @@ vendor/lib64/com.qualcomm.qti.imscmservice@2.2.so
 vendor/lib64/com.qualcomm.qti.uceservice@2.0.so
 vendor/lib64/com.qualcomm.qti.uceservice@2.1.so
 vendor/lib64/com.qualcomm.qti.uceservice@2.2.so
+vendor/lib64/com.qualcomm.qti.uceservice@2.3.so
 vendor/lib64/lib-imscmservice.so
 vendor/lib64/lib-imsdpl.so
 vendor/lib64/lib-imsqimf.so
@@ -682,12 +703,15 @@ vendor/lib64/vendor.qti.hardware.radio.ims@1.3.so
 vendor/lib64/vendor.qti.hardware.radio.ims@1.4.so
 vendor/lib64/vendor.qti.hardware.radio.ims@1.5.so
 vendor/lib64/vendor.qti.hardware.radio.ims@1.6.so
+vendor/lib64/vendor.qti.hardware.radio.ims@1.7.so
 vendor/lib64/vendor.qti.ims.callinfo@1.0.so
 vendor/lib64/vendor.qti.ims.callcapability@1.0.so
 vendor/lib64/vendor.qti.ims.factory@1.0.so
+vendor/lib64/vendor.qti.ims.factory@1.1.so
 vendor/lib64/vendor.qti.ims.rcsconfig@1.0.so
 vendor/lib64/vendor.qti.ims.rcsconfig@1.1.so
 vendor/lib64/vendor.qti.ims.rcsconfig@2.0.so
+vendor/lib64/vendor.qti.ims.rcsconfig@2.1.so
 vendor/lib64/vendor.qti.imsrtpservice@3.0-service-Impl.so
 vendor/lib64/vendor.qti.imsrtpservice@3.0.so
 
@@ -705,15 +729,13 @@ vendor/firmware/ipa_fws.mdt
 vendor/bin/msm_irqbalance
 vendor/etc/msm_irqbalance.conf
 
-# Keymaster - from mojito - RKQ1.201022.002/V12.5.2.0.RKGMIXM
-vendor/bin/hw/android.hardware.keymaster@4.0-service-qti|2eedb6b2c2e0bcb54d0aae1e19ccfa2c8fc0f116
-vendor/bin/hw/android.hardware.keymaster@4.1-service-qti|1cc01cb20909ae1a2f829056b098051d93cb4093
-vendor/etc/init/android.hardware.keymaster@4.1-service-qti.rc|f6907552961ba772c1ad5b493913a60d65abedb4
-vendor/etc/vintf/manifest/android.hardware.keymaster@4.1-service-default-qti.xml|478d11fc12dd7c6a85b543cf163bec217aea3148
-vendor/lib64/libkeymasterdeviceutils.so|323603c6199f2cb3d15883c625bae7cd1d039f81
-vendor/lib64/libkeymasterutils.so|db21b2fec8e5808c562665746d0394575004070b
-vendor/lib64/libqcbor.so|df6a3f00d7d49e482e0ca2937f5bd708fba32ae6
-vendor/lib64/libqtikeymaster4.so|69018deb5c3025f5641e1adaf452cc0687ed11ba
+# Keymaster
+vendor/bin/hw/android.hardware.keymaster@4.1-service-qti
+vendor/etc/init/android.hardware.keymaster@4.0-service-qti.rc
+vendor/lib64/libkeymasterdeviceutils.so
+vendor/lib64/libkeymasterutils.so
+vendor/lib64/libqcbor.so
+vendor/lib64/libqtikeymaster4.so
 
 # Listen
 vendor/lib/libadpcmdec.so
@@ -806,6 +828,12 @@ vendor/lib64/vendor.display.postproc@1.0.so
 # Public libraries
 vendor/etc/public.libraries.txt
 
+# QCV
+vendor/bin/init.qti.qcv.sh
+vendor/etc/init/init.qti.qcv.rc
+vendor/lib64/libsoc_helper.so
+vendor/lib64/libsoc_helper_jni.so
+
 # QMI
 system/etc/sysconfig/qti_whitelist.xml
 system_ext/etc/sysconfig/qti_whitelist_system_ext.xml
@@ -866,7 +894,6 @@ vendor/etc/qdcm_calib_data_nt36675_video_mode_dsi_tianma_panel.xml
 system_ext/app/DeviceInfo/DeviceInfo.apk
 system_ext/app/QtiTelephonyService/QtiTelephonyService.apk
 system_ext/etc/permissions/qcrilhook.xml
-system_ext/etc/permissions/telephonyservice.xml
 system_ext/framework/qcrilhook.jar
 system_ext/priv-app/qcrilmsgtunnel/qcrilmsgtunnel.apk
 vendor/bin/ATFWD-daemon
@@ -919,6 +946,8 @@ vendor/lib64/vendor.qti.hardware.radio.am@1.0.so
 vendor/lib64/vendor.qti.hardware.radio.atcmdfwd@1.0.so
 vendor/lib64/vendor.qti.hardware.radio.internal.deviceinfo@1.0.so
 vendor/lib64/vendor.qti.hardware.radio.lpa@1.0.so
+vendor/lib64/vendor.qti.hardware.radio.lpa@1.1.so
+vendor/lib64/vendor.qti.hardware.radio.lpa@1.2.so
 vendor/lib64/vendor.qti.hardware.radio.qcrilhook@1.0.so
 vendor/lib64/vendor.qti.hardware.radio.qtiradio@1.0.so
 vendor/lib64/vendor.qti.hardware.radio.qtiradio@2.0.so
@@ -943,6 +972,36 @@ vendor/radio/qcril_database/upgrade/5_version_update_ecc_table.sql
 vendor/radio/qcril_database/upgrade/6_version_update_ecc_table.sql
 vendor/radio/qcril_database/upgrade/7_version_update_ecc_table.sql
 vendor/radio/qcril_database/upgrade/8_version_update_ecc_table.sql
+vendor/radio/qcril_database/upgrade/9_version_update_ecc_table.sql
+vendor/radio/qcril_database/upgrade/9_version_update_ecc_table_127531.sql
+vendor/radio/qcril_database/upgrade/10_version_update_ecc_table.sql
+vendor/radio/qcril_database/upgrade/11_version_update_ecc_table.sql
+vendor/radio/qcril_database/upgrade/12_version_update_ecc_table.sql
+vendor/radio/qcril_database/upgrade/13_version_update_ecc_table.sql
+vendor/radio/qcril_database/upgrade/14_version_update_ecc_table.sql
+vendor/radio/qcril_database/upgrade/15_version_update_ecc_table.sql
+vendor/radio/qcril_database/upgrade/16_version_update_ecc_table.sql
+vendor/radio/qcril_database/upgrade/17_version_update_ecc_table.sql
+vendor/radio/qcril_database/upgrade/18_version_update_ecc_table.sql
+vendor/radio/qcril_database/upgrade/19_version_update_ecc_table.sql
+vendor/radio/qcril_database/upgrade/20_version_update_ecc_table.sql
+vendor/radio/qcril_database/upgrade/21_version_update_ecc_table.sql
+vendor/radio/qcril_database/upgrade/22_version_update_ecc_table.sql
+vendor/radio/qcril_database/upgrade/23_version_update_ecc_table.sql
+vendor/radio/qcril_database/upgrade/24_version_update_ecc_table.sql
+vendor/radio/qcril_database/upgrade/25_version_update_ecc_table.sql
+vendor/radio/qcril_database/upgrade/26_version_update_ecc_table.sql
+vendor/radio/qcril_database/upgrade/27_version_update_ecc_table.sql
+vendor/radio/qcril_database/upgrade/28_version_update_ecc_table.sql
+vendor/radio/qcril_database/upgrade/29_version_update_ecc_table.sql
+vendor/radio/qcril_database/upgrade/30_version_update_ecc_table.sql
+vendor/radio/qcril_database/upgrade/31_version_update_ecc_table.sql
+vendor/radio/qcril_database/upgrade/32_version_update_ecc_table.sql
+vendor/radio/qcril_database/upgrade/33_version_update_ecc_table.sql
+vendor/radio/qcril_database/upgrade/34_version_update_ecc_table.sql
+vendor/radio/qcril_database/upgrade/35_version_update_ecc_table.sql
+vendor/radio/qcril_database/upgrade/36_version_update_ecc_table.sql
+vendor/radio/qcril_database/upgrade/37_version_update_ecc_table.sql
 
 # Sensors
 vendor/bin/init.qcom.sensors.sh
@@ -955,8 +1014,15 @@ vendor/etc/sensors/config/adux1050_0.json
 vendor/etc/sensors/config/atoll_adux1050_0.json
 vendor/etc/sensors/config/atoll_ak991x_0.json
 vendor/etc/sensors/config/atoll_bmi160_0.json
+vendor/etc/sensors/config/atoll_default_sensors.json
+vendor/etc/sensors/config/atoll_dynamic_sensors.json
+vendor/etc/sensors/config/atoll_icp101xx_0.json
 vendor/etc/sensors/config/atoll_lsm6ds3c_0.json
+vendor/etc/sensors/config/atoll_lsm6dst_0.json
+vendor/etc/sensors/config/atoll_lsm6dst_1.json
+vendor/etc/sensors/config/atoll_qrd_tmd2725.json
 vendor/etc/sensors/config/atoll_stk3x3x_0.json
+vendor/etc/sensors/config/atoll_tmd2725.json
 vendor/etc/sensors/config/bmi160_0.json
 vendor/etc/sensors/config/lsm6ds3c_0.json
 vendor/etc/sensors/config/sns_amd.json
@@ -973,6 +1039,7 @@ vendor/etc/sensors/config/sns_cm.json
 vendor/etc/sensors/config/sns_dae.json
 vendor/etc/sensors/config/sns_device_orient.json
 vendor/etc/sensors/config/sns_diag_filter.json
+vendor/etc/sensors/config/sns_direct_channel.json
 vendor/etc/sensors/config/sns_distance_bound.json
 vendor/etc/sensors/config/sns_dpc.json
 vendor/etc/sensors/config/sns_facing.json
@@ -1021,7 +1088,7 @@ vendor/firmware/novatek_ts_tianma_mp.bin
 
 # Vibrator
 vendor/firmware/aw8624_haptic.bin
-vendor/firmware/aw8624_rtp.bin
+vendor/firmware/aw8624_rtp_1.bin
 vendor/firmware/drv2624.bin
 vendor/firmware/drv2624.rtp
 vendor/firmware/Drv2624Date.ini
