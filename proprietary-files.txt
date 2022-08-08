@@ -409,10 +409,6 @@ vendor/lib/hw/consumerir.default.so:vendor/lib/hw/consumerir.atoll.so
 vendor/lib64/hw/consumerir.default.so:vendor/lib64/hw/consumerir.atoll.so
 
 # CVP
-vendor/lib/libcvp.so
-vendor/lib/libcvp_common.so
-vendor/lib/libcvp_stub.so
-vendor/lib/vendor.qti.hardware.cvp@1.0.so
 vendor/lib64/libcvp.so
 vendor/lib64/libcvp_common.so
 vendor/lib64/libcvp_stub.so
