@@ -151,6 +151,9 @@ ro.opengles.version=196610
 # Keystore
 ro.hardware.keystore_desede=true
 
+# Netflix
+ro.netflix.bsp_rev=Q6250-19132-1
+
 # Media
 debug.stagefright.ccodec=1
 debug.stagefright.omx_default_rank=0

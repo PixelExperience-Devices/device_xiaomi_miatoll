@@ -24,8 +24,5 @@ persist.dbg.wfc_avail_ovr=1
 # Media
 media.settings.xml=/vendor/etc/media_profiles_vendor.xml
 
-# Netflix
-ro.netflix.bsp_rev=Q6250-19132-1
-
 # SSR
 persist.vendor.ssr.restart_level=ALL_ENABLE
