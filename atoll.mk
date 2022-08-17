@@ -16,6 +16,10 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/gsi_keys.mk)
 # Setup dalvik vm configs
 $(call inherit-product, frameworks/native/build/phone-xhdpi-4096-dalvik-heap.mk)
 
+# AAPT
+PRODUCT_AAPT_CONFIG := normal
+PRODUCT_AAPT_PREF_CONFIG := xxhdpi
+
 # AID/fs configs
 PRODUCT_PACKAGES += \
     fs_config_files
@@ -250,6 +254,7 @@ PRODUCT_ENFORCE_RRO_TARGETS := *
 PRODUCT_PACKAGES += \
     CarrierConfigResCommon \
     SM6250Frameworks \
+    SM6250SystemUI \
     TelephonyResCommon \
     WifiOverlay
 
@@ -357,6 +362,9 @@ PRODUCT_PACKAGES += \
 
 PRODUCT_PACKAGES += \
     libsensorndkbridge
+
+# Shipping API level
+PRODUCT_SHIPPING_API_LEVEL := 29
 
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += \
