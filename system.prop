@@ -28,4 +28,3 @@ vendor.mm.enable.qcom_parser=16777215
 # WFD
 persist.debug.wfd.enable=1
 vendor.sys.video.disable.ubwc=1
-vendor.wfdservice64=enable
