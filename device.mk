@@ -43,7 +43,6 @@ PRODUCT_PACKAGES += \
     libqcomvoiceprocessing \
     libsndmonitor \
     libspkrprot \
-    libssrec \
     libvolumelistener \
     sound_trigger.primary.atoll:32
 
