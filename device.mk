@@ -193,10 +193,6 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     android.hardware.light-service.xiaomi
 
-# LiveDisplay
-PRODUCT_PACKAGES += \
-    vendor.lineage.livedisplay@2.0-service-sdm
-
 # Media
 PRODUCT_PACKAGES += \
     libavservices_minijail \
@@ -270,10 +266,6 @@ PRODUCT_PACKAGES += \
     SM6250SystemUI \
     TelephonyResCommon \
     WifiOverlay
-
-PRODUCT_PACKAGES += \
-    SM6250LineageDialer \
-    SM6250LineageSDK
 
 # Partitions
 PRODUCT_USE_DYNAMIC_PARTITIONS := true
@@ -415,10 +407,6 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/thermal-engine-excalibur.conf:$(TARGET_COPY_OUT_VENDOR)/etc/thermal-engine-excalibur.conf \
     $(LOCAL_PATH)/configs/thermal-engine-gram.conf:$(TARGET_COPY_OUT_VENDOR)/etc/thermal-engine-gram.conf \
     $(LOCAL_PATH)/configs/thermal-engine-joyeuse.conf:$(TARGET_COPY_OUT_VENDOR)/etc/thermal-engine-joyeuse.conf
-
-# Trust
-PRODUCT_PACKAGES += \
-    vendor.lineage.trust@1.0-service
 
 # USB
 PRODUCT_PACKAGES += \
