@@ -1,0 +1,26 @@
+[
+  {
+    "repository": "hardware_xiaomi",
+    "target_path": "hardware/xiaomi",
+    "branch": "thirteen",
+    "remote": "pixel"
+  },
+  {
+    "repository": "LineageOS/android_kernel_xiaomi_sm6250",
+    "target_path": "kernel/xiaomi/sm6250",
+    "branch": "lineage-19.1",
+    "remote": "github"
+  },
+  {
+    "repository": "vendor_xiaomi_miatoll",
+    "target_path": "vendor/xiaomi/miatoll",
+    "branch": "thirteen",
+    "remote": "pixel-devices-blobs"
+  },
+  {
+    "repository": "vendor_xiaomi_miatoll-fw",
+    "target_path": "vendor/xiaomi/miatoll-fw",
+    "branch": "thirteen",
+    "remote": "pixel-devices-blobs"
+  }
+]
