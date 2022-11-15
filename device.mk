@@ -70,7 +70,8 @@ PRODUCT_PACKAGES += \
 
 PRODUCT_PACKAGES += \
     libMegviiFacepp-0.5.2 \
-    libmegface
+    libmegface \
+    libpiex_shim
 
 PRODUCT_PACKAGES += \
     libcamera2ndk_vendor \
