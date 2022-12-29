@@ -1110,9 +1110,6 @@ vendor/bin/thermal-engine|549f8284d4aca92e2b8187ab2a283a90c40e6dca
 vendor/lib64/libthermalclient.so
 
 # Time services
-vendor/app/TimeService/TimeService.apk
-vendor/bin/time_daemon
-vendor/etc/init/init.time_daemon.rc
 vendor/lib64/libtime_genoff.so
 
 # Touchscreen firmware

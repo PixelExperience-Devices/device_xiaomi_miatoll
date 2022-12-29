@@ -1,0 +1,12 @@
+type vendor_timekeep_app, domain;
+
+app_domain(vendor_timekeep_app)
+
+allow vendor_timekeep_app activity_service:service_manager find;
+
+allow vendor_timekeep_app vendor_time_data_file:dir search;
+allow vendor_timekeep_app vendor_time_data_file:file create_file_perms;
+
+r_dir_file(vendor_timekeep_app, sysfs_rtc)
+
+set_prop(vendor_timekeep_app, vendor_timekeep_prop)

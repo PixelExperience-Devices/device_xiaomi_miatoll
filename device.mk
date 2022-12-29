@@ -408,6 +408,10 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/thermal-engine-gram.conf:$(TARGET_COPY_OUT_VENDOR)/etc/thermal-engine-gram.conf \
     $(LOCAL_PATH)/configs/thermal-engine-joyeuse.conf:$(TARGET_COPY_OUT_VENDOR)/etc/thermal-engine-joyeuse.conf
 
+# TimeKeep
+PRODUCT_PACKAGES += \
+    TimeKeep
+
 # USB
 PRODUCT_PACKAGES += \
     android.hardware.usb@1.0-service
