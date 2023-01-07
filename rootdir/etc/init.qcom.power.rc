@@ -118,6 +118,9 @@ on enable-low-power
     write /sys/class/drm/card0/device/idle_encoder_mask 1
     write /sys/class/drm/card0/device/idle_timeout_ms 100
 
+    # Enable suspend to idle mode to reduce latency during suspend/resume
+    write /sys/power/mem_sleep "s2idle"
+
     # Enable PowerHAL hint processing
     setprop vendor.powerhal.init 1
 
