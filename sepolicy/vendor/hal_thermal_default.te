@@ -6,6 +6,6 @@ allow hal_thermal_default proc_stat:file r_file_perms;
 
 allow hal_thermal_default self:netlink_kobject_uevent_socket create_socket_perms_no_ioctl;
 
-hal_client_domain(hal_thermal_default, hal_power);
+hal_client_domain(hal_thermal_default, hal_power)
 
 get_prop(hal_thermal_default, vendor_thermal_prop)
