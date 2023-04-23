@@ -1,7 +1,5 @@
 # Camera
-persist.vendor.camera.mi.module.	u:object_r:vendor_camera_prop:s0
 vendor.camera.				u:object_r:vendor_camera_prop:s0
-persist.camera.				u:object_r:vendor_camera_prop:s0
 
 # Fingerprint
 persist.vendor.sys.fp.                  u:object_r:vendor_fingerprint_prop:s0
