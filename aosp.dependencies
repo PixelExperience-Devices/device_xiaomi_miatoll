@@ -6,10 +6,9 @@
     "remote": "pixel"
   },
   {
-    "repository": "LineageOS/android_kernel_xiaomi_sm6250",
+    "repository": "kernel_xiaomi_sm6250",
     "target_path": "kernel/xiaomi/sm6250",
-    "branch": "lineage-19.1",
-    "remote": "github"
+    "branch": "thirteen"
   },
   {
     "repository": "vendor_xiaomi_miatoll",
