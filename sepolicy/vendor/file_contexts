@@ -29,6 +29,30 @@
 # Power
 /vendor/bin/hw/android\.hardware\.power-service\.xiaomi-libperfmgr            u:object_r:hal_power_default_exec:s0
 
+# Public libraries
+/vendor/lib64/lib_denoiser3\.so                                               u:object_r:same_process_hal_file:s0
+/vendor/lib64/libalhLDC\.so                                                   u:object_r:same_process_hal_file:s0
+/vendor/lib64/libarcsoft_beautyshot\.so                                       u:object_r:same_process_hal_file:s0
+/vendor/lib64/libarcsoft_bodyslim\.so                                         u:object_r:same_process_hal_file:s0
+/vendor/lib64/libarcsoft_dualcam_refocus\.so                                  u:object_r:same_process_hal_file:s0
+/vendor/lib64/libarcsoft_dualcam_refocus_front\.so                            u:object_r:same_process_hal_file:s0
+/vendor/lib64/libarcsoft_dualcam_refocus_rear_t\.so                           u:object_r:same_process_hal_file:s0
+/vendor/lib64/libarcsoft_dualcam_refocus_rear_w\.so                           u:object_r:same_process_hal_file:s0
+/vendor/lib64/libarcsoft_portrait_lighting\.so                                u:object_r:same_process_hal_file:s0
+/vendor/lib64/libarcsoft_portrait_lighting_c\.so                              u:object_r:same_process_hal_file:s0
+/vendor/lib64/libc\+\+_shared\.so                                             u:object_r:same_process_hal_file:s0
+/vendor/lib64/libhvx_interface\.so                                            u:object_r:same_process_hal_file:s0
+/vendor/lib64/libmiStereoFactoryRemapLib\.so                                  u:object_r:same_process_hal_file:s0
+/vendor/lib64/libmialgo_basic\.so                                             u:object_r:same_process_hal_file:s0
+/vendor/lib64/libmialgo_utils\.so                                             u:object_r:same_process_hal_file:s0
+/vendor/lib64/libmialgoengine\.so                                             u:object_r:same_process_hal_file:s0
+/vendor/lib64/libmibokeh_712\.so                                              u:object_r:same_process_hal_file:s0
+/vendor/lib64/libmpbase\.so                                                   u:object_r:same_process_hal_file:s0
+/vendor/lib64/libsdk_sr\.so                                                   u:object_r:same_process_hal_file:s0
+/vendor/lib64/libst_sr_models\.so                                             u:object_r:same_process_hal_file:s0
+/vendor/lib64/libxmi_high_dynamic_range\.so                                   u:object_r:same_process_hal_file:s0
+/vendor/lib64/libxml2_vendor\.so                                              u:object_r:same_process_hal_file:s0
+
 # Thermal
 /vendor/bin/hw/android\.hardware\.thermal@2\.0-service\.pixel                 u:object_r:hal_thermal_default_exec:s0
 /vendor/bin/thermal_symlinks                                                  u:object_r:init-thermal-symlinks-sh_exec:s0
