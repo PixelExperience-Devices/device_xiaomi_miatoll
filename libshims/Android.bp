@@ -1,0 +1,12 @@
+//
+// Copyright (C) 2021 The LineageOS Project
+//
+// SPDX-License-Identifier: Apache-2.0
+//
+
+cc_library_shared {
+    name: "fakelogprint",
+    vendor: true,
+    shared_libs: ["liblog"],
+    srcs: ["fakelogprint/fakelogprint.cpp"],
+}

@@ -72,13 +72,23 @@ vendor/lib64/vendor.qti.hardware.alarm@1.0.so
 
 # Audio
 vendor/lib/btaudio_offload_if.so
+vendor/lib/hw/audio.primary.atoll.so
+vendor/lib/liba2dpoffload.so
 vendor/lib/libadm.so
 vendor/lib/libaudioconfigstore.so
+vendor/lib/libaudio_log_utils.so
 vendor/lib/libaudioparsers.so
 vendor/lib/libdrc.so
 vendor/lib/libhdmipassthru.so
 vendor/lib/libqtigef.so
+vendor/lib/libssrec.so
 vendor/lib/libsurround_3mic_proc.so
+
+# Audio configs
+vendor/etc/audio_io_policy.conf
+vendor/etc/audio_platform_info_intcodec.xml
+vendor/etc/audio_policy_volumes.xml
+vendor/etc/mixer_paths_wcd937x.xml
 
 # Audio FX modules
 vendor/lib/soundfx/libasphere.so
