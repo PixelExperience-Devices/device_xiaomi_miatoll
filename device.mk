@@ -43,8 +43,7 @@ PRODUCT_PACKAGES += \
     libqcomvoiceprocessing \
     libsndmonitor \
     libspkrprot \
-    libvolumelistener \
-    sound_trigger.primary.atoll:32
+    libvolumelistener
 
 PRODUCT_COPY_FILES += \
      $(call find-copy-subdir-files,*,$(LOCAL_PATH)/audio/,$(TARGET_COPY_OUT_VENDOR)/etc)
