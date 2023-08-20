@@ -792,8 +792,6 @@ vendor/lib/liblistensoundmodel2.so
 vendor/lib/libmulawdec.so
 
 # Media
-vendor/etc/seccomp_policy/mediacodec.policy
-vendor/etc/system_properties.xml
 vendor/lib/libAlacSwDec.so
 vendor/lib/libApeSwDec.so
 vendor/lib/libFlacSwDec.so
