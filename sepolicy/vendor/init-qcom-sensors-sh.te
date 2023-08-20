@@ -1,0 +1,2 @@
+allow vendor_init-qcom-sensors-sh vendor_persist_sensors_file:dir rw_dir_perms;
+allow vendor_init-qcom-sensors-sh vendor_persist_sensors_file:file create_file_perms;

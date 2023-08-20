@@ -23,6 +23,12 @@ sh_binary {
     vendor: true,
 }
 
+sh_binary {
+    name: "init.sensors_fixup.sh",
+    src: "bin/init.sensors_fixup.sh",
+    vendor: true,
+}
+
 // fstab
 prebuilt_etc {
     name: "fstab.qcom",

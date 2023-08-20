@@ -81,6 +81,8 @@ on fs
     mkdir /mnt/vendor/persist/subsys 0770 root system
     mkdir /mnt/vendor/persist/audio 0755 system system
     mkdir /mnt/vendor/persist/haptics 0755 system system
+    # Clean out sensor_temperature from the sensor list
+    start vendor.sensors_fixup
 
 on post-fs
     write /dev/ipa 1
@@ -155,6 +157,12 @@ service vendor.thermal-engine /vendor/bin/thermal-engine -c /vendor/etc/thermal-
    class main
    user root
    group root
+
+service vendor.sensors_fixup /vendor/bin/init.sensors_fixup.sh
+    class main
+    user system
+    group system
+    oneshot
 
 on property:init.svc.vendor.per_mgr=running
     start vendor.per_proxy
